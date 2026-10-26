@@ -112,6 +112,12 @@ sources:
     stale_days: 14
     url: https://www.boho.or.kr/kr/rss.do?bbsId=B0000302
 
+  - name: KISA 보안취약점 정보포털 국내 취약점 정보
+    category: notice_kr
+    default_kind: vuln
+    stale_days: 30
+    url: https://knvd.krcert.or.kr/rss/security/info
+
   # --- 국내 뉴스 ---
   - name: 보안뉴스
     category: news_kr
