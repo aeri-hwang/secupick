@@ -1,1 +1,156 @@
-[]
+[
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+  "published": "2026-10-26T14:06:13+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already…",
+  "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+  "published": "2026-10-26T11:52:41+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An att…",
+  "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+  "published": "2026-10-26T11:23:56+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual a…",
+  "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+  "published": "2026-10-26T09:54:02+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tamp…",
+  "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+  "published": "2026-10-26T14:00:10+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+  "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+  "published": "2026-10-26T13:56:44+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United Sta…",
+  "title": "Chinese man extradited for role in $36 million cryptocurrency scam"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
+  "published": "2026-10-26T10:26:52+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Kali Linux has released version 2026.3, its third release this year, featuring six new hacking tools, desktop environment improvements, refreshed build scripts, and more. [...]",
+  "title": "Kali Linux 2026.3 released with 6 new tools, desktop updates"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
+  "published": "2026-10-26T14:52:14+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared fir…",
+  "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
+  "published": "2026-10-26T14:40:48+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek .",
+  "title": "Genesys Hack Exposes Customer Data From Internal Systems"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
+  "published": "2026-10-26T14:30:09+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Riva…",
+  "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/",
+  "published": "2026-10-26T13:30:10+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Attackers successfully exploited the PHP2Shell flaws against honeypots, launching 35 shells from two IP addresses on October 24. The post PHP2Shell Exploitation Moves From Probes to Working Shells appeared first on Secu…",
+  "title": "PHP2Shell Exploitation Moves From Probes to Working Shells"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/953-online-stores-infected-in-long-lasting-malware-campaign/",
+  "published": "2026-10-26T12:46:44+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Small loader code injected into the stores served a payload to visitors or did nothing to avoid detection. The post 953 Online Stores Infected in Long-Lasting Malware Campaign appeared first on SecurityWeek .",
+  "title": "953 Online Stores Infected in Long-Lasting Malware Campaign"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/dutch-police-arrest-two-over-nfc-relay-attacks-that-drained-400000/",
+  "published": "2026-10-26T11:47:52+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The individuals called victims and persuaded them to install an app and scan their credit cards to loot their bank accounts. The post Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accou…",
+  "title": "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/",
+  "published": "2026-10-26T10:21:57+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "An out-of-bounds write in Google’s Brotli decoder affects Node.js, .NET, PowerShell, and Python packages, and can lead to code execution. The post Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Pyt…",
+  "title": "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages"
+ }
+]
