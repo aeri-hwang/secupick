@@ -308,5 +308,230 @@
   "titles": [
    "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs"
   ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "University of Copenhagen data breach exposes data of 525,000 people"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Former pentester used ARTEX AI to steal 8.2 million data records"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "DreamHost forces password resets in ongoing \"incident\""
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "일본 사이버공격 급증에 정부 긴급대책 착수…기업들 고객 피해보상 확대"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "기업 AI 에이전트 76%, 두 달간 사용 안 해도 접근권한 유지…보안 사각지대 경고"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Microsoft releases emergency .NET patches for critical Brotli flaw",
+   "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "글로벌 컨택센터 솔루션 기업 제네시스 해킹…내부 고객관리시스템 정보 유출 확인"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "AI로 국내 90여 곳 해킹…개인정보 820만 건 탈취 조직 검거"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "PHP2Shell 취약점, 실제 원격 명령 실행 확인...서버 침해 위험 현실화"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "KB국민은행 해킹 피해 119명→2,210명으로 확대…초기 조사서 2,091명 누락"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Industrial Vendors Check Products for PHP2Shell Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Genesys Hack Exposes Customer Data From Internal Systems"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Stolen AI Reasoning Could Help China Build Cheaper Rivals"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "When an AI Agent Is the Incident, the Identity Record Is the Evidence"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chinese man extradited for role in $36 million cryptocurrency scam"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "PHP2Shell Exploitation Moves From Probes to Working Shells"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "953 Online Stores Infected in Long-Lasting Malware Campaign"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Kali Linux 2026.3 released with 6 new tools, desktop updates"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages"
+  ]
+ },
+ {
+  "at": "2026-10-26T22:43:58.152147+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
+  ]
  }
 ]
