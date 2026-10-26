@@ -6,7 +6,7 @@ import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from .collectors import Item
+from collectors import Item
 
 KEEP_DAYS = 30  # 보낸 링크 기록을 며칠간 보관할지
 

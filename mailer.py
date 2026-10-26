@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 from email.message import EmailMessage
 from html import escape
 
-from .collectors import Item
+from collectors import Item
 
 KST = timezone(timedelta(hours=9))
 

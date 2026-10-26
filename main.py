@@ -14,9 +14,9 @@ from pathlib import Path
 
 import yaml
 
-from secupick.collectors import collect
-from secupick.digest import Classifier, SeenStore, select_new
-from secupick.mailer import build_email, send_email
+from collectors import collect
+from digest import Classifier, SeenStore, select_new
+from mailer import build_email, send_email
 
 ROOT = Path(__file__).parent
 
