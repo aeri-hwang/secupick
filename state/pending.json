@@ -240,5 +240,38 @@
   "source": "BleepingComputer",
   "summary": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
   "title": "Microsoft releases emergency .NET patches for critical Brotli flaw"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+  "published": "2026-10-26T17:45:57+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potential…",
+  "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+  "published": "2026-10-26T15:52:40+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct…",
+  "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+  "published": "2026-10-26T16:27:57+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+  "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
  }
 ]
