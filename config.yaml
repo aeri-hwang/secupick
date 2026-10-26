@@ -1,0 +1,147 @@
+# secupick 설정 파일
+# 발송 시각은 .github/workflows/daily.yml 의 cron 에서 바꿉니다.
+
+# 마지막 실행 이후 놓친 글을 잡기 위해 최근 몇 시간 이내 글까지 볼지
+lookback_hours: 30
+
+# 소스 하나당 메일에 넣을 최대 기사 수 (메일이 너무 길어지는 것 방지)
+max_items_per_source: 10
+
+# 새 소식이 하나도 없어도 "오늘은 새 소식 없음" 메일을 보낼지
+# (true 로 두면 프로그램이 살아있는지 매일 확인할 수 있어요)
+send_when_empty: true
+
+# 글 분류 규칙 (제목과 요약에 아래 단어가 있으면 해당 섹션으로 분류)
+# 우선순위: vuln(취약점) → incident(침해사고) → 나머지는 other(기타 보안 이슈)
+# exclude 단어가 있는 '기타' 글은 메일에서 뺍니다 (행사·홍보·인사 기사 등).
+# 영문은 대소문자 구분 없음. 필요에 따라 자유롭게 추가/삭제하세요.
+classify:
+  vuln:
+    - CVE-
+    - 취약점
+    - 제로데이
+    - 보안 업데이트
+    - 업데이트 권고
+    - 패치
+    - 원격 코드
+    - vulnerability
+    - vulnerabilities
+    - flaw
+    - flaws
+    - zero-day
+    - 0-day
+    - patch
+    - patches
+    - patched
+    - exploit
+    - exploited
+    - exploits
+    - RCE
+    - bug
+    - bugs
+    - advisory
+  incident:
+    - 해킹
+    - 침해
+    - 유출
+    - 랜섬웨어
+    - 공격
+    - 피싱
+    - 스미싱
+    - 악성코드
+    - 디도스
+    - DDoS
+    - 사칭
+    - breach
+    - breached
+    - hacked
+    - hacker
+    - hackers
+    - attack
+    - attacks
+    - ransomware
+    - leak
+    - leaked
+    - stolen
+    - compromised
+    - campaign
+    - malware
+    - phishing
+    - botnet
+    - APT
+    - espionage
+    - scam
+  exclude:
+    - 세미나
+    - 컨퍼런스
+    - 콘퍼런스
+    - 웨비나
+    - 행사
+    - 개최
+    - 인사
+    - 출시
+    - 수상
+    - MOU
+    - 협약
+    - 채용
+    - 교육생
+    - webinar
+    - sponsored
+    - podcast
+    - deal
+    - deals
+    - discount
+
+# 메일 섹션 순서와 이름
+sections:
+  kev: "🚨 실제 악용 중인 취약점 (CISA KEV)"
+  vuln: "🛡️ 새 취약점·보안 업데이트"
+  incident: "💥 침해사고·공격"
+  other: "📌 기타 보안 이슈"
+
+# 수집 소스
+# type: rss (기본) 또는 cisa_kev
+# 주소가 바뀌어서 실패하면 메일 맨 아래 "수집 실패" 항목에 표시됩니다.
+sources:
+  # --- 국내 공지 ---
+  - name: KISA 보호나라 보안공지
+    category: notice_kr
+    default_kind: vuln   # 분류 단어에 안 걸려도 취약점·업데이트로 취급
+    url: https://knvd.krcert.or.kr/rss/securityNotice.do
+
+  - name: KISA 보호나라 취약점 정보
+    category: notice_kr
+    default_kind: vuln
+    url: https://knvd.krcert.or.kr/rss/securityInfo.do
+
+  # --- 국내 뉴스 ---
+  - name: 보안뉴스
+    category: news_kr
+    url: https://www.boannews.com/media/news_rss.xml?mkind=1
+
+  - name: 데일리시큐
+    category: news_kr
+    url: https://www.dailysecu.com/rss/allArticle.xml
+
+  # --- 해외 뉴스 ---
+  - name: The Hacker News
+    category: news_global
+    url: https://feeds.feedburner.com/TheHackersNews
+
+  - name: BleepingComputer
+    category: news_global
+    url: https://www.bleepingcomputer.com/feed/
+
+  - name: SecurityWeek
+    category: news_global
+    url: https://www.securityweek.com/feed/
+
+  - name: Krebs on Security
+    category: news_global
+    url: https://krebsonsecurity.com/feed/
+
+  # --- 해외 공식 취약점 ---
+  - name: CISA KEV
+    category: kev
+    type: cisa_kev
+    url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json
