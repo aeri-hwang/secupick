@@ -79,22 +79,29 @@ def build_email(items: list[Item], sections: dict, failures: list[tuple[str, str
     groups = {k: [i for i in items if i.kind == k] for k in sections}
     body = "".join(_section(title, groups[k], SECTION_COLORS.get(k, INK)) for k, title in sections.items())
 
-    if not items:
+    if not items and not alert:
         body += f'<p style="color:{MUTED};font-size:15px;margin:28px 0">지난 메일 이후 새로 올라온 소식이 없습니다.</p>'
 
     if failures:
         lis = "".join(f"<li><b>{escape(n)}</b>: {escape(e)}</li>" for n, e in failures)
-        body += (
-            f'<div style="margin-top:32px;padding:12px 14px;background:#f6f7f9;border-radius:6px;'
-            f'color:{MUTED};font-size:13px;line-height:1.5"><b style="color:{INK}">수집 실패 {len(failures)}건</b>'
-            f' — 주소가 바뀌었거나 해외 접속이 막혔을 수 있어요. config.yaml 의 url 을 확인하세요.'
+        box = (
+            f'<div style="margin:{"20px 0 0" if alert else "32px 0 0"};padding:12px 14px;background:#fff4e5;'
+            f'border-left:4px solid #d97706;border-radius:4px;color:{INK};font-size:13px;line-height:1.5">'
+            f'<b>⚠️ 수집 문제 {len(failures)}곳</b> — 이 사이트의 새 기사가 메일에 빠지고 있을 수 있어요. '
+            f'주소가 바뀌었거나 해외 접속이 막혔을 수 있으니 config.yaml 의 url 을 확인하세요.'
             f'<ul style="margin:6px 0 0;padding-left:18px">{lis}</ul></div>'
         )
+        # 낮 알림은 경고를 맨 위에, 아침 브리핑은 맨 아래에
+        body = box + body if alert else body + box
 
     labels = {"kev": "KEV", "vuln": "취약점", "incident": "침해사고", "other": "기타"}
     counts = [f"{labels.get(k, k)} {len(v)}" for k, v in groups.items() if v]
     if alert:
-        subject = f"[secupick] 🔔 {now.strftime('%H:%M')} 새 소식 {len(items)}건 · {' / '.join(counts)}"
+        subject = f"[secupick] 🔔 {now.strftime('%H:%M')} 새 소식 {len(items)}건"
+        if counts:
+            subject += f" · {' / '.join(counts)}"
+        if failures:
+            subject = (subject + " · ⚠️ 수집 문제") if items else f"[secupick] ⚠️ 수집 문제 {len(failures)}곳"
         heading = f"{date_label} ({weekday}) {now.strftime('%H:%M')} 새 소식 알림"
     else:
         subject = f"[secupick] {date_label} 보안 브리핑"

@@ -96,18 +96,21 @@ sections:
 
 # 수집 소스
 # type: rss (기본) 또는 cisa_kev
-# 주소가 바뀌어서 실패하면 메일 맨 아래 "수집 실패" 항목에 표시됩니다.
+# stale_days: 피드의 최신 글이 이 일수보다 오래되면 '피드가 멈췄을 수 있음'으로 경고 (기본 3일)
+# 문제가 생기면 아침 브리핑 맨 아래에 표시되고, 낮에 연속 3번(약 45분) 문제가 나면 바로 경고 메일이 옵니다.
 sources:
   # --- 국내 공지 ---
   - name: KISA 보호나라 보안공지
     category: notice_kr
     default_kind: vuln   # 분류 단어에 안 걸려도 취약점·업데이트로 취급
-    url: https://knvd.krcert.or.kr/rss/securityNotice.do
+    stale_days: 14       # 공지는 매일 올라오지 않으므로 14일 넘게 새 글이 없을 때만 경고
+    url: https://www.boho.or.kr/kr/rss.do?bbsId=B0000133
 
   - name: KISA 보호나라 취약점 정보
     category: notice_kr
     default_kind: vuln
-    url: https://knvd.krcert.or.kr/rss/securityInfo.do
+    stale_days: 14
+    url: https://www.boho.or.kr/kr/rss.do?bbsId=B0000302
 
   # --- 국내 뉴스 ---
   - name: 보안뉴스
@@ -135,10 +138,12 @@ sources:
 
   - name: Krebs on Security
     category: news_global
+    stale_days: 21    # 글이 드물게 올라오는 개인 블로그
     url: https://krebsonsecurity.com/feed/
 
   # --- 해외 공식 취약점 ---
   - name: CISA KEV
     category: kev
     type: cisa_kev
+    stale_days: 14
     url: https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json

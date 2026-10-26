@@ -79,6 +79,7 @@ class State:
         self.meta: dict = self._load("meta.json", {})
         self.recent: list[dict] = self._load("recent.json", [])
         self.meta.setdefault("source_ok", {})
+        self.meta.setdefault("problems", {})  # 소스별 {streak, error, warned}
 
     def _load(self, name, default):
         try:
@@ -96,6 +97,24 @@ class State:
 
     def mark_source_ok(self, source_name: str, when: datetime) -> None:
         self.meta["source_ok"][source_name] = when.isoformat()
+
+    def mark_problem(self, name: str, error: str) -> None:
+        p = self.meta["problems"].setdefault(name, {"streak": 0, "warned": False})
+        p["streak"] += 1
+        p["error"] = error
+
+    def clear_problem(self, name: str) -> None:
+        self.meta["problems"].pop(name, None)
+
+    def new_warnings(self, after: int) -> list[tuple[str, str]]:
+        return [(n, f"{p['error']} (연속 {p['streak']}회)")
+                for n, p in self.meta["problems"].items()
+                if p["streak"] >= after and not p.get("warned")]
+
+    def mark_warned(self, names: list[str]) -> None:
+        for n in names:
+            if n in self.meta["problems"]:
+                self.meta["problems"][n]["warned"] = True
 
     def add_pending(self, items: list[Item]) -> int:
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
