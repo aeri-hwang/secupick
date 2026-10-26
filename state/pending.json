@@ -273,5 +273,60 @@
   "source": "BleepingComputer",
   "summary": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
   "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+  "published": "2026-10-26T18:12:22+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is des…",
+  "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+  "published": "2026-10-26T21:08:28+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+  "title": "Former pentester used ARTEX AI to steal 8.2 million data records"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+  "published": "2026-10-26T20:46:49+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+  "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+  "published": "2026-10-26T19:26:20+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+  "title": "DreamHost forces password resets in ongoing \"incident\""
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
+  "published": "2026-10-26T20:20:56+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks. The post Anthropic Files for Potentially the Biggest IP…",
+  "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI"
  }
 ]
