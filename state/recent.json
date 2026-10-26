@@ -292,5 +292,21 @@
   "titles": [
    "Google 제품 보안 업데이트 권고"
   ]
+ },
+ {
+  "at": "2026-10-26T09:30:31.567268+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations"
+  ]
+ },
+ {
+  "at": "2026-10-26T09:30:31.567268+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs"
+  ]
  }
 ]
