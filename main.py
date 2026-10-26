@@ -1,28 +1,32 @@
-"""secupick: 매일 보안 뉴스·공지를 모아 메일로 보내는 프로그램.
+"""secupick: 보안 뉴스·공지를 빠짐없이 모아 매일 아침 메일로 보내는 프로그램.
 
 사용법
-  python main.py            수집 → 메일 발송 → 보낸 글 기록
-  python main.py --dry-run  수집만 하고 preview.html 로 저장 (메일 안 보냄, 기록 안 함)
-  python main.py --check    소스별로 수집이 되는지만 점검
+  python main.py collect    수집만 해서 대기열(state/pending.json)에 쌓음  (밤: 3시간마다)
+  python main.py send       아침 브리핑: 쌓인 기사를 중복 묶어서 메일 발송  (매일 오전 7시)
+  python main.py alert      낮 알림: 새 기사 중 이미 보낸 소식과 겹치지 않는 것이 있으면 바로 발송  (낮: 1시간마다)
+  python main.py dry-run    send 와 같지만 메일 대신 preview.html 저장, 상태도 안 바꿈
+  python main.py check      소스별로 수집이 되는지만 점검
 """
 from __future__ import annotations
 
-import argparse
 import sys
 from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 from pathlib import Path
 
 import yaml
 
 from collectors import collect
-from digest import Classifier, SeenStore, select_new
+from digest import Classifier, State, dedupe, filter_recent
 from mailer import build_email, send_email
 
 ROOT = Path(__file__).parent
 
 
-def gather(sources):
-    items, failures = [], []
+def gather(cfg: dict, state: State) -> list[tuple[str, str]]:
+    """모든 소스를 수집해 새 기사를 대기열에 넣고, 실패 목록을 돌려줌."""
+    classifier = Classifier(cfg.get("classify", {}))
+    failures = []
 
     def run(src):
         try:
@@ -30,50 +34,73 @@ def gather(sources):
         except Exception as e:  # 한 소스가 실패해도 나머지는 계속
             return src, [], f"{type(e).__name__}: {e}"[:200]
 
+    started = datetime.now(timezone.utc)
+    total_new = 0
     with ThreadPoolExecutor(max_workers=8) as pool:
-        for src, got, err in pool.map(run, sources):
+        for src, got, err in pool.map(run, cfg["sources"]):
             if err:
                 failures.append((src["name"], err))
                 print(f"  ✗ {src['name']}: {err}")
-            else:
-                items.extend(got)
-                print(f"  ✓ {src['name']}: {len(got)}건")
-    return items, failures
+                continue
+            fresh = filter_recent(got, state.since_for(src["name"]))
+            added = state.add_pending(classifier.apply(fresh))
+            state.mark_source_ok(src["name"], started)
+            total_new += added
+            print(f"  ✓ {src['name']}: 피드 {len(got)}건, 새로 추가 {added}건")
+    print(f"대기열: 새로 {total_new}건 추가, 총 {len(state.pending)}건")
+    return failures
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--check", action="store_true")
-    ap.add_argument("--config", default=str(ROOT / "config.yaml"))
-    args = ap.parse_args()
+    mode = sys.argv[1] if len(sys.argv) > 1 else "send"
+    mode = mode.lstrip("-")
+    if mode not in ("collect", "send", "alert", "dry-run", "check"):
+        print(__doc__)
+        return 2
 
-    cfg = yaml.safe_load(Path(args.config).read_text("utf-8"))
+    cfg = yaml.safe_load((ROOT / "config.yaml").read_text("utf-8"))
+    state = State(ROOT / "state")
+
     print("수집 중…")
-    items, failures = gather(cfg["sources"])
-    if args.check:
+    failures = gather(cfg, state)
+
+    if mode == "check":
         return 1 if failures else 0
-
-    seen = SeenStore(ROOT / "state" / "seen.json")
-    items = Classifier(cfg.get("classify", {})).apply(items)  # 분류 + 행사·홍보 글 제외
-    new = select_new(items, seen, cfg.get("lookback_hours", 30), cfg.get("max_items_per_source", 10))
-    print(f"새 소식 {len(new)}건 (실패 소스 {len(failures)}개)")
-
-    if not new and not cfg.get("send_when_empty", True):
-        print("새 소식이 없어 발송하지 않습니다.")
+    if mode == "collect":
+        state.save()
         return 0
 
-    subject, html = build_email(new, cfg["sections"], failures)
+    items = dedupe(state.pending_items(), state.recent)
 
-    if args.dry_run:
+    if mode == "alert":
+        if not items:
+            print("새 소식 없음 (알림 안 보냄)")
+            state.clear_pending()  # 이미 보낸 소식과 겹친 기사들은 버림
+            state.save()
+            return 0
+        failures = []  # 낮 알림에는 수집 실패 안내를 넣지 않음 (아침 브리핑에서만 안내)
+
+    subject, html = build_email(items, cfg["sections"], failures, alert=(mode == "alert"))
+
+    if mode == "dry-run":
         (ROOT / "preview.html").write_text(html, "utf-8")
-        print(f"미리보기 저장: preview.html\n제목: {subject}")
+        print(f"미리보기 저장: preview.html ({len(html.encode()) // 1024}KB)\n제목: {subject}")
         return 0
 
-    send_email(subject, html)
+    if not items and not cfg.get("send_when_empty", True):
+        print("새 소식이 없어 발송하지 않습니다.")
+        state.save()
+        return 0
+
+    try:
+        send_email(subject, html)
+    except Exception:
+        state.save()  # 발송 실패해도 수집한 기사는 대기열에 남겨 다음 발송 때 보냄
+        raise
     print(f"발송 완료: {subject}")
-    seen.add([i.link for i in new])
-    seen.save()
+    state.remember_sent(items)
+    state.clear_pending()
+    state.save()
     return 0
 
 

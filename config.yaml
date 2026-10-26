@@ -1,11 +1,6 @@
 # secupick 설정 파일
-# 발송 시각은 .github/workflows/daily.yml 의 cron 에서 바꿉니다.
-
-# 마지막 실행 이후 놓친 글을 잡기 위해 최근 몇 시간 이내 글까지 볼지
-lookback_hours: 30
-
-# 소스 하나당 메일에 넣을 최대 기사 수 (메일이 너무 길어지는 것 방지)
-max_items_per_source: 10
+# 발송 시각과 수집 주기는 .github/workflows/daily.yml 의 cron 에서 바꿉니다.
+# 3시간마다 수집해서 쌓아 두고, 매일 아침 한 번에 보냅니다 (개수 제한 없음, 중복 기사는 묶음).
 
 # 새 소식이 하나도 없어도 "오늘은 새 소식 없음" 메일을 보낼지
 # (true 로 두면 프로그램이 살아있는지 매일 확인할 수 있어요)
@@ -121,6 +116,7 @@ sources:
 
   - name: 데일리시큐
     category: news_kr
+    force_kst: true   # 한국 시간을 UTC 로 잘못 표기하는 사이트라 보정
     url: https://www.dailysecu.com/rss/allArticle.xml
 
   # --- 해외 뉴스 ---

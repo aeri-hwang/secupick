@@ -3,8 +3,8 @@ from __future__ import annotations
 
 import html
 import re
-from dataclasses import dataclass
-from datetime import datetime, timezone
+from dataclasses import asdict, dataclass, field
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 import feedparser
@@ -24,6 +24,19 @@ class Item:
     summary: str = ""
     kind: str = ""          # kev / vuln / incident / other (분류 결과)
     default_kind: str = ""  # 분류 단어에 안 걸릴 때 쓸 기본값
+    related: list = field(default_factory=list)  # 같은 소식을 다룬 다른 기사 [{source, link}]
+
+    def to_dict(self) -> dict:
+        d = asdict(self)
+        d["published"] = self.published.isoformat() if self.published else None
+        return d
+
+    @classmethod
+    def from_dict(cls, d: dict) -> "Item":
+        d = dict(d)
+        if d.get("published"):
+            d["published"] = datetime.fromisoformat(d["published"])
+        return cls(**d)
 
 
 def _fetch(url: str) -> bytes:
@@ -39,20 +52,58 @@ def _clean(text: str, limit: int = 220) -> str:
     return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
 
 
-def _entry_time(entry) -> datetime | None:
+KST = timezone(timedelta(hours=9))
+_TZ_IN_STRING = re.compile(r"([+-]\d{2}:?\d{2}|Z|GMT|UTC|UT|KST|[ECMP][SD]T)\s*$", re.IGNORECASE)
+
+
+def _entry_time(entry, kst: bool = False, force_kst: bool = False) -> datetime | None:
+    """기사 시각을 UTC 로 반환.
+
+    국내 사이트(kst=True)는 RSS 시각 표기가 부정확한 경우가 많아서 보정함:
+    1) 시각에 시간대 표시가 없으면 한국 시간으로 간주
+    2) 한국 시간을 UTC(+0000)로 잘못 표기해 '미래 시각'이 되면 9시간을 빼서 바로잡음
+    force_kst=True 인 소스는 표기와 상관없이 적힌 시각을 한국 시간으로 읽음
+    """
+    raw = ""
+    for key in ("published", "updated", "pubDate"):
+        if entry.get(key):
+            raw = str(entry.get(key)).strip()
+            break
+
+    dt = None
     for key in ("published_parsed", "updated_parsed"):
         t = entry.get(key)
         if t:
-            return datetime(*t[:6], tzinfo=timezone.utc)
-    for key in ("published", "updated", "pubDate"):
-        raw = entry.get(key)
-        if raw:
+            dt = datetime(*t[:6], tzinfo=timezone.utc)
+            break
+    if dt is None and raw:
+        try:
+            dt = parsedate_to_datetime(raw)
+            dt = dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except (TypeError, ValueError):
+            return None
+    if dt is None:
+        return None
+
+    if force_kst:
+        wall = dt.astimezone(timezone.utc) if dt.tzinfo == timezone.utc else dt
+        # 적힌 숫자(벽시계 시각)를 그대로 한국 시간으로 해석
+        m = re.search(r"(\d{1,2}):(\d{2})(?::(\d{2}))?", raw)
+        if m and raw:
             try:
-                dt = parsedate_to_datetime(raw)
-                return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+                base = parsedate_to_datetime(raw)
+                return base.replace(tzinfo=KST).astimezone(timezone.utc)
             except (TypeError, ValueError):
                 pass
-    return None
+        return wall.replace(tzinfo=KST).astimezone(timezone.utc)
+
+    if kst:
+        if raw and not _TZ_IN_STRING.search(raw):
+            dt = dt.replace(tzinfo=KST).astimezone(timezone.utc) if dt.tzinfo == timezone.utc else dt
+        now = datetime.now(timezone.utc)
+        if dt > now + timedelta(minutes=15) and dt - timedelta(hours=9) <= now + timedelta(minutes=15):
+            dt -= timedelta(hours=9)
+    return dt
 
 
 def collect_rss(source: dict) -> list[Item]:
@@ -70,7 +121,11 @@ def collect_rss(source: dict) -> list[Item]:
             link=link,
             source=source["name"],
             category=source["category"],
-            published=_entry_time(e),
+            published=_entry_time(
+                e,
+                kst=source.get("category") in ("news_kr", "notice_kr"),
+                force_kst=bool(source.get("force_kst")),
+            ),
             summary=_clean(e.get("summary", "") or e.get("description", "")),
             default_kind=source.get("default_kind", ""),
         ))

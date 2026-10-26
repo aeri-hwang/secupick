@@ -29,17 +29,17 @@ def _item_html(it: Item) -> str:
     meta = escape(it.source)
     t = _time(it)
     if t and it.kind != "kev":
-        meta += f" &nbsp;|&nbsp; {t}"
-    summary = (
-        f'<div style="color:{MUTED};font-size:14px;line-height:1.55;margin-top:4px">{escape(it.summary)}</div>'
-        if it.summary else ""
-    )
+        meta += f" | {t}"
+    summary = f'<div class="s">{escape(it.summary)}</div>' if it.summary else ""
+    related = ""
+    if it.related:
+        links = ", ".join(
+            f'<a href="{escape(r["link"], quote=True)}">{escape(r["source"])}</a>' for r in it.related
+        )
+        related = f'<div class="r">같은 소식 {len(it.related)}건: {links}</div>'
     return (
-        f'<tr><td style="padding:12px 0;border-bottom:1px solid {LINE}">'
-        f'<a href="{escape(it.link, quote=True)}" style="color:{LINK};font-size:16px;font-weight:600;'
-        f'line-height:1.4;text-decoration:none">{escape(it.title)}</a>'
-        f'<div style="color:{MUTED};font-size:12px;margin-top:3px">{meta}</div>'
-        f"{summary}</td></tr>"
+        f'<tr><td><a class="t" href="{escape(it.link, quote=True)}">{escape(it.title)}</a>'
+        f'<div class="m">{meta}</div>{summary}{related}</td></tr>'
     )
 
 
@@ -51,14 +51,27 @@ def _section(title: str, items: list[Item], color: str) -> str:
         return ""
     rows = "".join(_item_html(i) for i in items)
     return (
-        f'<h2 style="font-size:17px;color:{color};margin:28px 0 4px;padding-bottom:6px;'
-        f'border-bottom:2px solid {color}">{escape(title)} '
-        f'<span style="font-weight:400;color:{MUTED};font-size:14px">{len(items)}</span></h2>'
+        f'<h2 style="color:{color};border-bottom:2px solid {color}">{escape(title)} '
+        f'<span class="n">{len(items)}</span></h2>'
         f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0">{rows}</table>'
     )
 
 
-def build_email(items: list[Item], sections: dict, failures: list[tuple[str, str]]) -> tuple[str, str]:
+STYLE = f"""<style>
+.w{{max-width:680px;margin:0 auto;padding:24px 18px;font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;color:{INK}}}
+h2{{font-size:17px;margin:28px 0 4px;padding-bottom:6px}}
+.n{{font-weight:400;color:{MUTED};font-size:14px}}
+td{{padding:12px 0;border-bottom:1px solid {LINE}}}
+a.t{{color:{LINK};font-size:16px;font-weight:600;line-height:1.4;text-decoration:none}}
+.m{{color:{MUTED};font-size:12px;margin-top:3px}}
+.s{{color:{MUTED};font-size:14px;line-height:1.55;margin-top:4px}}
+.r{{color:{MUTED};font-size:12px;margin-top:5px}}
+.r a{{color:{MUTED}}}
+</style>"""
+
+
+def build_email(items: list[Item], sections: dict, failures: list[tuple[str, str]],
+                alert: bool = False) -> tuple[str, str]:
     now = datetime.now(KST)
     date_label = now.strftime("%Y-%m-%d")
     weekday = "월화수목금토일"[now.weekday()]
@@ -67,7 +80,7 @@ def build_email(items: list[Item], sections: dict, failures: list[tuple[str, str
     body = "".join(_section(title, groups[k], SECTION_COLORS.get(k, INK)) for k, title in sections.items())
 
     if not items:
-        body += f'<p style="color:{MUTED};font-size:15px;margin:28px 0">지난 실행 이후 새로 올라온 소식이 없습니다.</p>'
+        body += f'<p style="color:{MUTED};font-size:15px;margin:28px 0">지난 메일 이후 새로 올라온 소식이 없습니다.</p>'
 
     if failures:
         lis = "".join(f"<li><b>{escape(n)}</b>: {escape(e)}</li>" for n, e in failures)
@@ -78,19 +91,24 @@ def build_email(items: list[Item], sections: dict, failures: list[tuple[str, str
             f'<ul style="margin:6px 0 0;padding-left:18px">{lis}</ul></div>'
         )
 
-    # 제목에 종류별 개수: 받은편지함에서 바로 파악
     labels = {"kev": "KEV", "vuln": "취약점", "incident": "침해사고", "other": "기타"}
     counts = [f"{labels.get(k, k)} {len(v)}" for k, v in groups.items() if v]
-    subject = f"[secupick] {date_label} 보안 브리핑"
-    subject += f" · {' / '.join(counts)}" if counts else " · 새 소식 없음"
+    if alert:
+        subject = f"[secupick] 🔔 {now.strftime('%H:%M')} 새 소식 {len(items)}건 · {' / '.join(counts)}"
+        heading = f"{date_label} ({weekday}) {now.strftime('%H:%M')} 새 소식 알림"
+    else:
+        subject = f"[secupick] {date_label} 보안 브리핑"
+        subject += f" · {' / '.join(counts)}" if counts else " · 새 소식 없음"
+        heading = f"{date_label} ({weekday}) 보안 브리핑"
+    merged = sum(len(i.related) for i in items)
+    summary_line = (" / ".join(counts) if counts else "새 소식 없음") + (f" (중복 {merged}건 묶음)" if merged else "")
 
-    summary_line = " / ".join(counts) if counts else "새 소식 없음"
-    html = f"""<!doctype html><html><body style="margin:0;background:#ffffff">
-<div style="max-width:680px;margin:0 auto;padding:24px 18px;font-family:-apple-system,'Apple SD Gothic Neo','Malgun Gothic','Noto Sans KR',sans-serif;color:{INK}">
+    html = f"""<!doctype html><html><head><meta charset="utf-8">{STYLE}</head><body style="margin:0;background:#ffffff">
+<div class="w">
   <div style="font-size:24px;font-weight:800;letter-spacing:-0.5px">secupick</div>
-  <div style="color:{MUTED};font-size:14px;margin-top:2px">{date_label} ({weekday}) 보안 브리핑 &nbsp;|&nbsp; {summary_line}</div>
+  <div class="m" style="font-size:14px">{heading} | {summary_line}</div>
   {body}
-  <p style="color:{MUTED};font-size:12px;margin-top:36px">secupick 자동 발송 메일. 분류 규칙과 소스는 config.yaml 에서 바꿀 수 있어요.</p>
+  <p class="m" style="margin-top:36px">secupick 자동 발송 메일. 분류 규칙과 소스는 config.yaml 에서 바꿀 수 있어요.</p>
 </div></body></html>"""
     return subject, html
 
