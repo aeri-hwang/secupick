@@ -112,7 +112,8 @@ sources:
   # --- 국내 뉴스 ---
   - name: 보안뉴스
     category: news_kr
-    url: https://www.boannews.com/media/news_rss.xml?mkind=1
+    force_kst: true   # 데일리시큐와 같은 기사 시스템이라 시간 표기 보정
+    url: https://www.boannews.com/rss/allArticle.xml
 
   - name: 데일리시큐
     category: news_kr
