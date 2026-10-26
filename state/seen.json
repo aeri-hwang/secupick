@@ -1,4 +1,6 @@
 {
+ "https://nvd.nist.gov/vuln/detail/CVE-2026-109618": "2026-10-26",
+ "https://nvd.nist.gov/vuln/detail/CVE-2026-109619": "2026-10-26",
  "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html": "2026-10-26",
  "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html": "2026-10-26",
  "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html": "2026-10-26",
@@ -50,6 +52,7 @@
  "https://www.dailysecu.com/news/articleView.html?idxno=209039": "2026-10-26",
  "https://www.dailysecu.com/news/articleView.html?idxno=209040": "2026-10-26",
  "https://www.dailysecu.com/news/articleView.html?idxno=209041": "2026-10-26",
+ "https://www.dailysecu.com/news/articleView.html?idxno=209042": "2026-10-26",
  "https://www.dailysecu.com/news/articleView.html?idxno=209046": "2026-10-26",
  "https://www.dailysecu.com/news/articleView.html?idxno=209047": "2026-10-26",
  "https://www.dailysecu.com/news/articleView.html?idxno=209049": "2026-10-26",

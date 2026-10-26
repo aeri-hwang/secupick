@@ -533,5 +533,25 @@
   "titles": [
    "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
   ]
+ },
+ {
+  "at": "2026-10-26T23:46:01.631178+00:00",
+  "cves": [
+   "CVE-2026-109618",
+   "CVE-2026-109619"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-109618 · PHP Group PHP",
+   "CVE-2026-109619 · PHP Group PHP"
+  ]
+ },
+ {
+  "at": "2026-10-26T23:46:01.631178+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[정보보안 연재소설-로그아웃되지 않는 밤] 제57화 '국경 없는 개인정보'"
+  ]
  }
 ]
