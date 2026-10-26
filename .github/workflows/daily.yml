@@ -1,21 +1,38 @@
-name: secupick daily
+name: secupick
 
 on:
   schedule:
-    # GitHub cron 은 UTC 기준입니다. 22:00 UTC = 한국 시간 매일 오전 7시.
-    # 예) 오전 8시에 받고 싶으면 "0 23 * * *"
+    # GitHub cron 은 UTC 기준입니다 (한국 시간 = UTC + 9시간).
+    # 시각을 바꾸면 아래 env 의 같은 값도 똑같이 바꿔 주세요.
+
+    # 아침 브리핑: 매일 07:17 (한국 시간) — 밤사이 쌓인 기사를 중복 묶어서 발송
     - cron: "17 22 * * *"
-  workflow_dispatch: {}   # Actions 탭에서 수동 실행(테스트용)도 가능
+    # 낮 알림: 08:17 ~ 18:17 (한국 시간) 매시 정각 17분 — 새 소식이 있을 때만 발송
+    - cron: "17 23,0-9 * * *"
+    # 밤 수집: 21:17, 00:17, 03:17, 06:17 (한국 시간) — 메일 없이 모아 두기만 함
+    - cron: "17 12,15,18,21 * * *"
+
+  workflow_dispatch:      # Actions 탭에서 수동 실행 (테스트용)
+    inputs:
+      mode:
+        description: "실행 방식"
+        type: choice
+        options: [send, alert, collect]
+        default: send
 
 permissions:
-  contents: write         # 보낸 글 기록(state/seen.json)을 저장소에 커밋하기 위해 필요
+  contents: write         # 수집 대기열·보낸 기록(state/)을 저장소에 커밋하기 위해 필요
 
 concurrency:
   group: secupick
   cancel-in-progress: false
 
+env:
+  SEND_CRON: "17 22 * * *"
+  ALERT_CRON: "17 23,0-9 * * *"
+
 jobs:
-  digest:
+  run:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -28,17 +45,30 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Collect and send
+      - name: Run secupick
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
-        run: python main.py
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ inputs.mode }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then MODE="$INPUT_MODE"
+          elif [ "$SCHEDULE" = "$SEND_CRON" ]; then MODE=send
+          elif [ "$SCHEDULE" = "$ALERT_CRON" ]; then MODE=alert
+          else MODE=collect
+          fi
+          echo "mode: $MODE"
+          python main.py "$MODE"
 
-      - name: Save sent history
+      - name: Save state
+        if: always()
         run: |
           git config user.name "secupick-bot"
           git config user.email "secupick-bot@users.noreply.github.com"
-          git add state/seen.json
-          git diff --cached --quiet || git commit -m "state: $(date -u +%F)"
+          git add state/
+          git diff --cached --quiet && exit 0
+          git commit -m "state: $(date -u +'%F %H:%M')"
+          git pull --rebase --autostash || true
           git push
