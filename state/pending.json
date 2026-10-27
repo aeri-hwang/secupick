@@ -97,5 +97,60 @@
   "source": "SecurityWeek",
   "summary": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on SecurityWee…",
   "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+  "published": "2026-10-27T14:09:46+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+  "title": "Tailscale warns of SSH flaws allowing root privilege escalation"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+  "published": "2026-10-27T14:01:11+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizati…",
+  "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+  "published": "2026-10-27T15:26:12+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws…",
+  "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+  "published": "2026-10-27T13:30:28+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on Secur…",
+  "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+  "published": "2026-10-27T13:13:58+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek .",
+  "title": "HPE Patches Dozens of Critical Flaws in Networking Products"
  }
 ]
