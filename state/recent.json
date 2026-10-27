@@ -601,5 +601,21 @@
   "titles": [
    "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics"
   ]
+ },
+ {
+  "at": "2026-10-27T02:50:14.527160+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "이지서티, 공공기관에 ‘사용자 중심’ 개인정보 비식별 체계 구축"
+  ]
+ },
+ {
+  "at": "2026-10-27T02:50:14.527160+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "HPE, 기업용 와이파이 보안 취약점 72개 발견…8개는 ‘최고 위험’ 등급"
+  ]
  }
 ]
