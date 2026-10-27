@@ -1,6 +1,7 @@
 {
  "https://nvd.nist.gov/vuln/detail/CVE-2026-109618": "2026-10-26",
  "https://nvd.nist.gov/vuln/detail/CVE-2026-109619": "2026-10-26",
+ "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html": "2026-10-27",
  "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html": "2026-10-27",
  "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html": "2026-10-26",
  "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html": "2026-10-27",
@@ -8,8 +9,11 @@
  "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html": "2026-10-27",
  "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html": "2026-10-26",
  "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html": "2026-10-26",
+ "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html": "2026-10-27",
+ "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html": "2026-10-27",
  "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html": "2026-10-26",
  "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html": "2026-10-26",
+ "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html": "2026-10-27",
  "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html": "2026-10-26",
  "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html": "2026-10-27",
  "https://thehackernews.com/2026/10/php-issues-second-windows-security.html": "2026-10-26",
@@ -18,6 +22,7 @@
  "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html": "2026-10-26",
  "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html": "2026-10-26",
  "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html": "2026-10-26",
+ "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/": "2026-10-27",
  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/": "2026-10-26",
  "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/": "2026-10-26",
  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/": "2026-10-26",
@@ -131,9 +136,13 @@
  "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/": "2026-10-26",
  "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/": "2026-10-26",
  "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/": "2026-10-26",
+ "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/": "2026-10-27",
  "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/": "2026-10-27",
  "https://www.securityweek.com/mythos-5-ignored-real-world-harm-in-july-attack/": "2026-10-26",
  "https://www.securityweek.com/node2shell-brotli-flaw-triggers-patching-across-microsoft-node-js-python-packages/": "2026-10-26",
  "https://www.securityweek.com/php2shell-exploitation-moves-from-probes-to-working-shells/": "2026-10-26",
- "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/": "2026-10-26"
+ "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/": "2026-10-27",
+ "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/": "2026-10-26",
+ "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/": "2026-10-27",
+ "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/": "2026-10-27"
 }

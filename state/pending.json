@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+  "published": "2026-10-27T12:09:50+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Micros…",
+  "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+  "published": "2026-10-27T11:46:00+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit…",
+  "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+  "published": "2026-10-27T11:32:46+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific…",
+  "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+  "published": "2026-10-27T11:32:31+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-commu…",
+  "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+  "published": "2026-10-27T10:36:12+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+  "title": "Apple backports CoreGraphics zero-day patches to older iPhones"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+  "published": "2026-10-27T12:02:06+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek .",
+  "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+  "published": "2026-10-27T11:49:57+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 a…",
+  "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+  "published": "2026-10-27T10:44:20+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on…",
+  "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+  "published": "2026-10-27T10:02:24+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on SecurityWee…",
+  "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal"
+ }
+]
