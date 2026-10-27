@@ -818,5 +818,29 @@
   "titles": [
    "Energy giant ENGIE discloses data breach affecting customers"
   ]
+ },
+ {
+  "at": "2026-10-27T09:55:35.316515+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover"
+  ]
+ },
+ {
+  "at": "2026-10-27T09:55:35.316515+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers"
+  ]
+ },
+ {
+  "at": "2026-10-27T09:55:35.316515+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections"
+  ]
  }
 ]
