@@ -689,5 +689,29 @@
   "titles": [
    "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution"
   ]
+ },
+ {
+  "at": "2026-10-27T06:30:06.432692+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "“선박 보안 기술 검증”... KISA, 선박 사이버 침해 대응 성능 시험장 첫 공개"
+  ]
+ },
+ {
+  "at": "2026-10-27T06:30:06.432692+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "“AI 장애 분석, 정답은 데이터 표준화”... 크래프톤·올리브영의 실전 관제 실험"
+  ]
+ },
+ {
+  "at": "2026-10-27T06:30:06.432692+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "“AI 시대 승부처는 자율성”... 데이터독, ‘관측·보호·실행’ 청사진 제시"
+  ]
  }
 ]
