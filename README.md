@@ -52,3 +52,17 @@ GitHub Actions 에서 돌아가므로 서버도, 매일 승인하는 과정도 �
 6. 수집 문제 감시: 접속 실패, 빈 피드, 최신 글이 오래된 '멈춘 피드'(주소가 바뀐 경우)를 문제로 봅니다.
    아침 브리핑 맨 아래에 현재 문제를 모두 표시하고, 낮에 같은 사이트가 연속 3번(약 45분) 문제면 경고 메일을 한 번 보냅니다.
    복구되면 경고 상태가 초기화되어, 다시 문제가 생기면 또 알려 줍니다.
+
+## Slack 알림 (선택)
+
+메일과 똑같은 내용이 같은 시각에 Slack 채널로도 옵니다. 설정하지 않으면 메일만 옵니다.
+
+1. https://api.slack.com/apps → Create New App → From scratch → 이름(secupick)과 워크스페이스 선택
+2. 왼쪽 메뉴 Incoming Webhooks → Activate Incoming Webhooks 켜기
+3. Add New Webhook to Workspace → 알림 받을 채널 선택 → 허용 → 생성된 `https://hooks.slack.com/services/...` 주소 복사
+4. GitHub 저장소 Settings → Secrets and variables → Actions → New repository secret
+   - 이름: `SLACK_WEBHOOK_URL` / 값: 3번에서 복사한 주소
+
+- Slack 전송이 실패해도 메일 발송과 기록에는 영향이 없습니다 (Actions 로그에 실패만 표시).
+- 기사가 많은 아침 브리핑은 Slack 길이 제한 때문에 (1/3), (2/3)처럼 여러 메시지로 나뉘어 올 수 있습니다.
+- Slack 을 끄려면 `SLACK_WEBHOOK_URL` Secret 을 삭제하면 됩니다.

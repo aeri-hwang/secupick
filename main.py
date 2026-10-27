@@ -9,6 +9,7 @@
 """
 from __future__ import annotations
 
+import os
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -19,6 +20,7 @@ import yaml
 from collectors import collect
 from digest import Classifier, State, dedupe, filter_recent
 from mailer import build_email, send_email
+from slack_notify import send_slack
 
 ROOT = Path(__file__).parent
 
@@ -124,6 +126,13 @@ def main() -> int:
         state.save()  # 발송 실패해도 수집한 기사는 대기열에 남겨 다음 발송 때 보냄
         raise
     print(f"발송 완료: {subject}")
+    # Slack 알림 (설정된 경우에만). 실패해도 메일 발송·기록에는 영향 없음
+    try:
+        send_slack(items, cfg["sections"], failures, subject, alert=(mode == "alert"))
+        if os.environ.get("SLACK_WEBHOOK_URL", "").strip():
+            print("Slack 전송 완료")
+    except Exception as e:
+        print(f"⚠️ Slack 전송 실패 (메일은 정상 발송됨): {e}")
     if mode == "alert":
         state.mark_warned([n for n, _ in failures])
     state.remember_sent(items)
