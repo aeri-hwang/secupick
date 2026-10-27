@@ -207,5 +207,38 @@
   "source": "BleepingComputer",
   "summary": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
   "title": "Warp discloses breach exposing AI agent logs, user telemetry data"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+  "published": "2026-10-27T20:57:25+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A credit card skimming group reportedly compromised a shared analytics script used by e-commerce platform Convertr to steal shoppers' payment data during checkout. [...]",
+  "title": "Hackers hijack Convertr analytics script to steal payment card data"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+  "published": "2026-10-27T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. (미 연방기관 조치 기한: 2026-11-10)",
+  "title": "CVE-2026-48356 · Adobe Commerce and Magento"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+  "published": "2026-10-27T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream. (미 연방…",
+  "title": "CVE-2026-111497 · Google Brotli"
  }
 ]

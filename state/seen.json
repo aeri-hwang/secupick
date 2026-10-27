@@ -1,6 +1,8 @@
 {
  "https://nvd.nist.gov/vuln/detail/CVE-2026-109618": "2026-10-26",
  "https://nvd.nist.gov/vuln/detail/CVE-2026-109619": "2026-10-26",
+ "https://nvd.nist.gov/vuln/detail/CVE-2026-111497": "2026-10-27",
+ "https://nvd.nist.gov/vuln/detail/CVE-2026-48356": "2026-10-27",
  "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html": "2026-10-27",
  "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html": "2026-10-27",
  "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html": "2026-10-27",
@@ -37,6 +39,7 @@
  "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/": "2026-10-26",
  "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/": "2026-10-27",
  "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/": "2026-10-26",
+ "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/": "2026-10-27",
  "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/": "2026-10-26",
  "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/": "2026-10-27",
  "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/": "2026-10-27",
