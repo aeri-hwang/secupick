@@ -1694,5 +1694,250 @@
   "titles": [
    "Hackers Start Probing Fresh Oracle EBS Vulnerability"
   ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [
+   "CVE-2026-41709"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-41709 · Broadcom VMware ESX"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [
+   "CVE-2026-46300"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-46300 · Linux Kernel"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Discord to let search engines index public server messages"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S."
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Sony ISP subsidiary data breach exposes 2.5 million customer records"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+   "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Microsoft urges Entra ID admins to migrate users to passkeys"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "중국 해커조직, 정부 기밀부터 반도체 산업정보까지 노린다"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "\"북한 해커조직, 개발자 인증정보 탈취 후 악성코드 유포…소프트웨어 공급망 위협\""
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "InfraTrust report warns of exploited flaws in critical network infrastructure"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Upwind Security Raises $400 Million at $3.8 Billion Valuation"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Even after PHP2Shell, blast radius matters more than a CVSS score"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Chrome and Firefox Updates Patch Over 200 Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Hackers now scanning systems for recently-patched Oracle flaw"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "China-Linked Hackers Exploit PHP2Shell to Root Firewalls"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Wazuh and AI for Enhanced SOC Workflows"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "AI 활용 신종 랜섬웨어 조직 ‘n0n’, 14개국 23개 조직 공격 정황…몸값 요구액 4천억원 육박"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "일본 GMO인터넷, 고객 서버 해킹에 100만 달러 현상금…해커는 80억 엔 요구"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "미국 뉴멕시코대 의료시스템 사이버공격…응급차 우회·수술 취소 등 의료서비스 마비"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Long-Hidden Flaws Patched in EPICS Research Facility Control Software"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "호텔스토리 해킹으로 고객 예약정보·카드정보 유출…숙소 계정 탈취 정황"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CISA warns of hackers now exploiting critical Node2Shell flaw"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed"
+  ]
+ },
+ {
+  "at": "2026-10-28T22:48:42.135884+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "Nobody Trusts the Security Questionnaire. We Rely on It Anyway."
+  ]
  }
 ]
