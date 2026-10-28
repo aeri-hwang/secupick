@@ -1604,5 +1604,45 @@
   "titles": [
    "[단독] 슈피겐코리아, 해외 고객관리 시스템 해킹…고객 최대 182명·임직원 264명 정보 조회"
   ]
+ },
+ {
+  "at": "2026-10-28T09:07:27.960247+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "[단독] ‘PHP 직격탄’ 워드프레스·그누보드 국내 사이트 46만개 육박... 호스팅 의존도 높아 [PHP 파장]"
+  ]
+ },
+ {
+  "at": "2026-10-28T09:07:27.960247+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[금융사 해킹 분석] 은행·증권·보험·가상자산까지, 사고 원인 살펴보니"
+  ]
+ },
+ {
+  "at": "2026-10-28T09:07:27.960247+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CISA Warns of Node2Shell Exploitation as Honeypots Log Attack Attempts"
+  ]
+ },
+ {
+  "at": "2026-10-28T09:07:27.960247+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits"
+  ]
+ },
+ {
+  "at": "2026-10-28T09:07:27.960247+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering"
+  ]
  }
 ]
