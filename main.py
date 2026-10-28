@@ -23,7 +23,7 @@ from mailer import build_email, send_email
 from slack_notify import send_slack
 
 ROOT = Path(__file__).parent
-VERSION = "2026-10-27 slack"
+VERSION = "2026-10-28 slack-multi"
 
 
 ALERT_AFTER = 3  # 낮 알림: 같은 소스가 연속 3번(약 45분) 문제일 때 경고
@@ -90,7 +90,8 @@ def main() -> int:
 
     slack_on = bool(os.environ.get("SLACK_WEBHOOK_URL", "").strip())
     print(f"secupick 버전: {VERSION}")
-    print("Slack: 설정됨" if slack_on else "Slack: 설정 안 됨 (SLACK_WEBHOOK_URL 값이 비어 있음 → Slack 은 건너뜀)")
+    slack_n = len([u for u in os.environ.get("SLACK_WEBHOOK_URL", "").replace(",", " ").split() if u])
+    print(f"Slack: 설정됨 ({slack_n}곳)" if slack_on else "Slack: 설정 안 됨 (SLACK_WEBHOOK_URL 값이 비어 있음 → Slack 은 건너뜀)")
     print("수집 중…")
     problems = gather(cfg, state)
     failures = problems  # 아침 브리핑에는 현재 문제 있는 소스를 전부 표시
@@ -135,8 +136,8 @@ def main() -> int:
         print("Slack: 건너뜀 (SLACK_WEBHOOK_URL 없음)")
     else:
         try:
-            send_slack(items, cfg["sections"], failures, subject, alert=(mode == "alert"))
-            print("Slack 전송 완료")
+            n = send_slack(items, cfg["sections"], failures, subject, alert=(mode == "alert"))
+            print(f"Slack 전송 완료 ({n}곳)")
         except Exception as e:
             print(f"⚠️ Slack 전송 실패 (메일은 정상 발송됨): {e}")
     if mode == "alert":

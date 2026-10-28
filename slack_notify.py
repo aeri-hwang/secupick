@@ -2,11 +2,13 @@
 
 메일과 같은 내용(같은 기사, 같은 분류, 같은 시각)을 Slack 채널로도 보냅니다.
 SLACK_WEBHOOK_URL 이 설정되어 있을 때만 동작하고, 없으면 아무것도 하지 않습니다.
+주소를 여러 개(줄바꿈 또는 쉼표로 구분) 넣으면 모든 곳으로 보냅니다. 예: 개인 DM + 팀 채널
 Slack 전송이 실패해도 메일 발송과 기록에는 영향을 주지 않습니다.
 """
 from __future__ import annotations
 
 import os
+import re
 import time
 from datetime import timedelta, timezone
 
@@ -89,11 +91,28 @@ def build_blocks(items: list[Item], sections: dict, failures: list[tuple[str, st
     return blocks
 
 
+def _webhook_urls() -> list[str]:
+    """SLACK_WEBHOOK_URL 에 주소를 여러 개 넣을 수 있음 (줄바꿈 또는 쉼표로 구분)."""
+    raw = os.environ.get("SLACK_WEBHOOK_URL", "")
+    return [u.strip() for u in re.split(r"[\s,]+", raw) if u.strip()]
+
+
+def _post(url: str, parts: list[list[dict]], subject: str) -> None:
+    for n, part in enumerate(parts, 1):
+        text = subject if len(parts) == 1 else f"{subject} ({n}/{len(parts)})"
+        resp = requests.post(url, json={"text": text, "blocks": part}, timeout=20)
+        if resp.status_code != 200:
+            raise RuntimeError(f"{resp.status_code} {resp.text[:200]}")
+        if n < len(parts):
+            time.sleep(1.1)  # Slack 웹훅 속도 제한(초당 1건) 지키기
+
+
 def send_slack(items: list[Item], sections: dict, failures: list[tuple[str, str]],
-               subject: str, alert: bool) -> None:
-    url = os.environ.get("SLACK_WEBHOOK_URL", "").strip()
-    if not url:
-        return
+               subject: str, alert: bool) -> int:
+    """설정된 모든 웹훅으로 전송. 성공한 곳 수를 돌려주고, 한 곳이라도 실패하면 예외."""
+    urls = _webhook_urls()
+    if not urls:
+        return 0
     blocks = build_blocks(items, sections, failures, subject, alert)
     parts, cur, size = [], [], 0
     for b in blocks:
@@ -105,10 +124,14 @@ def send_slack(items: list[Item], sections: dict, failures: list[tuple[str, str]
         size += n
     if cur:
         parts.append(cur)
-    for n, part in enumerate(parts, 1):
-        text = subject if len(parts) == 1 else f"{subject} ({n}/{len(parts)})"
-        resp = requests.post(url, json={"text": text, "blocks": part}, timeout=20)
-        if resp.status_code != 200:
-            raise RuntimeError(f"Slack 전송 실패 {resp.status_code}: {resp.text[:200]}")
-        if n < len(parts):
-            time.sleep(1.1)  # Slack 웹훅 속도 제한(초당 1건) 지키기
+
+    ok, errors = 0, []
+    for idx, url in enumerate(urls, 1):
+        try:  # 한 곳이 실패해도 나머지 곳에는 보냄
+            _post(url, parts, subject)
+            ok += 1
+        except Exception as e:
+            errors.append(f"{idx}번째 주소: {e}")
+    if errors:
+        raise RuntimeError(f"{ok}/{len(urls)}곳 성공, 실패: " + " / ".join(errors))
+    return ok
