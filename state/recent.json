@@ -1939,5 +1939,13 @@
   "titles": [
    "Nobody Trusts the Security Questionnaire. We Rely on It Anyway."
   ]
+ },
+ {
+  "at": "2026-10-28T23:50:17.959929+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "마이리얼트립 해킹으로 개인정보 유출…여권번호·암호화된 비밀번호까지 노출"
+  ]
  }
 ]
