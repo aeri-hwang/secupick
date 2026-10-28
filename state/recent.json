@@ -1580,5 +1580,29 @@
   "titles": [
    "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges"
   ]
+ },
+ {
+  "at": "2026-10-28T08:13:36.578642+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "인도 최대 국영은행 SBI, 고객정보 3897건 다크웹 유출…해킹 경로 '미궁'"
+  ]
+ },
+ {
+  "at": "2026-10-28T08:13:36.578642+00:00",
+  "cves": [],
+  "kind": "other",
+  "titles": [
+   "씨게이트, 2027 회계연도 1분기 매출 42억달러로 수익성·현금창출 동반 성장"
+  ]
+ },
+ {
+  "at": "2026-10-28T08:13:36.578642+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 슈피겐코리아, 해외 고객관리 시스템 해킹…고객 최대 182명·임직원 264명 정보 조회"
+  ]
  }
 ]
