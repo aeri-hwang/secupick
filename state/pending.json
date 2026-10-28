@@ -1,1 +1,134 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209146",
+  "published": "2026-10-28T11:11:22+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "인공지능(AI)을 활용해 공격 도구를 개발하고 전 세계 기업과 기관을 대상으로 대규모 금전 갈취를 시도한 신종 랜섬웨어 조직의 내부 운영 실태가 공개됐다. 공격자들은 AI 코딩 도구로 수백 개의 공격 스크립트를 제작했으며, 최소 14개국 23개 조직을 대상으로 침해 활동을 벌인 정황이 확인됐다.글로벌 사이버위협 인텔리전스 기업 소크레이더(SOCRadar)는 10월 28일 발표한 위협 분석…",
+  "title": "AI 활용 신종 랜섬웨어 조직 ‘n0n’, 14개국 23개 조직 공격 정황…몸값 요구액 4천억원 육박"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209145",
+  "published": "2026-10-28T11:05:53+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "일본의 대형 인터넷 서비스 기업 GMO인터넷이 자사 클라우드 서비스에서 발생한 해킹사고와 관련해 공격자 검거에 도움이 되는 정보를 제공하는 사람에게 최대 100만 달러(약 15억 원)의 현상금을 지급하기로 했다. 공격자는 약 80억 엔(약 800억 원)을 요구하며 고객정보 공개와 랜섬웨어 공격을 협박한 것으로 확인됐다.이번 사고는 GMO인터넷의 ‘오나마에닷컴 데스크톱 클라우드(Onamae.…",
+  "title": "일본 GMO인터넷, 고객 서버 해킹에 100만 달러 현상금…해커는 80억 엔 요구"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209144",
+  "published": "2026-10-28T11:01:58+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "미국 뉴멕시코대학교 의료시스템(UNM Health)이 사이버공격을 받아 응급환자 이송이 중단되고 외래 진료와 수술 일정이 취소되는 등 의료서비스에 심각한 차질이 발생했다. 특히 뉴멕시코주에서 유일하게 중증 외상환자를 전문적으로 치료하는 1급 외상센터까지 영향을 받으면서 사이버공격이 환자 안전을 직접 위협할 수 있다는 우려가 커지고 있다.뉴멕시코대학교 보건과학센터(UNM Health Scie…",
+  "title": "미국 뉴멕시코대 의료시스템 사이버공격…응급차 우회·수술 취소 등 의료서비스 마비"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209143",
+  "published": "2026-10-28T10:46:54+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "숙박 예약관리 서비스 호텔스토리에서 외부 해킹으로 고객 개인정보와 예약정보가 유출되는 사고가 발생했다. 특히 일부 숙소가 예약관리 시스템의 메모란에 별도로 입력한 카드 관련 정보까지 외부로 유출된 것으로 확인돼 추가 피해가 우려된다.호텔스토리는 고객과 파트너사를 대상으로 공개한 개인정보 유출 안내문에서 지난 10월 26일 오전 9시 29분부터 10시 31분 사이 외부의 불법적인 시스템 접근…",
+  "title": "호텔스토리 해킹으로 고객 예약정보·카드정보 유출…숙소 계정 탈취 정황"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+  "published": "2026-10-28T11:15:51+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. Th…",
+  "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+  "published": "2026-10-28T10:30:00+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to g…",
+  "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+  "published": "2026-10-28T12:19:57+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability. [...]",
+  "title": "Hackers now scanning systems for recently-patched Oracle flaw"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+  "published": "2026-10-28T10:46:23+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
+  "title": "CISA warns of hackers now exploiting critical Node2Shell flaw"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
+  "published": "2026-10-28T13:10:34+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers. The post TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices…",
+  "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/china-linked-hackers-exploit-php2shell-to-root-firewalls/",
+  "published": "2026-10-28T12:00:59+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The attackers chained PHP2Shell and Fragnesia exploits and hacked two servers of a US government-affiliated organization. The post China-Linked Hackers Exploit PHP2Shell to Root Firewalls appeared first on SecurityWeek .",
+  "title": "China-Linked Hackers Exploit PHP2Shell to Root Firewalls"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/long-hidden-flaws-patched-in-epics-research-facility-control-software/",
+  "published": "2026-10-28T10:48:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Four EPICS Base flaws found by an autonomous system could let attackers crash processes at particle accelerators and fusion labs. The post Long-Hidden Flaws Patched in EPICS Research Facility Control Software appeared f…",
+  "title": "Long-Hidden Flaws Patched in EPICS Research Facility Control Software"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.securityweek.com/nobody-trusts-the-security-questionnaire-we-rely-on-it-anyway/",
+  "published": "2026-10-28T10:30:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies. The post Nobody Trusts the Security Questionn…",
+  "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway."
+ }
+]
