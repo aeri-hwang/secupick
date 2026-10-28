@@ -328,5 +328,38 @@
   "source": "BleepingComputer",
   "summary": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
   "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
+  "published": "2026-10-28T20:47:22+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "U.S. law enforcement has seized the primary domain of Virtualine, a bulletproof hosting service advertised on cybercrime forums for facilitating illegal activities. [...]",
+  "title": "Police seize Virtualine bulletproof service tied to ransowmare, cybercrime"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+  "published": "2026-10-28T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged. (미 연방기관 조치 기한: 2026-11-11)",
+  "title": "CVE-2026-41709 · Broadcom VMware ESX"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+  "published": "2026-10-28T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. Th…",
+  "title": "CVE-2026-46300 · Linux Kernel"
  }
 ]
