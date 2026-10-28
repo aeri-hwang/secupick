@@ -130,5 +130,126 @@
   "source": "SecurityWeek",
   "summary": "The process that gates nearly every B2B deal is a self-assessment the sender distrusts and the receiver accepts. There is finally a better basis for trust between companies. The post Nobody Trusts the Security Questionn…",
   "title": "Nobody Trusts the Security Questionnaire. We Rely on It Anyway."
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209148",
+  "published": "2026-10-28T14:09:26+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "중국 연계 해커조직들이 남미 정부기관과 대만 반도체 기업, 아시아·태평양 지역의 특정 조직을 대상으로 사이버 첩보 활동을 지속하고 있는 것으로 확인됐다. 정부의 정책 결정과 국제 정세에 관한 정보뿐 아니라 전략산업 및 조직범죄 관련 정보까지 수집 대상으로 삼고 있다는 분석이다.글로벌 보안기업 이셋(ESET)은 10월 28일 공개한 '2026년 2~3분기 지능형 지속 위협(APT) 활동 보고…",
+  "title": "중국 해커조직, 정부 기밀부터 반도체 산업정보까지 노린다"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209147",
+  "published": "2026-10-28T14:00:11+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "북한 연계 해커조직이 소프트웨어 개발자를 속여 악성코드를 설치하도록 유도하는 기존 공격에서 벗어나, 탈취한 개발자 계정으로 정상 소프트웨어에 악성코드를 삽입하는 공급망 공격까지 활동 범위를 확대하고 있는 것으로 확인됐다. 개발자 한 명의 계정이 탈취되면 해당 개발자가 관리하는 프로그램을 사용하는 다른 이용자와 기업까지 공격 대상이 될 수 있다는 점에서 주의가 요구된다.글로벌 보안기업 이셋(…",
+  "title": "\"북한 해커조직, 개발자 인증정보 탈취 후 악성코드 유포…소프트웨어 공급망 위협\""
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+  "published": "2026-10-28T12:48:03+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber. The vulnerability in question is CVE-2026-101767 (CV…",
+  "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+  "published": "2026-10-28T11:50:00+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the mach…",
+  "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+  "published": "2026-10-28T11:30:00+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover…",
+  "title": "Wazuh and AI for Enhanced SOC Workflows"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-entra-id-admins-to-migrate-users-to-passkeys/",
+  "published": "2026-10-28T14:48:32+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Microsoft again asked Entra ID administrators to migrate users to phishing-resistant methods to avoid sign-in disruptions before it retires SMS and voice authentication in February 2027. [...]",
+  "title": "Microsoft urges Entra ID admins to migrate users to passkeys"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+  "published": "2026-10-28T14:00:00+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and ot…",
+  "title": "InfraTrust report warns of exploited flaws in critical network infrastructure"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+  "published": "2026-10-28T13:50:59+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is…",
+  "title": "Even after PHP2Shell, blast radius matters more than a CVSS score"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
+  "published": "2026-10-28T15:05:06+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks. The post Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison appeared first on Se…",
+  "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "other",
+  "link": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
+  "published": "2026-10-28T13:56:50+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog The post Upwind Security Raises $400 Million at $3.8 Billion Valua…",
+  "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
+  "published": "2026-10-28T13:39:35+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches. The post Chrome and Firefox Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+  "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities"
  }
 ]
