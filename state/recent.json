@@ -1,230 +1,5 @@
 [
  {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "University of Copenhagen data breach exposes data of 525,000 people"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Former pentester used ARTEX AI to steal 8.2 million data records"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "DreamHost forces password resets in ongoing \"incident\""
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "일본 사이버공격 급증에 정부 긴급대책 착수…기업들 고객 피해보상 확대"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "기업 AI 에이전트 76%, 두 달간 사용 안 해도 접근권한 유지…보안 사각지대 경고"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Microsoft releases emergency .NET patches for critical Brotli flaw",
-   "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "글로벌 컨택센터 솔루션 기업 제네시스 해킹…내부 고객관리시스템 정보 유출 확인"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "AI로 국내 90여 곳 해킹…개인정보 820만 건 탈취 조직 검거"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "PHP2Shell 취약점, 실제 원격 명령 실행 확인...서버 침해 위험 현실화"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "KB국민은행 해킹 피해 119명→2,210명으로 확대…초기 조사서 2,091명 누락"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Industrial Vendors Check Products for PHP2Shell Vulnerabilities"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "Genesys Hack Exposes Customer Data From Internal Systems"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Stolen AI Reasoning Could Help China Build Cheaper Rivals"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "When an AI Agent Is the Incident, the Identity Record Is the Evidence"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Chinese man extradited for role in $36 million cryptocurrency scam"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "PHP2Shell Exploitation Moves From Probes to Working Shells"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "953 Online Stores Infected in Long-Lasting Malware Campaign"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Dutch Police Arrest Two Over NFC Relay Attacks That Drained $400,000+ From Bank Accounts"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "Kali Linux 2026.3 released with 6 new tools, desktop updates"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Node2Shell: Brotli Flaw Triggers Patching Across Microsoft, Node.js, Python Packages"
-  ]
- },
- {
-  "at": "2026-10-26T22:43:58.152147+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
-  ]
- },
- {
   "at": "2026-10-26T23:46:01.631178+00:00",
   "cves": [
    "CVE-2026-109618",
@@ -1927,6 +1702,206 @@
   "titles": [
    "진에어, 회원정보 조회 API 공격으로 1,454명 개인정보 유출",
    "진에어, 1454명 개인정보 유출…“비밀번호·결제내역 등은 안전”"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [
+   "CVE-2026-97229"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-97229 · GitLab Community Edition and Enterprise Edition",
+   "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [
+   "CVE-2026-76418"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-76418 · Cisco Secure Firewall ASA Software and Cisco Secure FTD Software"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Binance probes potential $5.8 billion crypto-theft hack"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "기프티엘 해킹 여파 롯데잇츠까지…멤버십 쿠폰 이용 차질에 보상 조치"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hugging Face malware campaign returns to hijack GPUs for crypto mining"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Japan Airlines suffers third-party data breach exposing passenger info"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Polymarket halts trading after crypto-draining script breach, $2.5M traced"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chrome extensions with 13.4 million installs caught hijacking searches"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [
+   "CVE-2026-98432"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "policy",
+  "titles": [
+   "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Over 41,000 DHS Employee Records Leaked Online"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "SK플래닛 기프티콘, 개인정보 유출 정황…쿠폰 일련번호·환급계좌도 포함",
+   "끝없이 이어지는 개인정보 유출... SK플래닛, 고객 환급계좌까지 털렸다"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "빗썸 해킹, 고객 6,444명·임직원 715명 개인정보 유출…주민번호·신분증 사본 포함"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net"
+  ]
+ },
+ {
+  "at": "2026-10-29T22:51:11.961056+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls"
   ]
  }
 ]
