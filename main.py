@@ -19,11 +19,13 @@ import yaml
 
 from collectors import collect
 from digest import Classifier, State, dedupe, filter_recent
+import mailer
+import slack_notify
 from mailer import build_email, send_email
 from slack_notify import send_slack
 
 ROOT = Path(__file__).parent
-VERSION = "2026-10-28 slack-multi"
+VERSION = "2026-10-28 no-summary"
 
 
 ALERT_AFTER = 3  # 낮 알림: 같은 소스가 연속 3번(약 45분) 문제일 때 경고
@@ -86,6 +88,7 @@ def main() -> int:
         return 2
 
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text("utf-8"))
+    mailer.SHOW_SUMMARY = slack_notify.SHOW_SUMMARY = bool(cfg.get("show_summary", False))
     state = State(ROOT / "state")
 
     slack_on = bool(os.environ.get("SLACK_WEBHOOK_URL", "").strip())

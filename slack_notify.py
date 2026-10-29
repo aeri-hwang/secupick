@@ -17,6 +17,7 @@ import requests
 from collectors import Item
 
 KST = timezone(timedelta(hours=9))
+SHOW_SUMMARY = False  # main.py 가 config.yaml 의 show_summary 값으로 설정
 MAX_TEXT = 2800      # Slack 블록 하나에 넣을 최대 글자 수 (한도 3000)
 MAX_BLOCKS = 45      # 메시지 하나당 최대 블록 수 (한도 50)
 MAX_MSG_CHARS = 12000  # 메시지 하나당 글자 수 (길면 Slack 이 잘라서 표시하므로 나눠 보냄)
@@ -37,7 +38,7 @@ def _item_line(it: Item) -> str:
     if it.published and it.kind != "kev":
         meta += f" · {it.published.astimezone(KST).strftime('%m/%d %H:%M')}"
     line = f"• *{_link(it.link, it.title)}*\n   _{_esc(meta)}_"
-    if it.summary:
+    if it.summary and (SHOW_SUMMARY or it.kind == "kev"):
         s = it.summary if len(it.summary) <= SUMMARY_LEN else it.summary[:SUMMARY_LEN - 1] + "…"
         line += f"\n   {_esc(s)}"
     if it.related:

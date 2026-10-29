@@ -11,6 +11,7 @@ from html import escape
 from collectors import Item
 
 KST = timezone(timedelta(hours=9))
+SHOW_SUMMARY = False  # main.py 가 config.yaml 의 show_summary 값으로 설정
 
 INK = "#1d2433"
 MUTED = "#5b6475"
@@ -30,7 +31,10 @@ def _item_html(it: Item) -> str:
     t = _time(it)
     if t and it.kind != "kev":
         meta += f" | {t}"
-    summary = f'<div class="s">{escape(it.summary)}</div>' if it.summary else ""
+    # 기사 첫 문단은 표시하지 않음 (config.yaml 의 show_summary 로 켤 수 있음)
+    # KEV 는 기사가 아니라 취약점 설명이라 항상 표시
+    show = it.summary and (SHOW_SUMMARY or it.kind == "kev")
+    summary = f'<div class="s">{escape(it.summary)}</div>' if show else ""
     related = ""
     if it.related:
         links = ", ".join(
