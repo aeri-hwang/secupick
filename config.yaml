@@ -227,10 +227,27 @@ sources:
     url: https://knvd.krcert.or.kr/rss/security/info
 
   # --- 국내 뉴스 ---
-  - name: 보안뉴스
+  - name: 보안뉴스 사건·사고
     category: news_kr
-    force_kst: true   # 데일리시큐와 같은 기사 시스템이라 시간 표기 보정
-    url: https://www.boannews.com/rss/allArticle.xml
+    force_kst: true
+    url: https://www.boannews.com/rss/S1N2.xml
+
+  - name: 보안뉴스 공공·정책
+    category: news_kr
+    force_kst: true
+    stale_days: 7
+    url: https://www.boannews.com/rss/S1N3.xml
+
+  - name: 보안뉴스 IT·과학
+    category: news_kr
+    force_kst: true
+    url: https://www.boannews.com/rss/S1N6.xml
+
+  # 원래 설정 (되돌리려면 위 세 항목을 지우고 아래 네 줄 앞의 # 을 지우세요)
+  # - name: 보안뉴스
+  #   category: news_kr
+  #   force_kst: true
+  #   url: https://www.boannews.com/rss/allArticle.xml
 
   - name: 데일리시큐
     category: news_kr
