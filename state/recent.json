@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-10-26T09:01:47.531552+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "솔트웨어, AI 보안 솔루션 '사피가디언' 민감정보 탐지 특허 획득"
-  ]
- },
- {
-  "at": "2026-10-26T09:01:47.531552+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "경찰청, 씽크포비엘과 AI 영향 평가 및 위험 관리 체계 마련"
-  ]
- },
- {
-  "at": "2026-10-26T09:01:47.531552+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "아우토크립트, ITS 세계총회서 C-ITS 보안 구축 사례 및 핵심 기술 발표"
-  ]
- },
- {
   "at": "2026-10-26T09:14:51.012924+00:00",
   "cves": [],
   "kind": "incident",
@@ -2068,6 +2044,30 @@
   "kind": "incident",
   "titles": [
    "구글서 '아마존' 검색했을 뿐인데... 가짜 광고에 악성코드 감염 위험"
+  ]
+ },
+ {
+  "at": "2026-10-29T09:12:38.078522+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million"
+  ]
+ },
+ {
+  "at": "2026-10-29T09:12:38.078522+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys"
+  ]
+ },
+ {
+  "at": "2026-10-29T09:12:38.078522+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 미트리, 개인정보 유출…주민등록번호·계좌정보까지 유출 가능성"
   ]
  }
 ]
