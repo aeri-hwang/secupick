@@ -47,7 +47,7 @@ def _item_html(it: Item) -> str:
     )
 
 
-SECTION_COLORS = {"kev": ALERT, "vuln": "#1f5f8b", "incident": "#8a3b12", "other": INK}
+SECTION_COLORS = {"kev": ALERT, "vuln": "#1f5f8b", "incident": "#8a3b12", "policy": "#5b3f8a"}
 
 
 def _section(title: str, items: list[Item], color: str) -> str:
@@ -98,7 +98,7 @@ def build_email(items: list[Item], sections: dict, failures: list[tuple[str, str
         # 낮 알림은 경고를 맨 위에, 아침 브리핑은 맨 아래에
         body = box + body if alert else body + box
 
-    labels = {"kev": "KEV", "vuln": "취약점", "incident": "침해사고", "other": "기타"}
+    labels = {"kev": "KEV", "vuln": "취약점", "incident": "침해사고", "policy": "정책"}
     counts = [f"{labels.get(k, k)} {len(v)}" for k, v in groups.items() if v]
     if alert:
         subject = f"[secupick] 🔔 {now.strftime('%H:%M')} 새 소식 {len(items)}건"

@@ -33,14 +33,27 @@ def _compile(terms: list[str]) -> re.Pattern | None:
 
 
 class Classifier:
+    """기사 분류.
+
+    1) always_exclude 단어가 제목에 있으면 버림 (칼럼, 기고, 인사발령 등 — 새 소식이 아닌 글)
+    2) vuln 단어 → 취약점 / incident 단어 → 침해사고
+    3) 공지 소스(default_kind)는 기본 분류로
+    4) policy 단어가 있고 exclude 단어가 제목에 없으면 → 정책·법·지침
+    5) 그 외(실적, 일반 기업 소식 등)는 버림
+    """
+
     def __init__(self, rules: dict):
+        self.always_exclude = _compile(rules.get("always_exclude"))
         self.vuln = _compile(rules.get("vuln"))
         self.incident = _compile(rules.get("incident"))
+        self.policy = _compile(rules.get("policy"))
         self.exclude = _compile(rules.get("exclude"))
 
     def kind_of(self, it: Item) -> str | None:
         if it.kind:
             return it.kind
+        if not it.default_kind and self.always_exclude and self.always_exclude.search(it.title):
+            return None
         text = f"{it.title} {it.summary}"
         if self.vuln and self.vuln.search(text):
             return "vuln"
@@ -48,13 +61,17 @@ class Classifier:
             return "incident"
         if it.default_kind:
             return it.default_kind
-        if self.exclude and self.exclude.search(it.title):
-            return None
-        return "other"
+        if self.policy and self.policy.search(text):
+            if self.exclude and self.exclude.search(it.title):
+                return None
+            return "policy"
+        return None
 
     def apply(self, items: list[Item]) -> list[Item]:
         out = []
         for it in items:
+            if it.kind == "other":  # 이전 버전에서 '기타'로 분류된 대기 기사는 새 기준으로 다시 분류
+                it.kind = ""
             k = self.kind_of(it)
             if k:
                 it.kind = k
@@ -167,7 +184,7 @@ _CVE = re.compile(r"CVE-\d{4}-\d{4,}", re.IGNORECASE)
 _BRACKET = re.compile(r"^\s*[\[\(【][^\]\)】]{1,20}[\]\)】]\s*")
 _STOP = {"the", "a", "an", "of", "to", "in", "on", "for", "and", "with", "by", "is", "are", "as", "at", "from",
          "new", "after", "over", "via", "its", "says", "now"}
-KIND_RANK = {"kev": 0, "vuln": 1, "incident": 2, "other": 3}
+KIND_RANK = {"kev": 0, "vuln": 1, "incident": 2, "policy": 3}
 CAT_RANK = {"kev": 0, "notice_kr": 1, "news_kr": 2, "news_global": 3}
 SIMILARITY = 0.5
 

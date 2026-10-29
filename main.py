@@ -25,7 +25,7 @@ from mailer import build_email, send_email
 from slack_notify import send_slack
 
 ROOT = Path(__file__).parent
-VERSION = "2026-10-28 no-summary"
+VERSION = "2026-10-29 policy"
 
 
 ALERT_AFTER = 3  # 낮 알림: 같은 소스가 연속 3번(약 45분) 문제일 때 경고
@@ -105,7 +105,8 @@ def main() -> int:
         state.save()
         return 0
 
-    items = dedupe(state.pending_items(), state.recent)
+    # 대기열 기사를 현재 분류 기준으로 한 번 더 확인 (이전 버전의 '기타' 기사 재분류)
+    items = dedupe(Classifier(cfg.get("classify", {})).apply(state.pending_items()), state.recent)
 
     if mode == "alert":
         # 낮 알림: 연속으로 문제가 난 소스만, 한 번씩만 경고 (15분마다 같은 경고가 오지 않게)
