@@ -196,5 +196,38 @@
   "source": "SecurityWeek",
   "summary": "BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks. The post BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts appeared fir…",
   "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+  "published": "2026-10-29T15:57:05+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A flaw in the Linux kernel's TCP code, tracked as CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale. Anthr…",
+  "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+  "published": "2026-10-29T18:38:26+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A newly identified advanced persistent threat (APT) group tracked as UAT-11473 was observed exploiting CVE-2026-20127, an authentication-bypass flaw in Cisco Catalyst SD-WAN Controllers, to deploy a custom malware frame…",
+  "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+  "published": "2026-10-29T16:10:31+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Y…",
+  "title": "Chrome extensions with 13.4 million installs caught hijacking searches"
  }
 ]
