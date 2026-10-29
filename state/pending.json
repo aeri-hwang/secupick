@@ -97,5 +97,104 @@
   "source": "SecurityWeek",
   "summary": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed. The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ N…",
   "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.boannews.com/news/articleView.html?idxno=146878",
+  "published": "2026-10-29T13:32:58+00:00",
+  "related": [],
+  "source": "보안뉴스 사건·사고",
+  "summary": "개인정보 유출 사건이 끝도 없이 이어지고 있다. 이번엔 SK플래닛으로 일부 고객의 이름, 전화번호, 이메일, 구매쿠폰 일련번호, 환급계좌 등이 유출됐다.SK플래닛은 28일 18시 40분경 외부의 비정상적인 접근 정황을 확인해 즉시 차단했으며, 현재 구체적인 유출 여부 및 대상 고객을 확정하기 위한 정밀 조사를 진행하고 있다고 문자로 공지했다.현재까지 파악된 개인정보 유출 항목은 일부 고객의…",
+  "title": "끝없이 이어지는 개인정보 유출... SK플래닛, 고객 환급계좌까지 털렸다"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+  "published": "2026-10-29T15:20:29+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. Th…",
+  "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+  "published": "2026-10-29T13:42:40+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as…",
+  "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+  "published": "2026-10-29T13:59:48+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild. […",
+  "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "policy",
+  "link": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
+  "published": "2026-10-29T15:01:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Google’s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program. The post Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model a…",
+  "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
+  "published": "2026-10-29T15:00:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure. The post How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI app…",
+  "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
+  "published": "2026-10-29T14:18:03+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions. The post Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Step…",
+  "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
+  "published": "2026-10-29T13:42:52+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation. The post Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek .",
+  "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
+  "published": "2026-10-29T13:26:49+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks. The post BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts appeared fir…",
+  "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts"
  }
 ]
