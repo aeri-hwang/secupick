@@ -26,6 +26,19 @@ classify:
     - 신간
     - 인사발령
     - 부고
+    - 주가
+    - 매출
+    - 실적
+    - 훈련
+    - 개편
+    - Weekly Recap
+    - Week in Review
+    - In Other News
+    - Roundup
+    - Webinar
+    - Podcast
+    - Sponsored
+    - Partner Content
     - opinion
     - column
   vuln:
@@ -171,6 +184,16 @@ classify:
     - deal
     - deals
     - discount
+    - funding
+    - raises
+    - acquires
+    - acquisition
+    - launches
+    - unveils
+    - partnership
+    - earnings
+    - revenue
+    - IPO
 
 # 메일 섹션 순서와 이름
 sections:
