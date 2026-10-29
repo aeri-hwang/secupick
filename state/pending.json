@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209175",
+  "published": "2026-10-29T12:16:24+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "SK플래닛이 운영하는 모바일 쿠폰 서비스 기프티콘에서 고객 개인정보와 쿠폰 정보가 유출된 정황이 확인됐다. 유출 추정 항목에는 이름과 전화번호뿐 아니라 구매쿠폰 일련번호와 환급계좌도 포함됐다. 회사는 외부의 비정상적인 접근을 차단하고 정확한 유출 범위와 피해 고객을 확인하기 위한 정밀 조사에 착수했다.SK플래닛은 10월 29일 고객 대상 ‘개인정보 유출 사실 및 조치 안내’를 통해 최근 자…",
+  "title": "SK플래닛 기프티콘, 개인정보 유출 정황…쿠폰 일련번호·환급계좌도 포함"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209174",
+  "published": "2026-10-29T11:23:53+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "국내 가상자산 거래소 빗썸에서 발생한 해킹 사고로 고객 6,444명과 임직원 및 협력사 직원 715명의 개인정보가 외부로 유출된 것으로 확인됐다. 유출 정보에는 주민등록번호와 운전면허번호, 계좌번호, 신분증 사본 등 민감한 개인정보가 포함돼 있어 2차 피해 우려가 커지고 있다.빗썸은 10월 29일 오후 5시 49분 공식 홈페이지에 개인정보 유출 안내문을 게시하고, 지난 27일 사내 모바일…",
+  "title": "빗썸 해킹, 고객 6,444명·임직원 715명 개인정보 유출…주민번호·신분증 사본 포함"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+  "published": "2026-10-29T11:39:18+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec. The attacker needed only an ordinary Telegram account.…",
+  "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+  "published": "2026-10-29T10:44:46+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the…",
+  "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+  "published": "2026-10-29T09:05:39+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.…",
+  "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+  "published": "2026-10-29T11:10:13+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. […",
+  "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+  "published": "2026-10-29T12:54:14+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year. The post Over 41,000 DHS Employee Records Leaked Online appeared first on SecurityWeek .",
+  "title": "Over 41,000 DHS Employee Records Leaked Online"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+  "published": "2026-10-29T11:00:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records. The post Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net appeared fir…",
+  "title": "Hackers Steal 2.6 Million Records From Sony’s Japanese ISP So-net"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+  "published": "2026-10-29T10:29:25+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon’s Silent Train network, which Lumen detailed. The post Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ N…",
+  "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon’s ‘Silent Train’ Network"
+ }
+]
