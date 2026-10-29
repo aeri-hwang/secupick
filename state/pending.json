@@ -229,5 +229,49 @@
   "source": "BleepingComputer",
   "summary": "A massive search-hijacking campaign involving 319 Chrome extensions with a combined 13.4 million reported installations redirected users' searches through tracking servers to generate advertising revenue from Bing and Y…",
   "title": "Chrome extensions with 13.4 million installs caught hijacking searches"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+  "published": "2026-10-29T19:11:58+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix…",
+  "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+  "published": "2026-10-29T21:47:25+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Prediction market platform Polymarket temporarily suspended trading on Thursday after hackers compromised a third-party service to distribute cryptocurrency-draining JavaScript, with approximately $2.5 million in assets…",
+  "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+  "published": "2026-10-29T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression…",
+  "title": "CVE-2026-97229 · GitLab Community Edition and Enterprise Edition"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+  "published": "2026-10-29T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. (미 연방기관 조치…",
+  "title": "CVE-2026-76418 · Cisco Secure Firewall ASA Software and Cisco Secure FTD Software"
  }
 ]
