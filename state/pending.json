@@ -119,5 +119,60 @@
   "source": "SecurityWeek",
   "summary": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments. The post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on S…",
   "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+  "published": "2026-10-30T16:58:44+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activi…",
+  "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+  "published": "2026-10-30T15:17:28+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewe…",
+  "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+  "published": "2026-10-30T14:08:14+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of r…",
+  "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+  "published": "2026-10-30T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357. (미 연방…",
+  "title": "CVE-2026-118527 · Ivanti Connect Secure"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+  "published": "2026-10-30T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527. (미 연방기관 조치 기한: 2026-11-02)",
+  "title": "CVE-2026-111357 · Ivanti Connect Secure"
  }
 ]
