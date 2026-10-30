@@ -64,5 +64,60 @@
   "source": "SecurityWeek",
   "summary": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders. The post Drupal Commerce Core Vulnerability Exploited Against Online Stores appeared first…",
   "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+  "published": "2026-10-30T14:36:54+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to in…",
+  "title": "Malicious Claude Code extension on Cursor planted SSH backdoors"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+  "published": "2026-10-30T14:00:10+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how t…",
+  "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+  "published": "2026-10-30T15:09:25+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week. The post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared fir…",
+  "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+  "published": "2026-10-30T14:00:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it. The post Passkeys Are Better Than Passwords. But They Are Not Enou…",
+  "title": "Passkeys Are Better Than Passwords. But They Are Not Enough."
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+  "published": "2026-10-30T13:36:12+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments. The post Bulletproof Host Virtualine Loses Its Domain to FBI Seizure appeared first on S…",
+  "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure"
  }
 ]
