@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-10-27T07:59:38.620853+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems"
-  ]
- },
- {
-  "at": "2026-10-27T07:59:38.620853+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "[테크톡톡] VIGI, InSight 시리즈로 지능형 영상보안의 활용 범위를 넓히다"
-  ]
- },
- {
-  "at": "2026-10-27T07:59:38.620853+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "쿠도커뮤니케이션 2027년 신입·경력 공개 모집"
-  ]
- },
- {
   "at": "2026-10-27T08:57:38.903148+00:00",
   "cves": [],
   "kind": "incident",
@@ -1842,6 +1818,51 @@
   "kind": "vuln",
   "titles": [
    "중국 해커조직 ‘워프 판다’, VMware 제로데이 악용…서버 침해 흔적 은폐"
+  ]
+ },
+ {
+  "at": "2026-10-30T08:16:45.342541+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "GS건설 ‘자이’ 입주민 개인정보 유출… 이름, 주소, 연락처에 ‘거주유형’도"
+  ]
+ },
+ {
+  "at": "2026-10-30T08:16:45.342541+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[정보보안 연재소설-로그아웃되지 않는 밤] 제60화 '로그아웃되지 않는 밤'"
+  ]
+ },
+ {
+  "at": "2026-10-30T08:16:45.342541+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
+  ]
+ },
+ {
+  "at": "2026-10-30T08:16:45.342541+00:00",
+  "cves": [
+   "CVE-2026-109618"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "[주의] 시놀로지 NAS서 PHP2Shell 치명적 취약점 확인…KISA, 취약 제품 긴급 점검 권고"
+  ]
+ },
+ {
+  "at": "2026-10-30T08:16:45.342541+00:00",
+  "cves": [
+   "CVE-2026-23479",
+   "CVE-2026-25243"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "[긴급] 레디스서 원격코드실행 취약점 5건 발견…KISA, 보안 업데이트 권고"
   ]
  }
 ]
