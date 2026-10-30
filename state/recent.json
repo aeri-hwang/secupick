@@ -1,37 +1,5 @@
 [
  {
-  "at": "2026-10-27T09:32:09.490448+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Energy giant ENGIE discloses data breach affecting customers"
-  ]
- },
- {
-  "at": "2026-10-27T09:55:35.316515+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover"
-  ]
- },
- {
-  "at": "2026-10-27T09:55:35.316515+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers"
-  ]
- },
- {
-  "at": "2026-10-27T09:55:35.316515+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections"
-  ]
- },
- {
   "at": "2026-10-27T22:44:04.502467+00:00",
   "cves": [
    "CVE-2026-48356"
@@ -1834,6 +1802,30 @@
   "kind": "vuln",
   "titles": [
    "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw"
+  ]
+ },
+ {
+  "at": "2026-10-30T10:05:57.346509+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack"
+  ]
+ },
+ {
+  "at": "2026-10-30T10:05:57.346509+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "한화시스템, 임직원 개인정보 유출 정황... “방산·금융은 무관”"
+  ]
+ },
+ {
+  "at": "2026-10-30T10:05:57.346509+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "머니투데이 해킹 불똥, 다른 언론사로 확산…동행미디어 시대 개인정보 526건 유출"
   ]
  }
 ]
