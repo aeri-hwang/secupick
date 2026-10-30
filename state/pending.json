@@ -1,1 +1,68 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209197",
+  "published": "2026-10-30T11:18:51+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "GS건설이 자사 아파트 브랜드 ‘자이(Xi)’ 고객들의 개인정보 유출 사고를 확인하고 공식 사과했다. 유출 가능성이 있는 정보에는 고객 이름과 연락처뿐 아니라 암호화된 비밀번호, 거주정보, RF카드번호 등이 포함돼 있어 정확한 피해 범위와 침해 경로에 관심이 집중되고 있다.GS건설은 고객들에게 발송한 ‘개인정보 유출 관련 고객 사과문’을 통해 지난 10월 28일 오후 11시 외부의 비정상적…",
+  "title": "GS건설 자이 고객 개인정보 유출…비밀번호·RF카드번호 등 유출 가능성"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+  "published": "2026-10-30T10:40:45+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The c…",
+  "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+  "published": "2026-10-30T13:00:32+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+  "title": "CISA says max severity GitLab flaw now exploited in the wild"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+  "published": "2026-10-30T10:16:07+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+  "title": "Drupal warns of critical Commerce Core flaw exploited in attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+  "published": "2026-10-30T12:04:13+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek .",
+  "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+  "published": "2026-10-30T11:07:11+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Drupal says a highly critical Commerce Core access bypass is exploited in the wild and urges store owners to audit their orders. The post Drupal Commerce Core Vulnerability Exploited Against Online Stores appeared first…",
+  "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores"
+ }
+]
