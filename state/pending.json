@@ -174,5 +174,16 @@
   "source": "CISA KEV",
   "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527. (미 연방기관 조치 기한: 2026-11-02)",
   "title": "CVE-2026-111357 · Ivanti Connect Secure"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+  "published": "2026-10-30T21:09:46+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) l…",
+  "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers"
  }
 ]
