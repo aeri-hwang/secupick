@@ -1,53 +1,5 @@
 [
  {
-  "at": "2026-10-27T05:49:32.007712+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "[PHP 파장] PHP2셸, 실제 서버 침투 정황 첫 확인... 510만대 노출에 보안 우려"
-  ]
- },
- {
-  "at": "2026-10-27T05:49:32.007712+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "한화손해보험, 싸이터와 손잡고 해양 사이버보험 공동사업 추진"
-  ]
- },
- {
-  "at": "2026-10-27T05:49:32.007712+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[2026 제로트러스트 보안 솔루션 리포트] 제로트러스트, 개념 검토는 끝났다... 이제는 ‘실증과 확산’"
-  ]
- },
- {
-  "at": "2026-10-27T05:49:32.007712+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "쿤텍, AI 전주기 통합 보안 전략 발표...모델부터 데이터까지 안전하게 보호"
-  ]
- },
- {
-  "at": "2026-10-27T05:49:32.007712+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "지미션, ‘재팬 IT 위크 오텀 2026’ 참가...일본 문서 DX 시장 공략 나선다"
-  ]
- },
- {
-  "at": "2026-10-27T05:49:32.007712+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution"
-  ]
- },
- {
   "at": "2026-10-27T06:30:06.432692+00:00",
   "cves": [],
   "kind": "incident",
@@ -1906,6 +1858,14 @@
   "kind": "incident",
   "titles": [
    "피앤피시큐어, 'FISCON 2026'서 FaceLocker 활용 화면정보 유출 방지 및 SSO 연동 방안 공개"
+  ]
+ },
+ {
+  "at": "2026-10-30T05:58:26.832317+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen"
   ]
  }
 ]
