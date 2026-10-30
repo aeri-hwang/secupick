@@ -1,37 +1,5 @@
 [
  {
-  "at": "2026-10-27T06:30:06.432692+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "“선박 보안 기술 검증”... KISA, 선박 사이버 침해 대응 성능 시험장 첫 공개"
-  ]
- },
- {
-  "at": "2026-10-27T06:30:06.432692+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "“AI 장애 분석, 정답은 데이터 표준화”... 크래프톤·올리브영의 실전 관제 실험"
-  ]
- },
- {
-  "at": "2026-10-27T06:30:06.432692+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "“AI 시대 승부처는 자율성”... 데이터독, ‘관측·보호·실행’ 청사진 제시"
-  ]
- },
- {
-  "at": "2026-10-27T07:04:31.283493+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses"
-  ]
- },
- {
   "at": "2026-10-27T07:59:38.620853+00:00",
   "cves": [],
   "kind": "vuln",
@@ -1866,6 +1834,14 @@
   "kind": "incident",
   "titles": [
    "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen"
+  ]
+ },
+ {
+  "at": "2026-10-30T07:17:00.793435+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "중국 해커조직 ‘워프 판다’, VMware 제로데이 악용…서버 침해 흔적 은폐"
   ]
  }
 ]
