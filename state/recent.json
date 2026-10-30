@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-10-27T01:05:52.316155+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "지란지교소프트, 생성형 AI 보안 솔루션 ‘AX필터 2.0’ GS인증 1등급 획득"
-  ]
- },
- {
-  "at": "2026-10-27T01:05:52.316155+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "“도구에서 주체로”... 한국정보공학기술사회 꼽은 2027년 생존 조건"
-  ]
- },
- {
-  "at": "2026-10-27T01:05:52.316155+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "[2026 ITS 리포트] 강릉 ITS 세계총회로 본 대한민국 ITS Next 30 Years의 조건"
-  ]
- },
- {
   "at": "2026-10-27T01:55:59.033249+00:00",
   "cves": [],
   "kind": "vuln",
@@ -1882,6 +1858,14 @@
   "kind": "vuln",
   "titles": [
    "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls"
+  ]
+ },
+ {
+  "at": "2026-10-30T01:18:53.221951+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "[단독] 미래에셋생명 유출사고, ‘웹셸’ 업로드 취약점 때문?"
   ]
  }
 ]
