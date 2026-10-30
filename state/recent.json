@@ -1,186 +1,5 @@
 [
  {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [
-   "CVE-2026-48356"
-  ],
-  "kind": "kev",
-  "titles": [
-   "CVE-2026-48356 · Adobe Commerce and Magento"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [
-   "CVE-2026-111497"
-  ],
-  "kind": "kev",
-  "titles": [
-   "CVE-2026-111497 · Google Brotli"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "UNM Health ransomware attack disrupts patient care, surgeries"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers hijack Convertr analytics script to steal payment card data"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Microsoft releases Windows OOB updates to distrust eMudhra certificates"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Warp discloses breach exposing AI agent logs, user telemetry data"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Tailscale warns of SSH flaws allowing root privilege escalation"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "HPE Patches Dozens of Critical Flaws in Networking Products"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "AI-Generated Fake Login Pages Are Making Account Takeovers Easier"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Apple backports CoreGraphics zero-day patches to older iPhones",
-   "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads"
-  ]
- },
- {
-  "at": "2026-10-27T22:44:04.502467+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal"
-  ]
- },
- {
   "at": "2026-10-27T23:46:33.354104+00:00",
   "cves": [
    "CVE-2026-112346"
@@ -1826,6 +1645,131 @@
   "kind": "incident",
   "titles": [
    "머니투데이 해킹 불똥, 다른 언론사로 확산…동행미디어 시대 개인정보 526건 유출"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [
+   "CVE-2026-104935",
+   "CVE-2026-111357",
+   "CVE-2026-118527"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-118527 · Ivanti Connect Secure",
+   "CVE-2026-111357 · Ivanti Connect Secure"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Critical Linux kernel flaw allows remote root attacks on MPTCP servers"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Malicious Claude Code extension on Cursor planted SSH backdoors"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Passkeys Are Better Than Passwords. But They Are Not Enough."
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CISA says max severity GitLab flaw now exploited in the wild"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Fresh WordPress Vulnerability in Attackers’ Crosshairs"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "GS건설 자이 고객 개인정보 유출…비밀번호·RF카드번호 등 유출 가능성"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Drupal Commerce Core Vulnerability Exploited Against Online Stores"
+  ]
+ },
+ {
+  "at": "2026-10-30T22:47:37.441004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison"
   ]
  }
 ]
