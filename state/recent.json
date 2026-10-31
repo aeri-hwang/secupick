@@ -1,85 +1,5 @@
 [
  {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "메가존클라우드, ‘Games on AWS 2026’ 참가해 AI 거버넌스 전략 제시"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "디웨이브, 양자 어닐링 + 게이트 기술 동시 제공... “국내 산업 최적화 문제 해결”"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "[PHP 파장] 국내 대학 5곳, ‘PHP2셸’ 노출됐나... 취약 가능성 커 패치 시급"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "델 테크놀로지스, AI 환경 및 아이덴티티 보호 강화한 사이버 복원력 포트폴리오 공개"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "HNSLAB, 노조미 네트웍스와 손잡고 OT·IoT 보안 사업 협력 추진"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "싸이터, 선박 기자재 보안 플랫폼 ‘CYTUR-SBOM’ 일본-이탈리아 선급 인증 획득"
-  ]
- },
- {
-  "at": "2026-10-28T07:16:15.609098+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges"
-  ]
- },
- {
   "at": "2026-10-28T08:13:36.578642+00:00",
   "cves": [],
   "kind": "incident",
@@ -1413,6 +1333,14 @@
   "kind": "incident",
   "titles": [
    "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
+  ]
+ },
+ {
+  "at": "2026-10-31T08:02:08.325356+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "美 FBI, ‘8.4조원’ 바이낸스 해킹 공식 수사 돌입... 트럼프 “北 소행 여부 주시 중”"
   ]
  }
 ]
