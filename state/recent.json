@@ -1244,5 +1244,55 @@
   "titles": [
    "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access"
   ]
+ },
+ {
+  "at": "2026-10-31T22:43:13.451225+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Northflank security breach leads to abuse of customers' AI API keys"
+  ]
+ },
+ {
+  "at": "2026-10-31T22:43:13.451225+00:00",
+  "cves": [
+   "CVE-2026-58882"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "New Android SMS of Death exploit can remotely crash unpatched phones"
+  ]
+ },
+ {
+  "at": "2026-10-31T22:43:13.451225+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era."
+  ]
+ },
+ {
+  "at": "2026-10-31T22:43:13.451225+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chainalysis discloses data breach from \"offensive agentic techniques\""
+  ]
+ },
+ {
+  "at": "2026-10-31T22:43:13.451225+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data"
+  ]
+ },
+ {
+  "at": "2026-10-31T22:43:13.451225+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run"
+  ]
  }
 ]
