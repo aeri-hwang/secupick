@@ -1,1 +1,79 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209216",
+  "published": "2026-10-31T12:46:41+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "더존비즈온의 백업서비스 침해사고 여파가 공공 문화기관으로 확대되고 있다. 춘천문화재단이 더존비즈온의 외부 백업서버 침해사고와 관련해 개인정보 유출 가능성을 공식 안내하고 피해 여부를 확인 중인 것으로 나타났다.춘천문화재단은 10월 30일 공식 홈페이지에 ‘외부 백업 서비스(더존비즈온 APO) 침해사고 관련 안내’를 게시했다.재단에 따르면 현재 이용 중인 외부 백업서비스 공급업체 더존비즈온의…",
+  "title": "춘천문화재단, 개인정보 유출 가능성 공식 공지"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209215",
+  "published": "2026-10-31T12:31:02+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "화장품 브랜드 브이티코스메틱(VT Cosmetics)에서 해킹으로 고객과 과거 임직원, 개인사업자 거래처의 개인정보가 유출되는 사고가 발생했다. 유출 정보에는 고객 주문·배송정보뿐 아니라 주민등록번호와 계좌번호 등도 포함됐다.브이티코스메틱은 10월 30일 공식 홈페이지에 개인정보 유출 사과문을 게시하고, 외부 공격자가 탈취한 임직원 계정을 이용해 전사적자원관리(ERP) 시스템에 무단접속했다…",
+  "title": "브이티코스메틱 해킹…고객·퇴직 임직원·거래처 개인정보 유출, 주민번호·계좌정보도 포함"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209214",
+  "published": "2026-10-31T09:59:50+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "한국여자프로골프협회(KLPGA)가 더존비즈온의 백업서비스 침해사고로 회원들의 개인정보가 유출됐을 가능성이 있다고 공식 공지했다. 유출 가능성이 있는 정보에는 성명과 주민등록번호, 주소 등이 포함돼 있어 실제 유출 여부와 영향 범위에 대한 조사가 진행되고 있다.KLPGA는 10월 30일 공식 홈페이지에 '더존비즈온 고객사 개인정보 유출 가능성 관련 안내'를 게시하고, 전날인 29일 더존비즈온…",
+  "title": "[단독] KLPGA, 더존비즈온 해킹 영향 공식 공지…회원 개인정보 유출 가능성 조사"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209213",
+  "published": "2026-10-31T09:55:23+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "식품기업 재원푸드가 더존비즈온 백업서비스 침해사고로 임직원과 점주의 개인정보가 유출됐을 가능성이 있다고 공식 공지했다. 유출 가능성이 있는 정보에는 성명과 생년월일, 연락처, 계좌번호 등이 포함돼 있으며, 정확한 피해 대상과 실제 유출 여부는 아직 확인되지 않았다.재원푸드는 최근 자사 홈페이지에 '개인정보 유출 가능성에 대해 임직원 및 점주님들께 안내드립니다'라는 공지를 게시하고, 지난 1…",
+  "title": "재원푸드, 더존비즈온 해킹 여파로 임직원·가맹점주 개인정보 유출 가능성"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+  "published": "2026-10-31T12:01:56+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result…",
+  "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+  "published": "2026-10-31T12:50:09+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizatio…",
+  "title": "Chainalysis discloses data breach from \"offensive agentic techniques\""
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+  "published": "2026-10-31T11:00:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared…",
+  "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run"
+ }
+]

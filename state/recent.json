@@ -1,55 +1,5 @@
 [
  {
-  "at": "2026-10-28T10:02:20.528946+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "Secrets Management Firm Infisical Valued at $600 Million After $40 Million Raise"
-  ]
- },
- {
-  "at": "2026-10-28T10:02:20.528946+00:00",
-  "cves": [],
-  "kind": "other",
-  "titles": [
-   "[이희정 교수 AI 칼럼-18] 과학과 AI: 생명공학의 '알파고 순간'-알파게놈과 알파게놈 아틀라스"
-  ]
- },
- {
-  "at": "2026-10-28T10:02:20.528946+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Nefilim and Hive ransomware affiliate gets 70 months in prison"
-  ]
- },
- {
-  "at": "2026-10-28T10:02:20.528946+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "퓨쳐시스템, PHP 치명적 취약점 공개 하루 만에 긴급 패치 배포"
-  ]
- },
- {
-  "at": "2026-10-28T10:02:20.528946+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "AI 해커, 3시간 49분 만에 산업제어 소프트웨어 치명적 취약점 4개 발견"
-  ]
- },
- {
-  "at": "2026-10-28T10:02:20.528946+00:00",
-  "cves": [
-   "CVE-2026-101767"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "Hackers Start Probing Fresh Oracle EBS Vulnerability"
-  ]
- },
- {
   "at": "2026-10-28T22:48:42.135884+00:00",
   "cves": [
    "CVE-2026-41709"
