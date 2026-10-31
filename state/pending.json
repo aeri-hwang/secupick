@@ -75,5 +75,27 @@
   "source": "SecurityWeek",
   "summary": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities. The post Syrian Hacker Gets Prison Time in US After Over a Decade on the Run appeared…",
   "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+  "published": "2026-10-31T15:35:11+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or c…",
+  "title": "New Android SMS of Death exploit can remotely crash unpatched phones"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+  "published": "2026-10-31T13:10:19+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "[...]",
+  "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era."
  }
 ]
