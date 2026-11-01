@@ -872,5 +872,53 @@
   "titles": [
    "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key"
   ]
+ },
+ {
+  "at": "2026-11-01T22:44:07.916013+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
+  ]
+ },
+ {
+  "at": "2026-11-01T22:44:07.916013+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "림스연구소 해킹 확인, 회원 개인정보·검사 이용정보 유출 우려"
+  ]
+ },
+ {
+  "at": "2026-11-01T22:44:07.916013+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "하이타이 해킹으로 16만3,743명 개인정보 유출, 피해 고객에 2만원 할인쿠폰 보상"
+  ]
+ },
+ {
+  "at": "2026-11-01T22:44:07.916013+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "더존비즈온 해킹 여파, 에스티유니타스도 개인정보 유출 우려…주민번호·계좌정보 포함"
+  ]
+ },
+ {
+  "at": "2026-11-01T22:44:07.916013+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Alpine Linux rebuilds GitLab after attempted RCE attack"
+  ]
+ },
+ {
+  "at": "2026-11-01T22:44:07.916013+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations"
+  ]
  }
 ]
