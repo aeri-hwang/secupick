@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-10-29T09:12:38.078522+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "HHS Filing Puts iRhythm Data Breach Toll at 8.2 Million"
-  ]
- },
- {
-  "at": "2026-10-29T09:12:38.078522+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys"
-  ]
- },
- {
-  "at": "2026-10-29T09:12:38.078522+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[단독] 미트리, 개인정보 유출…주민등록번호·계좌정보까지 유출 가능성"
-  ]
- },
- {
   "at": "2026-10-29T10:05:10.857519+00:00",
   "cves": [
    "CVE-2026-76418"
@@ -914,6 +890,14 @@
   "kind": "incident",
   "titles": [
    "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection"
+  ]
+ },
+ {
+  "at": "2026-11-01T09:57:53.734643+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key"
   ]
  }
 ]
