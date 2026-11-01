@@ -108,5 +108,16 @@
   "source": "데일리시큐",
   "summary": "발렉스서비스가 더존비즈온의 ‘APO 백업서비스’ 침해사고와 관련해 거래처 관계자 등의 개인정보가 유출됐을 가능성이 있다고 공지했다. 회사는 실제 개인정보 유출은 확인되지 않았으며, 더존비즈온에 자사 백업 데이터의 반출 여부와 피해 범위 확인을 요구했다고 밝혔다.발렉스서비스는 생산업무 도급과 인재 채용·파견, 시설관리, 보안·방재, 전문미화 등의 서비스를 제공하는 아웃소싱 전문기업이다. 기업…",
   "title": "발렉스서비스, 더존비즈온 해킹 여파…거래처 개인정보 유출 가능성 공지"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+  "published": "2026-11-01T19:57:53+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record. [...]",
+  "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers"
  }
 ]
