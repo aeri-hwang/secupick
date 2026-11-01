@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+  "published": "2026-11-01T11:15:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues. The post Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations…",
+  "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations"
+ }
+]
