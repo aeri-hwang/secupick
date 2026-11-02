@@ -1,1 +1,167 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.boannews.com/news/articleView.html?idxno=146897",
+  "published": "2026-11-02T10:00:00+00:00",
+  "related": [],
+  "source": "보안뉴스 IT·과학",
+  "summary": "AI가 클라우드와 서버의 뼈대인 리눅스 커널 네트워킹 스택의 심층 취약점을 스스로 찾아내고, 원격에서 사용자 개입 없이 시스템 최고 관리자(root) 권한을 탈취하는 ‘제로클릭’(Zero-click) 공격 체인을 완성해 보안 업계에 충격을 주고 있다.글로벌 오픈소스 리눅스 배포판 ‘우분투’(Ubuntu) 개발사 캐노니컬과 미국 국립표준기술연구원(NIST)은 최근 리눅스 커널의 네트워크 메모…",
+  "title": "AI가 뚫어낸 리눅스 커널... 우분투에 치명적 제로클릭 원격 실행 취약점 경보"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209270",
+  "published": "2026-11-02T12:31:15+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "한국공항보안이 더존비즈온 백업서버 침해사고와 관련해 임직원 등의 개인정보 유출 가능성을 공지했다. 별도 공지에서는 자사 채용 담당자를 사칭한 악성메일이 실제 발송된 사실을 확인하고 주의를 당부했다. 두 사안의 연관성은 공지에서 확인되지 않았다.주민등록번호·급여계좌·노조 가입 정보 등 유출 가능성 안내한국공항보안은 10월 30일 공지를 통해 같은 달 28일 오전 11시 34분경 더존비즈온으로…",
+  "title": "한국공항보안, 더존비즈온 해킹으로 개인정보 유출 가능성…채용 사칭 악성메일도 주의"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209269",
+  "published": "2026-11-02T12:25:11+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "국기원이 행정업무에 이용하는 더존비즈온 ERP 백업서비스의 보안 사고와 관련해 개인정보 유출 가능성을 공지했다. 백업자료에 포함됐을 수 있는 정보에는 직원과 각종 임명·상훈 대상자 등의 성명, 주민등록번호, 연락처와 일부 소득자의 계좌정보가 포함됐다. 다만 국기원 자료가 실제 반출 대상에 포함됐는지는 확인되지 않았다.국기원은 10월 30일 홈페이지에 ‘개인정보 유출 가능성 안내 및 사과의…",
+  "title": "국기원, 더존비즈온 해킹으로 개인정보 유출 가능성 공지…주민번호·계좌정보 포함 우려"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209268",
+  "published": "2026-11-02T12:11:45+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "하이브가 전자결재시스템과 비용처리시스템에 대한 외부의 비정상적인 접근으로 내부 문서와 개인정보가 유출됐다고 밝혔다. 유출 정보에는 협력사 관계자와 전·현직 구성원 일부의 주민등록번호, 여권번호, 금융정보, 의료정보 등이 포함됐다.하이브가 공개한 ‘개인정보 유출 관련 사과의 말씀 및 안내’에 따르면, 회사는 최근 사내 보안 점검 과정에서 전자결재시스템에 연동된 외부 업체의 문서 미리보기 솔루…",
+  "title": "하이브, 전자결재·비용처리시스템 해킹…주민번호·의료정보 등 개인정보 유출"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209267",
+  "published": "2026-11-02T12:00:40+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "백종원 대표의 외식 프랜차이즈 기업 더본코리아가 더존비즈온 백업서비스 침해사고로 거래처와 전·현직 임직원, 고객상담 관련 개인정보가 유출됐을 가능성이 있다고 공식 공지했다. 유출 가능 항목에는 주민등록번호와 계좌번호, 고객상담 내용 등이 포함돼 있어 피해 범위에 관심이 집중되고 있다.더본코리아는 11월 2일 홈페이지에 '더존비즈온 개인정보 유출 가능성 및 사전 예방 조치 안내'를 게시하고,…",
+  "title": "백종원 더본코리아, 더존비즈온 해킹으로 임직원 주민번호·고객상담 정보 유출 가능성"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209266",
+  "published": "2026-11-02T10:35:21+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "김재귀 롯데호텔앤리조트 정보보호부문장(CISO·CPO)은 10월 29일 더그랜드롯데 호텔에서 열린 ‘트러스트 스피어 2026 코리아(Trust Sphere 2026 Korea)’에서 봇 대응체계를 재검토하게 된 출발점을 이같이 설명했다. 공격이 탐지되지 않았다는 결과를 안전의 근거로 받아들이지 않고, 기존 보안체계가 무엇을 놓치고 있는지 확인하기 시작했다는 것이다.탈레스 주최, 데일리시큐…",
+  "title": "김재귀 CISO “AI 봇, 정상 고객처럼 들어왔다”"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+  "published": "2026-11-02T11:50:00+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and workflows, and its v…",
+  "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+  "published": "2026-11-02T11:08:45+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificate…",
+  "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+  "published": "2026-11-02T10:49:59+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The activity, observed…",
+  "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+  "published": "2026-11-02T12:47:00+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
+  "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+  "published": "2026-11-02T11:28:42+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
+  "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+  "published": "2026-11-02T09:33:26+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Ivanti released security updates to patch two more Connect Secure (ICS) remote access gateway flaws that have been chained in zero-day attacks since at least October 1. [...]",
+  "title": "Ivanti patches two more Connect Secure zero-days chained in attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+  "published": "2026-11-02T11:29:39+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The extension performed host reconnaissance and attempted to create a reverse SSH tunnel. The post Malicious Claude Code Extension Served in Cursor Supply Chain Attack appeared first on SecurityWeek .",
+  "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+  "published": "2026-11-02T10:27:49+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The attackers used offensive agentic techniques to access the company’s systems and internal tools. The post Chainalysis Discloses Data Breach Following AI-Driven Cyberattack appeared first on SecurityWeek .",
+  "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/polymarket-returns-3-9-million-to-traders-as-debugbear-cites-dns-hijack/",
+  "published": "2026-11-02T09:33:15+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted. The post Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack appeare…",
+  "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack"
+ }
+]
