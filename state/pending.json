@@ -284,5 +284,27 @@
   "source": "SecurityWeek",
   "summary": "The top payout is for high-impact architectural research demonstrating full administrative control. The post Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward appeared first on SecurityWeek .",
   "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+  "published": "2026-11-02T15:50:26+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong inten…",
+  "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+  "published": "2026-11-02T18:16:34+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate re…",
+  "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker"
  }
 ]
