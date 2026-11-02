@@ -1,13 +1,5 @@
 [
  {
-  "at": "2026-10-30T01:18:53.221951+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "[단독] 미래에셋생명 유출사고, ‘웹셸’ 업로드 취약점 때문?"
-  ]
- },
- {
   "at": "2026-10-30T03:02:19.997696+00:00",
   "cves": [],
   "kind": "incident",
@@ -719,6 +711,14 @@
   "kind": "vuln",
   "titles": [
    "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations"
+  ]
+ },
+ {
+  "at": "2026-11-02T01:25:07.055042+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "G마켓, 고객 개인정보 유출 정황 공식 인정…“피해 금액 전액 선제 보상”"
   ]
  }
 ]
