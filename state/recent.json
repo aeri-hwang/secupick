@@ -1,86 +1,5 @@
 [
  {
-  "at": "2026-10-30T08:16:45.342541+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "GS건설 ‘자이’ 입주민 개인정보 유출… 이름, 주소, 연락처에 ‘거주유형’도"
-  ]
- },
- {
-  "at": "2026-10-30T08:16:45.342541+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[정보보안 연재소설-로그아웃되지 않는 밤] 제60화 '로그아웃되지 않는 밤'"
-  ]
- },
- {
-  "at": "2026-10-30T08:16:45.342541+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
-  ]
- },
- {
-  "at": "2026-10-30T08:16:45.342541+00:00",
-  "cves": [
-   "CVE-2026-109618"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "[주의] 시놀로지 NAS서 PHP2Shell 치명적 취약점 확인…KISA, 취약 제품 긴급 점검 권고"
-  ]
- },
- {
-  "at": "2026-10-30T08:16:45.342541+00:00",
-  "cves": [
-   "CVE-2026-23479",
-   "CVE-2026-25243"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "[긴급] 레디스서 원격코드실행 취약점 5건 발견…KISA, 보안 업데이트 권고"
-  ]
- },
- {
-  "at": "2026-10-30T09:12:42.014825+00:00",
-  "cves": [
-   "CVE-2026-111585"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines"
-  ]
- },
- {
-  "at": "2026-10-30T09:12:42.014825+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "바이낸스 8조원 규모 가상자산 탈취 배후에 北 라자루스 지목"
-  ]
- },
- {
-  "at": "2026-10-30T09:12:42.014825+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor"
-  ]
- },
- {
-  "at": "2026-10-30T09:12:42.014825+00:00",
-  "cves": [
-   "CVE-2026-118539"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw"
-  ]
- },
- {
   "at": "2026-10-30T10:05:57.346509+00:00",
   "cves": [],
   "kind": "incident",
@@ -697,6 +616,54 @@
   "kind": "incident",
   "titles": [
    "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value"
+  ]
+ },
+ {
+  "at": "2026-11-02T09:22:39.343371+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "미리보기 한 번에 비공개 대화까지...챗GPT 공유 링크 결함, 8일 만에 수정"
+  ]
+ },
+ {
+  "at": "2026-11-02T09:22:39.343371+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "FBI Flags Over 600 Addresses Tied to North Korea’s Binance Heist"
+  ]
+ },
+ {
+  "at": "2026-11-02T09:22:39.343371+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "“AI 도구와 공급망 결함에 방어 시차 붕괴”... OWASP, 10월 보안사고 톺아봐"
+  ]
+ },
+ {
+  "at": "2026-11-02T09:22:39.343371+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "‘한방에 8조원’ 바이낸스 해킹... ‘격리’와 ‘권한관리’ 경각심↑"
+  ]
+ },
+ {
+  "at": "2026-11-02T09:22:39.343371+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[더존비즈온 사태] “계약 끝난 지 11개월 지났는데”…성현회계법인 개인정보 유출 가능성"
+  ]
+ },
+ {
+  "at": "2026-11-02T09:22:39.343371+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[더존비즈온 사태] 급여 계좌부터 가족 주민번호까지... 더존비즈온 해킹이 ‘중대 사고’인 이유"
   ]
  }
 ]
