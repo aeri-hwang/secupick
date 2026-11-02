@@ -163,5 +163,126 @@
   "source": "SecurityWeek",
   "summary": "DebugBear says its DNS records were compromised via its domain registrar, and early findings show a single customer was targeted. The post Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack appeare…",
   "title": "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209275",
+  "published": "2026-11-02T15:35:15+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "전북특별자치도문화관광재단이 더존비즈온 백업서버 해킹 사고와 관련해 임직원과 거래처 관계자 등의 개인정보 유출 가능성을 공지했다. 대상 자료에는 주민등록번호와 금융기관 계좌번호, 급여·인사 정보 등이 포함돼 있다. 다만 재단 데이터의 실제 외부 유출 여부는 아직 확정되지 않았다.재단은 11월 2일 홈페이지에 ‘외부 서비스 침해사고에 따른 개인정보 유출 가능성 안내 및 주의 당부’를 게시하고,…",
+  "title": "전북문화관광재단, 개인정보 유출 공지…주민번호·급여정보 포함"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209274",
+  "published": "2026-11-02T14:59:04+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "기업용 가상사설망(VPN) 솔루션 이반티 커넥트 시큐어(Ivanti Connect Secure)에서 제로데이 취약점을 연계한 실제 공격이 확인됐다. 10월 13일 배포된 보안 패치에는 추가 취약점 수정이 포함되지 않아, 당시 업데이트를 완료한 기업도 설치 버전을 다시 확인해야 한다. 래피드7은 11월 2일 관련 분석을 통해 정기 패치 일정을 기다리지 말고 긴급 업데이트할 것을 권고했다. 인…",
+  "title": "이반티 VPN, 기존 패치 적용했어도 추가 업데이트 필수…제로데이 연쇄 악용 확인"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209273",
+  "published": "2026-11-02T14:52:56+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "일본 뷰티 플랫폼 앳코스메(@cosme)에서 약 300만명의 회원 개인정보가 유출됐다. 이름과 주소 등 신원정보뿐 아니라 피부·모발 유형 등 개인 특성 정보까지 포함된 것으로 확인됐다.운영사 아이스타일(istyle)은 11월 2일 공식 공지를 통해 지난 10월 28일 제3자의 비인가 접근으로 ‘앳코스메 공통 ID’에 등록된 회원정보 일부가 외부로 유출된 사실을 확인했다고 밝혔다. 앳코스메는…",
+  "title": "일본 @코스메 해킹, 300만명 개인정보 유출…피부·모발 유형까지 노출"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209272",
+  "published": "2026-11-02T14:43:04+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "일본 기업용 이메일 발송 서비스 ‘아라라 메시지(Arara Message)’의 해킹 피해 범위가 크게 확대됐다. 당초 약 301만건으로 발표됐던 이메일 주소 유출 사고에 대한 추가 조사에서 약 7,700만건이 반출됐거나 반출됐을 가능성이 있는 것으로 파악됐다. 이 수치는 이메일 주소 건수로, 피해자 수를 의미하지 않는다.아라라 모회사 페이클라우드홀딩스는 11월 2일 공식 2차 공지를 통해…",
+  "title": "일본 기업용 이메일 발송 서비스 ‘아라라 메시지', 약 7,700만건 유출로 확대...380개사 피해"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+  "published": "2026-11-02T14:46:05+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026. According to a repo…",
+  "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+  "published": "2026-11-02T15:03:07+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining \"hot wallets\" on instances running older versions. [...]",
+  "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+  "published": "2026-11-02T15:01:11+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Mobile carriers can retain years of call and text metadata, exposing sensitive details about customers' relationships, locations, and daily routines if breached. Cape examines the privacy risks of long-term telecom data…",
+  "title": "Your Mobile Carrier Stores Your Call Logs for Years"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+  "published": "2026-11-02T14:28:39+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
+  "title": "Hackers disrupt refrigeration systems at European supermarkets"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
+  "published": "2026-11-02T14:44:18+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The Florida Department of Education says SSNs and other personal data may have been exposed in a breach of its financial aid website. The post Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk app…",
+  "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+  "published": "2026-11-02T13:35:21+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers accessed its online shopping platform and stole customers’ personal and payment card information. The post Revolve Data Breach Impacts at Least 180,000 People appeared first on SecurityWeek .",
+  "title": "Revolve Data Breach Impacts at Least 180,000 People"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
+  "published": "2026-11-02T13:25:11+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The top payout is for high-impact architectural research demonstrating full administrative control. The post Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward appeared first on SecurityWeek .",
+  "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward"
  }
 ]
