@@ -1,21 +1,5 @@
 [
  {
-  "at": "2026-10-30T05:58:26.832317+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen"
-  ]
- },
- {
-  "at": "2026-10-30T07:17:00.793435+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "중국 해커조직 ‘워프 판다’, VMware 제로데이 악용…서버 침해 흔적 은폐"
-  ]
- },
- {
   "at": "2026-10-30T08:16:45.342541+00:00",
   "cves": [],
   "kind": "incident",
@@ -657,6 +641,62 @@
   "kind": "incident",
   "titles": [
    "“우리 해킹 포럼 정상 영업합니다”…PHP2셸로 문 닫았던 다크웹 포럼 활동 재개"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "policy",
+  "titles": [
+   "김준섭 KISA 팀장 “양자내성암호 전환, 우리 회사 암호 사용 현황부터 파악해야”"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "곽진 교수 “방어용 AI도 탈취되면 공격 무기…권한·행위 통제해야”"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "에프원시큐리티, AIS 2026서 ‘AI 자율 모의침투’ 솔루션 공개"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[더존비즈온 사태] 한국공항보안, 개인정보 유출 가능성…배우자 정보도 포함됐나"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "체크멀, 신성이넥스와 손잡고 데이터센터 안티랜섬웨어 공급 확대"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "policy",
+  "titles": [
+   "KISIA, 해외진출 R&D 성과 바탕 한-인도네시아 사이버보안 협력 다져"
+  ]
+ },
+ {
+  "at": "2026-11-02T07:42:38.651112+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value"
   ]
  }
 ]
