@@ -1,130 +1,5 @@
 [
  {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [
-   "CVE-2026-104935",
-   "CVE-2026-111357",
-   "CVE-2026-118527"
-  ],
-  "kind": "kev",
-  "titles": [
-   "CVE-2026-118527 · Ivanti Connect Secure",
-   "CVE-2026-111357 · Ivanti Connect Secure"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Critical Linux kernel flaw allows remote root attacks on MPTCP servers"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Malicious Claude Code extension on Cursor planted SSH backdoors"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Passkeys Are Better Than Passwords. But They Are Not Enough."
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "CISA says max severity GitLab flaw now exploited in the wild"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Fresh WordPress Vulnerability in Attackers’ Crosshairs"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "GS건설 자이 고객 개인정보 유출…비밀번호·RF카드번호 등 유출 가능성"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Drupal Commerce Core Vulnerability Exploited Against Online Stores"
-  ]
- },
- {
-  "at": "2026-10-30T22:47:37.441004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison"
-  ]
- },
- {
   "at": "2026-10-31T01:17:41.220981+00:00",
   "cves": [],
   "kind": "incident",
@@ -640,6 +515,183 @@
   "kind": "incident",
   "titles": [
    "[더존비즈온 사태] 급여 계좌부터 가족 주민번호까지... 더존비즈온 해킹이 ‘중대 사고’인 이유"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+   "Google disrupts million-device XCPE Android malware botnet, bans TV box maker"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "전북문화관광재단, 개인정보 유출 공지…주민번호·급여정보 포함"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "BTCPay Server warns of hot wallet crypto thefts on outdated instances"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Your Mobile Carrier Stores Your Call Logs for Years"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "이반티 VPN, 기존 패치 적용했어도 추가 업데이트 필수…제로데이 연쇄 악용 확인"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "일본 @코스메 해킹, 300만명 개인정보 유출…피부·모발 유형까지 노출"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "일본 기업용 이메일 발송 서비스 ‘아라라 메시지', 약 7,700만건 유출로 확대...380개사 피해"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers disrupt refrigeration systems at European supermarkets"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Revolve Data Breach Impacts at Least 180,000 People"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "하이브, 전자결재·비용처리시스템 해킹…주민번호·의료정보 등 개인정보 유출"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Synology warns of C3RB3R ransomware attacks targeting NAS devices"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "김재귀 CISO “AI 봇, 정상 고객처럼 들어왔다”"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "AI가 뚫어낸 리눅스 커널... 우분투에 치명적 제로클릭 원격 실행 취약점 경보"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Ivanti patches two more Connect Secure zero-days chained in attacks"
+  ]
+ },
+ {
+  "at": "2026-11-02T22:50:49.459693+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack"
   ]
  }
 ]
