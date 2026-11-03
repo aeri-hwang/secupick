@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-10-31T05:54:01.910600+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "현대이지웰 해킹으로 고객 개인정보 유출…이름·생년월일·아이디·주소 등 7개 항목"
-  ]
- },
- {
-  "at": "2026-10-31T05:54:01.910600+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "한국 기업 최다 타격 랜섬웨어 ‘논’, 공격 위한 AI에만 월 1000만원 썼다"
-  ]
- },
- {
-  "at": "2026-10-31T05:54:01.910600+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "전화 받고 30초 뒤 해킹... 텔레그램 안드로이드 통화 결함 4년 넘게 남아"
-  ]
- },
- {
   "at": "2026-10-31T07:11:39.693698+00:00",
   "cves": [],
   "kind": "incident",
@@ -758,6 +734,48 @@
   "kind": "incident",
   "titles": [
    "러시아 재난 알림 앱 해킹…33개 지역에 가짜 핵공격 경보"
+  ]
+ },
+ {
+  "at": "2026-11-03T06:08:03.767829+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "해커 조직, 반년 숨어 있다 주말에 러시아 통계청 서버 파괴 주장"
+  ]
+ },
+ {
+  "at": "2026-11-03T06:08:03.767829+00:00",
+  "cves": [
+   "CVE-2026-58115"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors"
+  ]
+ },
+ {
+  "at": "2026-11-03T06:08:03.767829+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials"
+  ]
+ },
+ {
+  "at": "2026-11-03T06:08:03.767829+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "KISA, KrCERT/CC 설립 30주년 기념 아태·국제 침해사고대응팀 협의회 부산 연례총회 개최"
+  ]
+ },
+ {
+  "at": "2026-11-03T06:08:03.767829+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "하이브, 두 차례 해킹으로 개인정보 유출... 카드번호·여권번호 등 포함"
   ]
  }
 ]
