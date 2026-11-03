@@ -1,13 +1,5 @@
 [
  {
-  "at": "2026-10-31T08:02:08.325356+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "美 FBI, ‘8.4조원’ 바이낸스 해킹 공식 수사 돌입... 트럼프 “北 소행 여부 주시 중”"
-  ]
- },
- {
   "at": "2026-10-31T09:54:01.700727+00:00",
   "cves": [],
   "kind": "incident",
@@ -808,6 +800,54 @@
   "kind": "vuln",
   "titles": [
    "레드햇, AI 시대 취약점 폭증 속에서도 '책임 있는 조율과 신뢰' 강조"
+  ]
+ },
+ {
+  "at": "2026-11-03T09:06:13.810960+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "“어느 나라도 혼자선 못 지켜” KrCERT, 30돌 맞아 아태 20개국 전문가 부산 집결"
+  ]
+ },
+ {
+  "at": "2026-11-03T09:06:13.810960+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "외교부, ‘대통령 개인정보 유출’ 개인정보위에 신고"
+  ]
+ },
+ {
+  "at": "2026-11-03T09:06:13.810960+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "방사능·핵미사일 가짜 경보... 우크라이나·러시아 재난 경보 앱 몇 시간 차로 잇따라 해킹"
+  ]
+ },
+ {
+  "at": "2026-11-03T09:06:13.810960+00:00",
+  "cves": [],
+  "kind": "policy",
+  "titles": [
+   "AI 시대 사전예방 중심 개인정보 보호 방향 모색... 9일 ‘개인정보 정책포럼’"
+  ]
+ },
+ {
+  "at": "2026-11-03T09:06:13.810960+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Over 100 European Stores Hit as Supermarket Fridge Attacks Return"
+  ]
+ },
+ {
+  "at": "2026-11-03T09:06:13.810960+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food"
   ]
  }
 ]
