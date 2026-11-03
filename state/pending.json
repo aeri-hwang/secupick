@@ -86,5 +86,71 @@
   "source": "SecurityWeek",
   "summary": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells. The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek .",
   "title": "Critical Node-RED Flaw Exploited in Attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+  "published": "2026-11-03T15:41:53+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services. The tactic is called LLMjacking, a form…",
+  "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+  "published": "2026-11-03T15:16:32+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and o…",
+  "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+  "published": "2026-11-03T15:06:16+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
+  "title": "Barracuda warns of critical flaws allowing root access to devices"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+  "published": "2026-11-03T14:00:00+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+  "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+  "published": "2026-11-03T13:33:49+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs. [...]",
+  "title": "Police seizes over 100 servers in investment scam crackdown"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+  "published": "2026-11-03T14:32:38+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek…",
+  "title": "Frontline Education Data Breach Impacts Over 1.3 Million"
  }
 ]
