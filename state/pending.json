@@ -196,5 +196,38 @@
   "source": "BleepingComputer",
   "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
   "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+  "published": "2026-11-03T21:28:44+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+  "title": "WorkOS says attacker used ARTEX AI to breach internal sales app"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+  "published": "2026-11-03T20:05:50+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6…",
+  "title": "Binance says fake job interview led to $6.3 billion crypto heist"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+  "published": "2026-11-03T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades. (미…",
+  "title": "CVE-2026-119977 · WordPress WordPress Core"
  }
 ]
