@@ -1,1 +1,90 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209299",
+  "published": "2026-11-03T11:43:54+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "한국전력공사 등이 출자한 에너지효율화 전문기업 켑코이에스(KEPCO ES)가 더존비즈온 해킹 사고로 주민등록번호와 연락처 등 개인정보가 유출됐을 가능성이 있다고 공식 공지했다. 더존비즈온 해킹 사고 여파가 에너지 분야 기업으로도 확산되고 있다.켑코이에스는 11월 2일 홈페이지에 개인정보 유출 가능성 안내문을 게시하고, 더존비즈온으로부터 APO 백업서비스 관련 서버에 저장된 일부 암호화 데이…",
+  "title": "한국전력 출자기업 켑코이에스, 주민등록번호 등 개인정보 유출 가능성 공지"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+  "published": "2026-11-03T11:23:53+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases rema…",
+  "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+  "published": "2026-11-03T11:18:20+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiti…",
+  "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+  "published": "2026-11-03T11:00:45+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group has focused exclusiv…",
+  "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+  "published": "2026-11-03T12:05:52+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
+  "title": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+  "published": "2026-11-03T10:53:25+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned…",
+  "title": "Harvard University data breach exposed info of 851,000 accounts"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+  "published": "2026-11-03T12:21:49+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The most severe is a critical flaw in Framework leading to remote code execution without user interaction. The post Android’s November 2026 Updates Patch Over 200 Vulnerabilities appeared first on SecurityWeek .",
+  "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+  "published": "2026-11-03T12:10:19+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Multiple attacks from the same IP address attempted to deploy various payloads, including a Linux bot and webshells. The post Critical Node-RED Flaw Exploited in Attacks appeared first on SecurityWeek .",
+  "title": "Critical Node-RED Flaw Exploited in Attacks"
+ }
+]
