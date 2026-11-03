@@ -1,21 +1,5 @@
 [
  {
-  "at": "2026-10-31T09:54:01.700727+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "G마켓, 전자쿠폰 무단 사용 사고 발생…개인정보 유출 가능성 조사"
-  ]
- },
- {
-  "at": "2026-10-31T09:54:01.700727+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access"
-  ]
- },
- {
   "at": "2026-10-31T22:43:13.451225+00:00",
   "cves": [],
   "kind": "incident",
@@ -848,6 +832,22 @@
   "kind": "incident",
   "titles": [
    "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food"
+  ]
+ },
+ {
+  "at": "2026-11-03T10:08:52.779280+00:00",
+  "cves": [],
+  "kind": "policy",
+  "titles": [
+   "로봇·자율주행도 가드레일 친다... 에임인텔리전스, 차세대 AI 보안 표준 제시"
+  ]
+ },
+ {
+  "at": "2026-11-03T10:08:52.779280+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets"
   ]
  }
 ]
