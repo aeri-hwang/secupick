@@ -152,5 +152,49 @@
   "source": "SecurityWeek",
   "summary": "Hackers exploited a flaw in third-party software and stole the personal information of school district staff and students. The post Frontline Education Data Breach Impacts Over 1.3 Million appeared first on SecurityWeek…",
   "title": "Frontline Education Data Breach Impacts Over 1.3 Million"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+  "published": "2026-11-03T18:16:19+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The incident is assessed t…",
+  "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+  "published": "2026-11-03T16:55:58+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tamp…",
+  "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+  "published": "2026-11-03T15:59:19+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device. The vulnera…",
+  "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+  "published": "2026-11-03T18:51:04+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day. [...]",
+  "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges"
  }
 ]
