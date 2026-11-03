@@ -1,55 +1,5 @@
 [
  {
-  "at": "2026-10-31T22:43:13.451225+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Northflank security breach leads to abuse of customers' AI API keys"
-  ]
- },
- {
-  "at": "2026-10-31T22:43:13.451225+00:00",
-  "cves": [
-   "CVE-2026-58882"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "New Android SMS of Death exploit can remotely crash unpatched phones"
-  ]
- },
- {
-  "at": "2026-10-31T22:43:13.451225+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era."
-  ]
- },
- {
-  "at": "2026-10-31T22:43:13.451225+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Chainalysis discloses data breach from \"offensive agentic techniques\""
-  ]
- },
- {
-  "at": "2026-10-31T22:43:13.451225+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data"
-  ]
- },
- {
-  "at": "2026-10-31T22:43:13.451225+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run"
-  ]
- },
- {
   "at": "2026-10-31T23:47:46.424693+00:00",
   "cves": [],
   "kind": "incident",
@@ -848,6 +798,169 @@
   "kind": "vuln",
   "titles": [
    "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [
+   "CVE-2026-119977"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-119977 · WordPress WordPress Core"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "WorkOS says attacker used ARTEX AI to breach internal sales app"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Binance says fake job interview led to $6.3 billion crypto heist"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+   "Google: LLMjacking attacks rack up $1 million in cloud AI charges"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Barracuda warns of critical flaws allowing root access to devices"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Frontline Education Data Breach Impacts Over 1.3 Million"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "UK school estate hit by 3AM ransomware in suspected AI-assisted attack"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Police seizes over 100 servers in investment scam crackdown"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Android’s November 2026 Updates Patch Over 200 Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Critical Node-RED Flaw Exploited in Attacks"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "한국전력 출자기업 켑코이에스, 주민등록번호 등 개인정보 유출 가능성 공지"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "The 4 Elements of Exposure Prioritization and How to Operationalize Them"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware"
+  ]
+ },
+ {
+  "at": "2026-11-03T22:53:28.119391+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Harvard University data breach exposed info of 851,000 accounts"
   ]
  }
 ]
