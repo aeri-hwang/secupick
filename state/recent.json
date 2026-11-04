@@ -954,5 +954,13 @@
   "titles": [
    "Harvard University data breach exposed info of 851,000 accounts"
   ]
+ },
+ {
+  "at": "2026-11-04T01:23:40.302102+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[더존비즈온 사태] 유출 의심 기업 현황"
+  ]
  }
 ]
