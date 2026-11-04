@@ -251,5 +251,60 @@
   "source": "SecurityWeek",
   "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first…",
   "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209313",
+  "published": "2026-11-04T17:48:44+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "인공지능(AI)이 사이버 공격과 방어 기술을 빠르게 바꾸는 가운데, 보안담당자들이 한자리에 모여 새로운 위협과 실무 대응 전략을 공유했다.데일리시큐가 주최하고 한국인터넷진흥원(KISA)과 한국정보보호산업협회(KISIA)가 후원한 ‘2026 인공지능 보안 컨퍼런스(AIS 2026)’가 11월 3일 서울 한국과학기술회관 국제회의실에서 700여 명의 보안담당자와 관계자가 참여한 가운데 성황리에…",
+  "title": "“AI 시대 보안 전략 공유\"...AIS 2026, 보안담당자 700여 명 참석 성황리 개최"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+  "published": "2026-11-04T17:00:46+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that…",
+  "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+  "published": "2026-11-04T17:00:38+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier vers…",
+  "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+  "published": "2026-11-04T19:05:19+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+  "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+  "published": "2026-11-04T16:58:46+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wall…",
+  "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware"
  }
 ]
