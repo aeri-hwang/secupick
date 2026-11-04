@@ -976,5 +976,21 @@
   "titles": [
    "씨큐비스타, 복호화 없이 C2 통신 잡는 '패킷사이버 EVA' 출시"
   ]
+ },
+ {
+  "at": "2026-11-04T07:40:12.256318+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "빗썸·한양증권 해킹, ‘다우오피스’ 제로데이 공격에 당했다... 접근통제 미흡 취약점이 화근"
+  ]
+ },
+ {
+  "at": "2026-11-04T07:40:12.256318+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades"
+  ]
  }
 ]
