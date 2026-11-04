@@ -1,45 +1,5 @@
 [
  {
-  "at": "2026-11-01T08:59:46.630207+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "FBI, 바이낸스 64억 달러 해킹 배후로 북한 공식 지목…체이널리시스 “올해 가상자산 해킹 피해 89% 북한 연계”"
-  ]
- },
- {
-  "at": "2026-11-01T08:59:46.630207+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "한화엔진, 외부 서버 비인가 접근으로 개인정보 1,903건 유출 가능성…임직원·협력업체 정보 영향 우려"
-  ]
- },
- {
-  "at": "2026-11-01T08:59:46.630207+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script"
-  ]
- },
- {
-  "at": "2026-11-01T08:59:46.630207+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "케이옥션 개인정보 유출 가능성 공지…더존 서비스 해지 6개월 지나도 데이터 남아"
-  ]
- },
- {
-  "at": "2026-11-01T08:59:46.630207+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection"
-  ]
- },
- {
   "at": "2026-11-01T09:57:53.734643+00:00",
   "cves": [],
   "kind": "vuln",
@@ -991,6 +951,32 @@
   "kind": "vuln",
   "titles": [
    "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades"
+  ]
+ },
+ {
+  "at": "2026-11-04T09:13:10.953938+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million"
+  ]
+ },
+ {
+  "at": "2026-11-04T09:13:10.953938+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure"
+  ]
+ },
+ {
+  "at": "2026-11-04T09:13:10.953938+00:00",
+  "cves": [
+   "CVE-2026-58868"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction"
   ]
  }
 ]
