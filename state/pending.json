@@ -306,5 +306,38 @@
   "source": "BleepingComputer",
   "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wall…",
   "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+  "published": "2026-11-04T21:31:18+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+  "title": "Vercel rolls out new protection against stolen session cookie attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+  "published": "2026-11-04T20:58:19+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+  "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+  "published": "2026-11-04T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication. (미 연방기관 조치 기한: 2026-11-18)",
+  "title": "CVE-2024-27834 · Apple Multiple Products"
  }
 ]
