@@ -1,1 +1,189 @@
-[]
+[
+ {
+  "category": "notice_kr",
+  "default_kind": "vuln",
+  "kind": "vuln",
+  "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000302&searchWrd=&menuNo=205023&pageIndex=1&categoryCode=&nttId=72276",
+  "published": "2026-11-03T15:00:00+00:00",
+  "related": [],
+  "source": "KISA 보호나라 취약점 정보",
+  "summary": "",
+  "title": "CVE-2026-76146 | 지니언스 Genian SSL PNS 운영체제 명령어 삽입"
+ },
+ {
+  "category": "notice_kr",
+  "default_kind": "vuln",
+  "kind": "vuln",
+  "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000302&searchWrd=&menuNo=205023&pageIndex=1&categoryCode=&nttId=72275",
+  "published": "2026-11-03T15:00:00+00:00",
+  "related": [],
+  "source": "KISA 보호나라 취약점 정보",
+  "summary": "",
+  "title": "CVE-2026-76147 | 지니언스 Genian NAC/ZTNA 원격 코드 실행"
+ },
+ {
+  "category": "notice_kr",
+  "default_kind": "vuln",
+  "kind": "vuln",
+  "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000302&searchWrd=&menuNo=205023&pageIndex=1&categoryCode=&nttId=72274",
+  "published": "2026-11-03T15:00:00+00:00",
+  "related": [],
+  "source": "KISA 보호나라 취약점 정보",
+  "summary": "",
+  "title": "CVE-2026-76142 | 지니언스 Genian NAC/ZTNA 내부 인터페이스 접근통제 미흡"
+ },
+ {
+  "category": "notice_kr",
+  "default_kind": "vuln",
+  "kind": "vuln",
+  "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000302&searchWrd=&menuNo=205023&pageIndex=1&categoryCode=&nttId=72273",
+  "published": "2026-11-03T15:00:00+00:00",
+  "related": [],
+  "source": "KISA 보호나라 취약점 정보",
+  "summary": "",
+  "title": "CVE-2026-76145 | 지니언스 Genian SSL PNS 권한 관리 미흡"
+ },
+ {
+  "category": "notice_kr",
+  "default_kind": "vuln",
+  "kind": "vuln",
+  "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000302&searchWrd=&menuNo=205023&pageIndex=1&categoryCode=&nttId=72272",
+  "published": "2026-11-03T15:00:00+00:00",
+  "related": [],
+  "source": "KISA 보호나라 취약점 정보",
+  "summary": "",
+  "title": "CVE-2026-76144 | 지니언스 Genian SSL PNS 위험한 형식 파일 업로드"
+ },
+ {
+  "category": "notice_kr",
+  "default_kind": "vuln",
+  "kind": "vuln",
+  "link": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000302&searchWrd=&menuNo=205023&pageIndex=1&categoryCode=&nttId=72271",
+  "published": "2026-11-03T15:00:00+00:00",
+  "related": [],
+  "source": "KISA 보호나라 취약점 정보",
+  "summary": "",
+  "title": "CVE-2026-76143 | 지니언스 Genian SSL PNS 2차 인증 우회"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209311",
+  "published": "2026-11-04T10:34:12+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "미국 하버드대학교의 해킹 사고로 유출된 개인정보가 85만 건을 넘는 것으로 확인됐다. 유출 정보에는 이름과 연락처뿐 아니라 가족관계, 직업, 기부 내역 등 민감한 개인 정보가 포함돼 2차 피해 우려가 커지고 있다.개인정보 유출 확인 서비스 해브아이빈폰드(Have I Been Pwned)는 11월 3일 하버드대학교 해킹 사고와 관련된 85만537개의 이메일 계정 정보를 신규 등록했다고 밝혔다…",
+  "title": "하버드대학교 해킹 피해 85만 건 확인…기부 내역·가족정보까지 유출"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209310",
+  "published": "2026-11-04T10:26:48+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "미국 교육행정 소프트웨어 기업 프런트라인 에듀케이션(Frontline Education)이 해킹 공격을 받아 130만 명 이상의 개인정보가 유출된 것으로 파악됐다. 유출 정보에는 미국 사회보장번호(SSN)를 비롯해 여권번호, 운전면허번호, 학생 식별번호 등 민감한 개인정보가 포함됐다.프런트라인 에듀케이션은 미국 초·중·고등학교를 대상으로 인사관리, 학생 건강관리, 교육행정 솔루션을 제공하는…",
+  "title": "미국 교육서비스 기업 해킹…130만 명 이상 개인정보 유출"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+  "published": "2026-11-04T12:07:04+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclose…",
+  "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+  "published": "2026-11-04T11:46:27+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0. Dom0 is the VM that, by default, has full permissions and manages…",
+  "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+  "published": "2026-11-04T11:24:31+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a sur…",
+  "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+  "published": "2026-11-04T13:13:20+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A federal grand jury indicted two Canadians suspected of hacking multiple US universities and using the compromised systems to mine for cryptocurrency. [...]",
+  "title": "US charges two Canadians accused of hacking US universities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+  "published": "2026-11-04T12:11:05+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+  "title": "CISA flags WordPress RCE flaw as actively exploited in attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+  "published": "2026-11-04T12:43:20+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on Se…",
+  "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+  "published": "2026-11-04T10:54:48+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Using compromised credentials, the attackers accessed OpsShield’s update servers and poisoned multiple cPGuard versions. The post Malicious cPGuard Updates Served in OpsShield Supply Chain Attack appeared first on Secur…",
+  "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/chrome-157-rolls-out-with-213-security-fixes-seven-rated-critical/",
+  "published": "2026-11-04T10:38:46+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The browser update resolves dozens of memory safety bugs and incorrect/missing authorization issues. The post Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical appeared first on SecurityWeek .",
+  "title": "Chrome 157 Rolls Out With 213 Security Fixes, Seven Rated Critical"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/",
+  "published": "2026-11-04T10:36:32+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers. The post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist ap…",
+  "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist"
+ }
+]
