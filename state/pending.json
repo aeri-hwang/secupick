@@ -185,5 +185,71 @@
   "source": "SecurityWeek",
   "summary": "Binance’s first incident report traces the record theft to a months-long campaign that compromised three engineers’ computers. The post Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist ap…",
   "title": "Rigged Coding Assignment, Abused AI Tool Opened Path to $6 Billion Binance Heist"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209312",
+  "published": "2026-11-04T15:32:16+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "네트워크 보안 전문기업 퓨쳐시스템(대표 정원규)은 노드제이에스(Node.js) 관련 보안 취약점 4건에 대응하기 위해 자사 위가디아(WeGuardia) 통합관리 제품에 보안 업데이트를 제공한다고 밝혔다.이번 대응 대상은 CVE-2026-111497, CVE-2026-105482, CVE-2026-105483, CVE-2026-106069다. 회사는 해당 취약점이 제품에 미치는 영향을 검토하…",
+  "title": "퓨쳐시스템, Node.js 취약점 4건 대응…위가디아 통합관리 제품 업데이트 제공"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+  "published": "2026-11-04T14:27:52+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a U…",
+  "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+  "published": "2026-11-04T15:00:10+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the at…",
+  "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+  "published": "2026-11-04T14:42:25+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
+  "title": "SonicWall warns of unpatched flaws in end-of-life GMS software"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "policy",
+  "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+  "published": "2026-11-04T14:34:44+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on Sec…",
+  "title": "Sysdig Adds Runtime Security and Governance for AI Agents"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+  "published": "2026-11-04T14:24:54+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first…",
+  "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root"
  }
 ]
