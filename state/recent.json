@@ -1,21 +1,5 @@
 [
  {
-  "at": "2026-11-02T05:20:23.968599+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "그룹아이비, 인터폴 아프리카 사이버 범죄 소탕 작전 지원"
-  ]
- },
- {
-  "at": "2026-11-02T05:20:23.968599+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "“우리 해킹 포럼 정상 영업합니다”…PHP2셸로 문 닫았던 다크웹 포럼 활동 재개"
-  ]
- },
- {
   "at": "2026-11-02T07:42:38.651112+00:00",
   "cves": [],
   "kind": "policy",
@@ -1210,6 +1194,30 @@
   "kind": "vuln",
   "titles": [
    "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run"
+  ]
+ },
+ {
+  "at": "2026-11-05T06:18:48.456457+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "47만건 유출에 털린 금융권... ‘낡은’ 망분리 버리고 ‘AI 방어막’ 짠다"
+  ]
+ },
+ {
+  "at": "2026-11-05T06:18:48.456457+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says"
+  ]
+ },
+ {
+  "at": "2026-11-05T06:18:48.456457+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "공격 끝나면 흔적까지 지운다... 중국 볼트 타이푼, 일회용 공유기 경로로 제로데이 공격"
   ]
  }
 ]
