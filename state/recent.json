@@ -1,13 +1,5 @@
 [
  {
-  "at": "2026-11-02T23:50:00.214773+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "숭실대 이정현 교수팀, 생성형 AI 악성코드 분석 기술로 미국·유럽·일본 특허 32건 출원…기술이전 4억700만 원"
-  ]
- },
- {
   "at": "2026-11-03T01:22:48.175757+00:00",
   "cves": [],
   "kind": "incident",
@@ -1203,6 +1195,14 @@
   "kind": "vuln",
   "titles": [
    "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026"
+  ]
+ },
+ {
+  "at": "2026-11-05T23:55:21.938141+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "‘활동 중’ 신생 랜섬웨어 조직만 59곳 식별... “AI로 급증”"
   ]
  }
 ]
