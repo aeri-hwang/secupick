@@ -141,5 +141,38 @@
   "source": "SecurityWeek",
   "summary": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared firs…",
   "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+  "published": "2026-11-05T16:42:46+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, a…",
+  "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+  "published": "2026-11-05T16:42:32+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence…",
+  "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+  "published": "2026-11-05T21:30:30+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and a…",
+  "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts"
  }
 ]
