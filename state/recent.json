@@ -1203,5 +1203,13 @@
   "titles": [
    "협력업체 거쳐 은행 계좌로 직행... 프랑스 아르케아, 1억3300만달러 규모 탈취 인정"
   ]
+ },
+ {
+  "at": "2026-11-05T05:14:40.827808+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run"
+  ]
  }
 ]
