@@ -1,182 +1,5 @@
 [
  {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-   "Google disrupts million-device XCPE Android malware botnet, bans TV box maker"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "전북문화관광재단, 개인정보 유출 공지…주민번호·급여정보 포함"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "BTCPay Server warns of hot wallet crypto thefts on outdated instances"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Your Mobile Carrier Stores Your Call Logs for Years"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "이반티 VPN, 기존 패치 적용했어도 추가 업데이트 필수…제로데이 연쇄 악용 확인"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "일본 @코스메 해킹, 300만명 개인정보 유출…피부·모발 유형까지 노출"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "일본 기업용 이메일 발송 서비스 ‘아라라 메시지', 약 7,700만건 유출로 확대...380개사 피해"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers disrupt refrigeration systems at European supermarkets"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Revolve Data Breach Impacts at Least 180,000 People"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "하이브, 전자결재·비용처리시스템 해킹…주민번호·의료정보 등 개인정보 유출"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Synology warns of C3RB3R ransomware attacks targeting NAS devices"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "김재귀 CISO “AI 봇, 정상 고객처럼 들어왔다”"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "AI가 뚫어낸 리눅스 커널... 우분투에 치명적 제로클릭 원격 실행 취약점 경보"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Ivanti patches two more Connect Secure zero-days chained in attacks"
-  ]
- },
- {
-  "at": "2026-11-02T22:50:49.459693+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Polymarket Returns $3.9 Million to Traders as DebugBear Cites DNS Hijack"
-  ]
- },
- {
   "at": "2026-11-02T23:50:00.214773+00:00",
   "cves": [],
   "kind": "incident",
@@ -1250,6 +1073,136 @@
   "kind": "vuln",
   "titles": [
    "메타 AI 개발환경서 보안 취약점 발견…내부 대화·인증 토큰 노출 위험"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenSSH flaw lets attackers log into password-disabled Linux accounts"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers backdoor Linux servers using trojanized CWP web server"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "DigiCert data breach exposes customer information, identity documents"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Closing the Identity Gap at the Service Desk"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [
+   "CVE-2026-107441"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes"
+  ]
+ },
+ {
+  "at": "2026-11-05T22:55:35.228793+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026"
   ]
  }
 ]
