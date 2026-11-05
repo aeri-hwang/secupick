@@ -72,6 +72,7 @@
  "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html": "2026-10-28",
  "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html": "2026-10-26",
  "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html": "2026-10-30",
+ "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html": "2026-11-05",
  "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html": "2026-11-04",
  "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html": "2026-11-03",
  "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html": "2026-11-02",
@@ -592,6 +593,7 @@
  "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/": "2026-10-26",
  "https://www.securityweek.com/attackers-exploit-second-cisco-firewall-vpn-zero-day-since-august/": "2026-10-29",
  "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/": "2026-10-29",
+ "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/": "2026-11-05",
  "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/": "2026-11-04",
  "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/": "2026-10-30",
  "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/": "2026-11-02",
@@ -602,7 +604,9 @@
  "https://www.securityweek.com/cisa-warns-of-node2shell-exploitation-as-honeypots-log-attack-attempts/": "2026-10-28",
  "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/": "2026-10-29",
  "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/": "2026-10-29",
+ "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/": "2026-11-05",
  "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/": "2026-11-03",
+ "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/": "2026-11-05",
  "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/": "2026-10-27",
  "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/": "2026-10-27",
  "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/": "2026-10-30",
@@ -644,6 +648,7 @@
  "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/": "2026-11-02",
  "https://www.securityweek.com/rigged-coding-assignment-abused-ai-tool-opened-path-to-6-billion-binance-heist/": "2026-11-04",
  "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/": "2026-10-27",
+ "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/": "2026-11-05",
  "https://www.securityweek.com/secrets-management-firm-infisical-valued-at-600-million-after-40-million-raise/": "2026-10-28",
  "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/": "2026-10-26",
  "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/": "2026-10-31",
@@ -655,5 +660,6 @@
  "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/": "2026-10-28",
  "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/": "2026-10-27",
  "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/": "2026-10-28",
- "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": "2026-10-27"
+ "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/": "2026-10-27",
+ "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/": "2026-11-05"
 }

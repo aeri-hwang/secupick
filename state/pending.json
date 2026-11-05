@@ -1,1 +1,68 @@
-[]
+[
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+  "published": "2026-11-05T10:06:19+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campa…",
+  "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+  "published": "2026-11-05T13:22:12+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek .",
+  "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+  "published": "2026-11-05T12:58:32+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but…",
+  "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+  "published": "2026-11-05T12:33:49+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek .",
+  "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
+  "published": "2026-11-05T10:56:41+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests. The post Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day appeared…",
+  "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
+  "published": "2026-11-05T10:37:13+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine. The post Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes appeared first o…",
+  "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes"
+ }
+]
