@@ -1,69 +1,5 @@
 [
  {
-  "at": "2026-11-03T09:06:13.810960+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "“어느 나라도 혼자선 못 지켜” KrCERT, 30돌 맞아 아태 20개국 전문가 부산 집결"
-  ]
- },
- {
-  "at": "2026-11-03T09:06:13.810960+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "외교부, ‘대통령 개인정보 유출’ 개인정보위에 신고"
-  ]
- },
- {
-  "at": "2026-11-03T09:06:13.810960+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "방사능·핵미사일 가짜 경보... 우크라이나·러시아 재난 경보 앱 몇 시간 차로 잇따라 해킹"
-  ]
- },
- {
-  "at": "2026-11-03T09:06:13.810960+00:00",
-  "cves": [],
-  "kind": "policy",
-  "titles": [
-   "AI 시대 사전예방 중심 개인정보 보호 방향 모색... 9일 ‘개인정보 정책포럼’"
-  ]
- },
- {
-  "at": "2026-11-03T09:06:13.810960+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Over 100 European Stores Hit as Supermarket Fridge Attacks Return"
-  ]
- },
- {
-  "at": "2026-11-03T09:06:13.810960+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food"
-  ]
- },
- {
-  "at": "2026-11-03T10:08:52.779280+00:00",
-  "cves": [],
-  "kind": "policy",
-  "titles": [
-   "로봇·자율주행도 가드레일 친다... 에임인텔리전스, 차세대 AI 보안 표준 제시"
-  ]
- },
- {
-  "at": "2026-11-03T10:08:52.779280+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets"
-  ]
- },
- {
   "at": "2026-11-03T22:53:28.119391+00:00",
   "cves": [
    "CVE-2026-119977"
@@ -1119,6 +1055,30 @@
   "kind": "vuln",
   "titles": [
    "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login"
+  ]
+ },
+ {
+  "at": "2026-11-06T10:18:16.873597+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "MetaMask says recent attack didn't affect wallet infrastructure"
+  ]
+ },
+ {
+  "at": "2026-11-06T10:18:16.873597+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 랜섬웨어 조직 ‘인크랜섬’, 파낙스 그룹·욱성화학 해킹 주장"
+  ]
+ },
+ {
+  "at": "2026-11-06T10:18:16.873597+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services"
   ]
  }
 ]
