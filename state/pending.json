@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209347",
+  "published": "2026-11-06T13:17:36+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "전국 수천 개 아파트 단지에서 사용하는 생활 플랫폼 '아파트너'가 외부 해킹 공격으로 입주민 개인정보를 유출하는 사고를 당했다. 공격자는 시스템의 데이터 내보내기 기능에 비인가 접근해 일부 이용자의 휴대전화번호가 담긴 파일을 외부로 반출한 것으로 확인됐다.아파트너 운영사 두꺼비세상은 11월 6일 이용자들에게 개인정보 유출 사실을 안내했다. 회사는 외부의 비인가 접근으로 일부 이용자의 휴대전…",
+  "title": "'아파트너' 해킹으로 입주민 휴대전화번호 유출…12일 지나서야 사고 인지"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209345",
+  "published": "2026-11-06T12:52:38+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "한국인터넷진흥원(KISA)이 백신 프로그램과 연계한 ‘보안 취약점 클리닝 서비스’를 통해 올해 이용자 컴퓨터에 설치된 취약 소프트웨어 555만 건의 조치를 지원했다고 11월 6일 밝혔다.보안 취약점 클리닝 서비스는 컴퓨터에 설치된 소프트웨어의 보안 취약점을 탐지하고, 해당 소프트웨어를 삭제하거나 보안 패치가 적용된 최신 버전으로 업데이트하도록 안내·지원하는 대국민 정보보호 서비스다. 보안…",
+  "title": "KISA, 백신 연계해 취약 소프트웨어 555만 건 조치 지원"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209344",
+  "published": "2026-11-06T12:47:44+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "시큐리티스코어카드(SecurityScorecard, 한국지사장 우청하)는 AI 모델의 제3자 위험 관리(TPRM) 업무 수행 능력과 적대적 공격 대응 역량을 평가하는 ‘AI TPRM 벤치마크’를 출시했다고 6일 밝혔다. 회사는 공급망 보안 업무 역량과 AI 모델의 공격 저항성을 통합 평가하는 세계 최초의 벤치마크라고 설명했다.이번 벤치마크는 기업이 공급업체 보안 평가에 AI를 도입하기 전,…",
+  "title": "시큐리티스코어카드, AI 공급망 보안 평가 ‘TPRM 벤치마크’ 출시"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+  "published": "2026-11-06T12:06:43+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was t…",
+  "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+  "published": "2026-11-06T12:06:35+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch…",
+  "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+  "published": "2026-11-06T12:37:22+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+  "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
+  "published": "2026-11-06T13:19:52+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared fi…",
+  "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
+  "published": "2026-11-06T13:02:26+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe. The post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek .",
+  "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/openssh-rushes-patches-for-sshole-authentication-bypass/",
+  "published": "2026-11-06T12:07:42+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek .",
+  "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass"
+ }
+]
