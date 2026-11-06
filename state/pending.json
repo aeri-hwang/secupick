@@ -262,5 +262,27 @@
   "source": "SecurityWeek",
   "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan. The post Japan Announces Emerge…",
   "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+  "published": "2026-11-06T20:24:19+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws. [.…",
+  "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19868",
+  "published": "2026-11-06T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "SonicWall SonicOS SSLVPN contains a use of single-factor authentication vulnerability that may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA).…",
+  "title": "CVE-2026-19868 · SonicWall SonicOS SSLVPN"
  }
 ]
