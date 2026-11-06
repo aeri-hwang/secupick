@@ -196,5 +196,71 @@
   "source": "SecurityWeek",
   "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on Security…",
   "title": "DigiCert Data Breach Impacts Business Customer Information"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+  "published": "2026-11-06T16:08:38+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it. The update that installs the fix still unpacks…",
+  "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+  "published": "2026-11-06T15:21:49+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability, tracked as CVE-2026…",
+  "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+  "published": "2026-11-06T14:58:32+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The ne…",
+  "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+  "published": "2026-11-06T18:46:52+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
+  "title": "Fake security tools on GitHub push backdoors and infostealers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+  "published": "2026-11-06T17:04:23+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
+  "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
+  "published": "2026-11-06T18:28:41+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The emergency package comes after dozens of companies and government agencies were hit by unauthorized access to their systems and leaks of client data, prompting uneasiness across Japan. The post Japan Announces Emerge…",
+  "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks"
  }
 ]
