@@ -1,168 +1,5 @@
 [
  {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [
-   "CVE-2026-119977"
-  ],
-  "kind": "kev",
-  "titles": [
-   "CVE-2026-119977 · WordPress WordPress Core"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "WorkOS says attacker used ARTEX AI to breach internal sales app"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Binance says fake job interview led to $6.3 billion crypto heist"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
-   "Google: LLMjacking attacks rack up $1 million in cloud AI charges"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Barracuda warns of critical flaws allowing root access to devices"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Frontline Education Data Breach Impacts Over 1.3 Million"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "UK school estate hit by 3AM ransomware in suspected AI-assisted attack"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Police seizes over 100 servers in investment scam crackdown"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Android’s November 2026 Updates Patch Over 200 Vulnerabilities"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Critical Node-RED Flaw Exploited in Attacks"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "한국전력 출자기업 켑코이에스, 주민등록번호 등 개인정보 유출 가능성 공지"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "The 4 Elements of Exposure Prioritization and How to Operationalize Them"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware"
-  ]
- },
- {
-  "at": "2026-11-03T22:53:28.119391+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Harvard University data breach exposed info of 851,000 accounts"
-  ]
- },
- {
   "at": "2026-11-04T01:23:40.302102+00:00",
   "cves": [],
   "kind": "incident",
@@ -1269,6 +1106,30 @@
   "kind": "incident",
   "titles": [
    "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers"
+  ]
+ },
+ {
+  "at": "2026-11-06T23:51:03.903678+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 부산외대 평생교육원 업무용 PC 해킹, 주민등록번호·계좌번호 등 개인정보 유출 우려"
+  ]
+ },
+ {
+  "at": "2026-11-06T23:51:03.903678+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "세무·경리 플랫폼 '자비스' 해킹, 기업 대표자 주민번호부터 급여·결제·공동인증서 정보까지 유출 우려"
+  ]
+ },
+ {
+  "at": "2026-11-06T23:51:03.903678+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 회원 11만명 넘는 대한치과위생사협회, 개인정보 유출 사고 발생…회원 대상 비밀번호 변경 긴급 권고"
   ]
  }
 ]
