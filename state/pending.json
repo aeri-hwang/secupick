@@ -97,5 +97,104 @@
   "source": "SecurityWeek",
   "summary": "On Linux distributions using musl libc without PAM, some accounts accept any password between 257 and 1024 characters. The post OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass appeared first on SecurityWeek .",
   "title": "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.boannews.com/news/articleView.html?idxno=147080",
+  "published": "2026-11-06T15:43:52+00:00",
+  "related": [],
+  "source": "보안뉴스 사건·사고",
+  "summary": "해커가 사칭 메일을 발송한 것으로 의심돼 서비스를 중단했던 기업용 AI 세무·경리 서비스 ‘자비스’(Jobis)에서, 실제로 외부 해커의 불법 침입을 받아 개인정보가 유출된 정황이 확인됐다.자비스 운영사인 세무법인 에스브이는 외부 해커의 불법 접근으로 자비스 서비스에 저장된 고객 개인정보가 유출된 사실(또는 유출 가능성)을 확인했다고 6일 밝혔다.앞서 이 회사는 5일 외부 해커가 자비스를…",
+  "title": "‘사칭’이라던 자비스, 실제 뚫렸다... 공동인증서·결제 정보 등 유출 확인"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209352",
+  "published": "2026-11-06T15:07:10+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "KAC공항서비스가 더존비즈온 APO 백업서비스 침해사고와 관련해 개인정보 유출 가능성을 안내했다. 더존비즈온 백업서버에 저장된 일부 암호화 데이터가 외부로 반출된 정황에 따른 것으로, KAC공항서비스의 백업자료와 개인정보가 실제 유출됐는지는 확인되지 않았다.KAC공항서비스는 11월 6일 총무팀 명의로 게시한 공지에서 자사가 이용하는 더존비즈온 백업서버에 비인가자의 접근과 일부 암호화 데이터…",
+  "title": "KAC공항서비스, 더존비즈온 해킹으로 개인정보 유출 가능성 안내"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209351",
+  "published": "2026-11-06T14:57:57+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "한국공인중개사협회가 운영하는 교육원 홈페이지에서 외부의 비정상적인 접근으로 의심되는 정황이 발견돼 회원 개인정보 유출 가능성에 대한 조사가 진행되고 있다. 이름과 휴대전화번호, 생년월일 등이 외부에 노출됐을 가능성이 제기됐으며, 협회는 전문 보안업체와 함께 실제 개인정보 유출 여부와 피해 범위를 확인하고 있다.한국공인중개사협회(회장 김종호)는 지난 11월 5일 공식 홈페이지에 ‘협회 교육원…",
+  "title": "[단독] 한국공인중개사협회 교육원 서버 해킹 당해…유출 범위 조사중"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209350",
+  "published": "2026-11-06T14:28:00+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "전남정보문화산업진흥원(JCIA)이 11월 6일 공식 홈페이지에 ‘[안내] 개인정보 유출 가능성 및 침해사고 안내’라는 제목의 공지사항을 게시한 것으로 확인됐다.이번 공지는 최근 더존비즈온의 APO 백업서비스 침해사고로 다수 기관과 기업에서 개인정보 유출 가능성을 안내하고 있는 가운데 게시됐다는 점에서 주목된다.더존비즈온이 공개한 ‘APO 백업서버 관련 개인정보 유출 가능성 및 침해사고 안내…",
+  "title": "전남정보문화산업진흥원, 개인정보 유출 가능성 공지…더존비즈온 해킹 영향"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209349",
+  "published": "2026-11-06T14:13:11+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "더존비즈온 백업서버 해킹 사고의 영향이 공공 문화기관으로 확산되고 있는 가운데, 노원문화재단 도서관기획실도 개인정보 유출 가능성을 공식 안내했다.유출 가능성이 있는 정보에는 직원과 거래처 관계자 등의 주민등록번호, 생년월일, 연락처, 주소뿐 아니라 일부 사업소득자의 은행명과 계좌번호까지 포함돼 있어 2차 피해 우려가 제기된다.노원문화재단 도서관기획실은 11월 6일 공식 홈페이지에 '외부 서…",
+  "title": "노원문화재단, 주민등록번호·계좌번호 등 개인정보 유출 가능성 공지"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209348",
+  "published": "2026-11-06T13:58:43+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "온라인 증권·투자정보 서비스를 제공하는 이토마토가 외부 해커의 공격으로 회원 개인정보가 유출되는 사고를 당한 것으로 확인됐다. 특히 이번 사고는 이토마토 홈페이지가 아닌 계열사인 뉴스토마토와 토마토TV 홈페이지의 로그인 화면에 존재하는 보안 취약점을 통해 발생한 것으로 밝혀져 계열사 간 회원정보 연계 시스템의 보안 관리 문제가 주목된다.이토마토의 11월 6일 자 ‘개인정보 유출 사실 통지…",
+  "title": "[단독] 이토마토 해킹으로 회원 개인정보 유출, 뉴스토마토·토마토TV 로그인 취약점 악용"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+  "published": "2026-11-06T15:00:10+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+  "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+  "published": "2026-11-06T14:17:07+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+  "title": "Chainalysis says breach exposed credentials for all customers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
+  "published": "2026-11-06T14:00:07+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses. The post DigiCert Data Breach Impacts Business Customer Information appeared first on Security…",
+  "title": "DigiCert Data Breach Impacts Business Customer Information"
  }
 ]
