@@ -1,53 +1,5 @@
 [
  {
-  "at": "2026-11-03T07:29:27.546596+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "지메일 영수증 뒤져 집 주소까지... AI로 피해자 신상 보고서 쓰는 악성코드 ‘볼타’"
-  ]
- },
- {
-  "at": "2026-11-03T07:29:27.546596+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "자율형 AI부터 양자 보안까지...이스라엘 보안 기업 7개사, 판교서 신기술 공개"
-  ]
- },
- {
-  "at": "2026-11-03T07:29:27.546596+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "대통령 개인정보 유출 파문... ‘바이러스 토탈’ 이용 행태 도마 위"
-  ]
- },
- {
-  "at": "2026-11-03T07:29:27.546596+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "이 대통령, ‘사이버 보안 차르’ 검토 지시…공군 1호기 168명 개인정보 유출 수사"
-  ]
- },
- {
-  "at": "2026-11-03T07:29:27.546596+00:00",
-  "cves": [],
-  "kind": "policy",
-  "titles": [
-   "메가존클라우드, KAIST와 피지컬 AI 표준화 및 글로벌 진출 협력"
-  ]
- },
- {
-  "at": "2026-11-03T07:29:27.546596+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "레드햇, AI 시대 취약점 폭증 속에서도 '책임 있는 조율과 신뢰' 강조"
-  ]
- },
- {
   "at": "2026-11-03T09:06:13.810960+00:00",
   "cves": [],
   "kind": "incident",
@@ -1151,6 +1103,22 @@
   "kind": "incident",
   "titles": [
    "에브리존 “화이트디펜더 리눅스서버, 국내 최초 GS인증 1등급 획득”"
+  ]
+ },
+ {
+  "at": "2026-11-06T08:24:14.761583+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs"
+  ]
+ },
+ {
+  "at": "2026-11-06T08:24:14.761583+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login"
   ]
  }
 ]
