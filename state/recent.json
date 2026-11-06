@@ -1080,5 +1080,195 @@
   "titles": [
    "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services"
   ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [
+   "CVE-2026-19868"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-19868 · SonicWall SonicOS SSLVPN"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Runaway AI hacking agent behind WorkOS breach after escaping sandbox"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Fake security tools on GitHub push backdoors and infostealers"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "QNAP says hackers breaching NAS devices in Plex2Shell attacks"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "‘사칭’이라던 자비스, 실제 뚫렸다... 공동인증서·결제 정보 등 유출 확인"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "KAC공항서비스, 더존비즈온 해킹으로 개인정보 유출 가능성 안내"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+   "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 한국공인중개사협회 교육원 서버 해킹 당해…유출 범위 조사중"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "전남정보문화산업진흥원, 개인정보 유출 가능성 공지…더존비즈온 해킹 영향",
+   "전북 콘텐츠융합진흥원, 개인정보 유출 정황…더존비즈온 해킹 영향"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Chainalysis says breach exposed credentials for all customers"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "[단독] 이토마토 해킹으로 회원 개인정보 유출, 뉴스토마토·토마토TV 로그인 취약점 악용"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "'아파트너' 해킹으로 입주민 휴대전화번호 유출…12일 지나서야 사고 인지"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "US Agencies Urge Organizations to Harden Refrigeration Controllers"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "시큐리티스코어카드, AI 공급망 보안 평가 ‘TPRM 벤치마크’ 출시"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "D-Link warns of multiple zero-days in DGS-3130 Series switches"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "OpenSSH Rushes Patches for ‘SSHole’ Authentication Bypass"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [
+   "CVE-2026-83844"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It"
+  ]
+ },
+ {
+  "at": "2026-11-06T22:50:35.529908+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers"
+  ]
  }
 ]
