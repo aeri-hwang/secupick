@@ -1131,5 +1131,21 @@
   "titles": [
    "[단독] 회원 11만명 넘는 대한치과위생사협회, 개인정보 유출 사고 발생…회원 대상 비밀번호 변경 긴급 권고"
   ]
+ },
+ {
+  "at": "2026-11-07T01:18:29.407004+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "미래에셋증권도 침해... 고객-임직원 3만9000명 정보 유출"
+  ]
+ },
+ {
+  "at": "2026-11-07T01:18:29.407004+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks"
+  ]
  }
 ]
