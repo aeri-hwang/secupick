@@ -1,31 +1,5 @@
 [
  {
-  "at": "2026-11-04T09:13:10.953938+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Meta Shares Top Muse Bug Bounty Findings as Payouts Reach $1.2 Million"
-  ]
- },
- {
-  "at": "2026-11-04T09:13:10.953938+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure"
-  ]
- },
- {
-  "at": "2026-11-04T09:13:10.953938+00:00",
-  "cves": [
-   "CVE-2026-58868"
-  ],
-  "kind": "vuln",
-  "titles": [
-   "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction"
-  ]
- },
- {
   "at": "2026-11-04T10:23:58.059668+00:00",
   "cves": [],
   "kind": "incident",
