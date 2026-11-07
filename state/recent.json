@@ -1121,5 +1121,29 @@
   "titles": [
    "[AIS 2026] 마크애니, AI로 화면 촬영 탐지…비가시성 워터마크로 유출 경로 추적"
   ]
+ },
+ {
+  "at": "2026-11-07T22:45:46.567859+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 랜섬웨어 조직 메타인크립터, 현대건설·우신시스템 등 한국 기업 4곳 데이터 탈취 주장...조사 필요"
+  ]
+ },
+ {
+  "at": "2026-11-07T22:45:46.567859+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Hackers pull off $133 million French bank heist via service provider"
+  ]
+ },
+ {
+  "at": "2026-11-07T22:45:46.567859+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands"
+  ]
  }
 ]
