@@ -774,5 +774,47 @@
   "titles": [
    "SM엔터테인먼트·디어유·드림메이커…업무시스템 해킹에 주민번호·계좌정보까지 노출"
   ]
+ },
+ {
+  "at": "2026-11-08T22:45:50.888636+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Iris Ohyama data cloud breach exposes info of 7.7 million customers"
+  ]
+ },
+ {
+  "at": "2026-11-08T22:45:50.888636+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "랜섬웨어 조직 N0n, 한국 스마트TV 광고 데이터 관련 기업 해킹 주장"
+  ]
+ },
+ {
+  "at": "2026-11-08T22:45:50.888636+00:00",
+  "cves": [
+   "CVE-2026-123158"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "[긴급] 오픈SSH 인증 우회 취약점 공개 9시간 만에 실제 공격…KISA도 7일 보안 업데이트 권고"
+  ]
+ },
+ {
+  "at": "2026-11-08T22:45:50.888636+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "글로벌 인증서 기업 디지서트 해킹…고객 여권·운전면허증 등 신원확인 서류 유출"
+  ]
+ },
+ {
+  "at": "2026-11-08T22:45:50.888636+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Brava Security Emerges From Stealth With $15 Million in Funding"
+  ]
  }
 ]
