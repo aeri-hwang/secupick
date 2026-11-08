@@ -1,13 +1,5 @@
 [
  {
-  "at": "2026-11-05T05:14:40.827808+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run"
-  ]
- },
- {
   "at": "2026-11-05T06:18:48.456457+00:00",
   "cves": [],
   "kind": "incident",
