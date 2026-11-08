@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+  "published": "2026-11-08T12:14:00+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
+  "title": "Brava Security Emerges From Stealth With $15 Million in Funding"
+ }
+]
