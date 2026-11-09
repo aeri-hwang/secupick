@@ -317,5 +317,49 @@
   "source": "CISA KEV",
   "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution. (미 연방기관 조치 기한: 2026-11-12)",
   "title": "CVE-2026-116779 · SignalWire FreeSwitch"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209422",
+  "published": "2026-11-09T21:35:32+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "여행 예약 플랫폼 줌줌투어에서 외부 공격과 리뷰 페이지 개발 오류에 따른 두 건의 개인정보 유출 사고가 확인됐다. 일부 고객과 가이드의 정보가 공격자에게 무단 조회됐으며, 별개의 개발 오류로 예약 정보와 동행자 정보 등이 약 2년간 외부에서 접근 가능한 상태였던 것으로 나타났다.줌줌투어는 11월 6일 조현수 대표이사 명의의 공지를 통해 사고 경위와 대응 현황을 공개하고 사과했다. 회사는 모…",
+  "title": "줌줌투어, 해킹·개발 오류로 개인정보 유출…여행 일정·동행자 정보까지 노출"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+  "published": "2026-11-09T21:26:25+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, includi…",
+  "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+  "published": "2026-11-09T21:22:31+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "York University has announced it suffered a cybersecurity incident in which a threat actor stole personal information people submitted through online forms. [...]",
+  "title": "York University breach exposed personal information dating to 2007"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218",
+  "published": "2026-11-09T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations. (미 연방기관 조치 기한: 2026-11-12)",
+  "title": "CVE-2026-123218 · IBM Aspera Faspex"
  }
 ]
