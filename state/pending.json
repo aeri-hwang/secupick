@@ -108,5 +108,137 @@
   "source": "SecurityWeek",
   "summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on…",
   "title": "Over 3 Million People Hit by Frontline Education Data Breach"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209421",
+  "published": "2026-11-09T15:49:50+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "인공지능(AI)을 활용한 해킹에 대응하려면 계정·접근 권한 관리 등 기본적인 보안조치를 실효성 있게 운영하고, 사고를 막기 위한 기업의 노력을 평가하는 제도도 함께 마련해야 한다는 의견이 나왔다. 개인정보보호책임자(CPO)가 위험을 발견했을 때 실제 개선으로 연결할 수 있도록 권한을 보장하고, 최고경영자(CEO)와 이사회가 개인정보보호를 경영 과제로 다뤄야 한다는 점도 강조됐다.개인정보보호…",
+  "title": "[패널토론] AI 해킹 시대 개인정보보호, “기본 통제 강화하고 예방 노력 제대로 평가해야”"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209420",
+  "published": "2026-11-09T15:26:45+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "인공지능(AI)이 공격의 속도와 범위를 키우면서 기업의 보안 관리도 정기 점검에서 상시 검증으로 바뀌어야 한다. 외부에 노출된 시스템과 협력사 연결 구간을 공격자 관점에서 확인하고, 위협 정보를 실제 탐지와 조치에 반영하는 운영 체계가 필요하다.김재기 S2W 이사는 11월 9일 서울 엘타워 7층 그랜드홀에서 열린 ‘2026년 개인정보 정책포럼’에서 ‘AI 기반 침해위협 시대의 보안시장 변화…",
+  "title": "김재기 S2W 이사 “AI 공격 예방, 공격자가 보는 외부 접점부터 살펴야”"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209419",
+  "published": "2026-11-09T15:15:32+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "AI가 취약점을 찾고 공격 코드를 만드는 시간을 줄이면서 보안 대응도 탐지부터 패치, 서비스 복구까지 자동화하는 방향으로 발전해야 한다. 다만 AI가 만든 패치의 정확성과 서비스에 미치는 영향을 검증하는 과정에는 여전히 사람의 판단이 필요하다.박찬암 스틸리언 대표는 11월 9일 서울 엘타워 7층 그랜드홀에서 열린 ‘2026년 개인정보 정책포럼’에서 ‘AI 공격 속도에 대응하는 자율형 AI…",
+  "title": "박찬암 스틸리언 대표 “AI 공격 속도 따라잡으려면 탐지·패치·복구까지 자동화”"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "policy",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209417",
+  "published": "2026-11-09T14:53:51+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "개인정보보호 규제가 예방 중심으로 전환되면서 기업도 보호 활동을 수행하는 데서 나아가 그 과정과 효과를 입증할 수 있는 대응체계를 갖춰야 한다고 강조했다. 경영진의 책임을 실제 보고·의사결정 체계에 반영하고, 현업과 개인정보보호 조직, 내부감사가 각자의 역할을 수행하도록 해야 한다는 말이다.비바리퍼블리카 이창복 개인정보보호책임자(CPO)는 11월 9일 서울 엘타워 7층 그랜드홀에서 열린 ‘…",
+  "title": "이창복 토스 CPO “개인정보보호, 투자 늘리고 활동 입증하는 체계 갖춰야”"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "policy",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209416",
+  "published": "2026-11-09T14:36:10+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "개인정보보호위원회가 기업의 선제적인 개인정보 보호 투자를 촉진하기 위해 과징금 투자 감경 제도를 운영한다고 밝혔다. 예산과 인력을 얼마나 투입했는지뿐 아니라 경영진이 보호체계 구축에 참여하고, 법정 의무를 넘어선 안전조치를 실제로 이행했는지를 종합적으로 평가한다. 다만 고의나 중대한 과실로 위반행위가 발생한 경우에는 투자 감경을 적용하지 않는다.개인정보위와 한국개인정보보호책임자협의회(KCP…",
+  "title": "개인정보위 “선제적 보호 투자, 과징금 최대 40% 감경…고의·중과실은 제외”"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209415",
+  "published": "2026-11-09T14:05:27+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "공공부문 개인정보보호 체계를 법적 의무 준수 확인에서 실제 유출 위험을 줄이는 예방 중심으로 전환해야 한다는 정책 방향이 제시됐다. 부처 중심의 점검 체계와 개인정보보호책임자(CPO)의 역할을 강화하고, 내부자 유출과 해킹, 업무상 부주의에 각각 맞는 대책을 마련하는 것이 주요 과제로 꼽혔다.개인정보보호위원회와 한국개인정보보호책임자협의회(KCPO·회장 염흥열)가 공동주관한 ‘2026년 개인…",
+  "title": "임종철 단장 “공공 개인정보보호, 법 준수 점검 넘어 실제 유출 원인 개선해야”"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+  "published": "2026-11-09T14:31:29+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote acce…",
+  "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+  "published": "2026-11-09T16:12:39+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum. [...]",
+  "title": "Binance denies data breach after alleged ShinyHunters claims"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+  "published": "2026-11-09T16:04:57+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access. [...]",
+  "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "policy",
+  "link": "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+  "published": "2026-11-09T15:05:15+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "AI agents are taking over routine governance, risk, and compliance tasks, forcing GRC professionals to rethink the skills needed to stay relevant. Anecdotes examines three essential skills for the AI-driven GRC workplac…",
+  "title": "The Biggest Threat to Your GRC Job Isn’t AI. It’s Ignoring AI."
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+  "published": "2026-11-09T14:34:03+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A former FBI agent has pleaded guilty to stealing nearly $2.5 million from the wallets of fraud victims and nation-state hackers under investigation. [...]",
+  "title": "FBI agent stole $2.5 million in crypto from hackers under investigation"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+  "published": "2026-11-09T14:08:08+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek…",
+  "title": "Revolve Puts Data Breach Victim Count at 1.5 Million"
  }
 ]
