@@ -240,5 +240,82 @@
   "source": "SecurityWeek",
   "summary": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals. The post Revolve Puts Data Breach Victim Count at 1.5 Million appeared first on SecurityWeek…",
   "title": "Revolve Puts Data Breach Victim Count at 1.5 Million"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+  "published": "2026-11-09T17:51:21+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today. The attacker used credentials for an…",
+  "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+  "published": "2026-11-09T17:36:28+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2. Both releases downlo…",
+  "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+  "published": "2026-11-09T18:32:42+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at…",
+  "title": "France blames Iranian hackers for supermarket attacks that sparked fires"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+  "published": "2026-11-09T17:50:32+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said. [...]",
+  "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895",
+  "published": "2026-11-09T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "GPUStack contains an improper authentication vulnerability which could allow unauthenticated administrative access, including user and model changes, persistent administrator API-key creation, disclosure of worker and cloud-provider secrets, and code execution through POST /v2/inference-backends/fr…",
+  "title": "CVE-2026-102895 · GPUStack GPUStack"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158",
+  "published": "2026-11-09T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass. (미 연방기관 조치 기한: 2026-11-12)",
+  "title": "CVE-2026-123158 · OpenBSD OpenSSH"
+ },
+ {
+  "category": "kev",
+  "default_kind": "",
+  "kind": "kev",
+  "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779",
+  "published": "2026-11-09T23:59:00+00:00",
+  "related": [],
+  "source": "CISA KEV",
+  "summary": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution. (미 연방기관 조치 기한: 2026-11-12)",
+  "title": "CVE-2026-116779 · SignalWire FreeSwitch"
  }
 ]
