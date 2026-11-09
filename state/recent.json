@@ -1,21 +1,5 @@
 [
  {
-  "at": "2026-11-06T08:24:14.761583+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs"
-  ]
- },
- {
-  "at": "2026-11-06T08:24:14.761583+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login"
-  ]
- },
- {
   "at": "2026-11-06T10:18:16.873597+00:00",
   "cves": [],
   "kind": "incident",
@@ -725,6 +709,22 @@
   "kind": "incident",
   "titles": [
    "SGA솔루션즈, 'FISCON 2026' 참가...풀스택 마이크로 세그멘테이션 제시"
+  ]
+ },
+ {
+  "at": "2026-11-09T09:28:30.965675+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Google DeepMind’s AI Agents Make 1024-Bit RSA Keys Cheaper to Attack"
+  ]
+ },
+ {
+  "at": "2026-11-09T09:28:30.965675+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "출시 2주 앞둔 ‘GTA 6’ 미끼로... 가짜 유출 빌드·PC판·모바일판 사기 사이트 우후죽순"
   ]
  }
 ]
