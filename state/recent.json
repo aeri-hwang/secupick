@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-11-06T23:51:03.903678+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[단독] 부산외대 평생교육원 업무용 PC 해킹, 주민등록번호·계좌번호 등 개인정보 유출 우려"
-  ]
- },
- {
-  "at": "2026-11-06T23:51:03.903678+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "세무·경리 플랫폼 '자비스' 해킹, 기업 대표자 주민번호부터 급여·결제·공동인증서 정보까지 유출 우려"
-  ]
- },
- {
-  "at": "2026-11-06T23:51:03.903678+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[단독] 회원 11만명 넘는 대한치과위생사협회, 개인정보 유출 사고 발생…회원 대상 비밀번호 변경 긴급 권고"
-  ]
- },
- {
   "at": "2026-11-07T01:18:29.407004+00:00",
   "cves": [],
   "kind": "incident",
@@ -768,6 +744,14 @@
   "kind": "incident",
   "titles": [
    "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records"
+  ]
+ },
+ {
+  "at": "2026-11-09T23:52:27.202763+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Vanderbilt University hit in BYOD ransomware attack, data theft claimed"
   ]
  }
 ]
