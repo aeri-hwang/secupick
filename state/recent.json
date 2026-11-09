@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-11-06T10:18:16.873597+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "MetaMask says recent attack didn't affect wallet infrastructure"
-  ]
- },
- {
-  "at": "2026-11-06T10:18:16.873597+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[단독] 랜섬웨어 조직 ‘인크랜섬’, 파낙스 그룹·욱성화학 해킹 주장"
-  ]
- },
- {
-  "at": "2026-11-06T10:18:16.873597+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services"
-  ]
- },
- {
   "at": "2026-11-06T22:50:35.529908+00:00",
   "cves": [
    "CVE-2026-19868"

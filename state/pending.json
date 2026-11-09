@@ -1,1 +1,112 @@
-[]
+[
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+  "published": "2026-11-09T10:56:25+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker. Keplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a securi…",
+  "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+  "published": "2026-11-09T10:01:21+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday. It has several security fixes to release and ask…",
+  "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+  "published": "2026-11-09T09:01:50+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire department platform…",
+  "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
+  "published": "2026-11-09T12:16:13+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Ukrainian law enforcement arrested four suspects in a case involving the theft of more than €4.3 million using a network of cryptocurrency investment scam call centers. [...]",
+  "title": "Ukraine dismantles crypto scam network that stole €4.3 million"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+  "published": "2026-11-09T13:13:28+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices. The post Plex2Shell Exploited Against QNAP NAS Users appeared first on SecurityWeek .",
+  "title": "Plex2Shell Exploited Against QNAP NAS Users"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+  "published": "2026-11-09T12:41:27+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it. The post Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers appeared first on S…",
+  "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+  "published": "2026-11-09T12:22:12+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web. The post Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web…",
+  "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+  "published": "2026-11-09T12:13:32+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "The initial exploitation attempts are attributed to botnets and crypto miners, but other threat actors are expected to follow suit. The post Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH appeared first on…",
+  "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+  "published": "2026-11-09T11:20:09+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers stole personal, health, and insurance information, including Social Security numbers, from the company’s internal systems. The post Amplifon Americas Data Breach Impacts 1.3 Million appeared first on SecurityWee…",
+  "title": "Amplifon Americas Data Breach Impacts 1.3 Million"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/3-million-people-hit-by-frontline-education-data-breach/",
+  "published": "2026-11-09T10:09:02+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Frontline Education told Indiana regulators that its August data breach affected over 3 million school district staff and students. The post Over 3 Million People Hit by Frontline Education Data Breach appeared first on…",
+  "title": "Over 3 Million People Hit by Frontline Education Data Breach"
+ }
+]
