@@ -1,45 +1,5 @@
 [
  {
-  "at": "2026-11-07T09:02:13.854385+00:00",
-  "cves": [],
-  "kind": "policy",
-  "titles": [
-   "인성디지털, AIS 2026서 소나타입 공급망 보안 플랫폼 소개…AI 코딩 단계부터 오픈소스 위험 관리"
-  ]
- },
- {
-  "at": "2026-11-07T09:02:13.854385+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "엑소스피어랩스, AIS 2026서 백신·DLP 통합 보안 서비스 ‘엑소스피어’ 소개"
-  ]
- },
- {
-  "at": "2026-11-07T09:02:13.854385+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "브로드컴, 오픈소스 취약점 대응부터 내부 확산 차단까지…AIS 2026서 보안 전략 소개"
-  ]
- },
- {
-  "at": "2026-11-07T09:02:13.854385+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "에브리존, AIS 2026서 ‘화이트디펜더’ 소개…랜섬웨어 실시간 차단부터 파일 복원까지"
-  ]
- },
- {
-  "at": "2026-11-07T09:02:13.854385+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[AIS 2026] 마크애니, AI로 화면 촬영 탐지…비가시성 워터마크로 유출 경로 추적"
-  ]
- },
- {
   "at": "2026-11-07T22:45:46.567859+00:00",
   "cves": [],
   "kind": "incident",
@@ -763,6 +723,38 @@
   "titles": [
    "Chrome Update Patches Exploited XML Zero-Day, Eighth This Year",
    "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026"
+  ]
+ },
+ {
+  "at": "2026-11-10T09:06:35.787376+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Fireworks AI discloses new breach after cloud provider hack"
+  ]
+ },
+ {
+  "at": "2026-11-10T09:06:35.787376+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "한일네트웍스 랜섬웨어 공격받아... “즉시 차단, 유출 피해 없어”"
+  ]
+ },
+ {
+  "at": "2026-11-10T09:06:35.787376+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators"
+  ]
+ },
+ {
+  "at": "2026-11-10T09:06:35.787376+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "슈퍼컴퓨터 갖춘 대학만 골라... 미국 대학 해킹해 코인 채굴한 혐의로 캐나다인 2명 기소"
   ]
  }
 ]
