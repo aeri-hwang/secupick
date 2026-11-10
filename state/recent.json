@@ -1,29 +1,5 @@
 [
  {
-  "at": "2026-11-07T22:45:46.567859+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "[단독] 랜섬웨어 조직 메타인크립터, 현대건설·우신시스템 등 한국 기업 4곳 데이터 탈취 주장...조사 필요"
-  ]
- },
- {
-  "at": "2026-11-07T22:45:46.567859+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "Hackers pull off $133 million French bank heist via service provider"
-  ]
- },
- {
-  "at": "2026-11-07T22:45:46.567859+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands"
-  ]
- },
- {
   "at": "2026-11-08T01:25:27.972023+00:00",
   "cves": [],
   "kind": "incident",
@@ -779,6 +755,269 @@
   "kind": "incident",
   "titles": [
    "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [
+   "CVE-2026-124194"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-124194 · Microsoft Office",
+   "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [
+   "CVE-2026-111793"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-111793 · Openwave Messaging Limited Webtop Media Transcoder"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [
+   "CVE-2026-20320"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-20320 · Cisco BroadWorks"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [
+   "CVE-2026-111560"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-111560 · Barracuda Networks Multiple Products"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [
+   "CVE-2026-116606"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-116606 · Barracuda Networks Barracuda Email Security Gateway (ESG)"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [
+   "CVE-2026-125350"
+  ],
+  "kind": "kev",
+  "titles": [
+   "CVE-2026-125350 · Google Chromium"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Railway breach leads to $740,000 in fraudulent AI charges"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Microsoft Fixes Nearly 1,100 Security Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Japanese furniture giant Nitori says hackers stole 37.6M customer records"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Microsoft releases Windows 10 KB5131096 extended security update"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Windows 11 KB5132061 & KB5131087 cumulative updates released"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Adobe Patches 110 Vulnerabilities Across 9 Products"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+   "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Binance warns of iOS flaw that could leak crypto wallet secrets"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Ransomware recovery is now a client retention metric"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Over a Dozen Organizations Hit in Qubole Supply Chain Attack"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "조달청, 생성형 AI에 평가위원 189명 사진 유출…직원이 개발·시험 과정서 외부 전송"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
+   "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "금융보안원, 해킹으로 정보 유출... 금융위 등 신고"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[단독] 금융보안원 상시평가시스템 해킹 정황...금융사 내부정보 유출 기업에 통보 중인 것으로 확인"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "[위태로운 금융보안팀] “팀원들은 떠날 곳을 찾고, 팀장은 밤을 새고”…금융 보안팀의 위태로운 하루하루"
+  ]
+ },
+ {
+  "at": "2026-11-10T22:52:04.173324+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "Hackers now exploit critical Barracuda ESG flaws to gain root access"
   ]
  }
 ]
