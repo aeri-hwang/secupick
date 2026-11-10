@@ -1,1 +1,101 @@
-[]
+[
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.boannews.com/news/articleView.html?idxno=147156",
+  "published": "2026-11-10T11:18:48+00:00",
+  "related": [],
+  "source": "보안뉴스 사건·사고",
+  "summary": "금융권 보안을 전담하는 금융보안원이 해킹 공격을 당해 금융사 보안 상태 관련 일부 정보가 유출돼 파장이 예상된다. 10일 금융권에 따르면, 금융보안원은 전날 금융보안원 정보보호 상시평가 사이트가 해킹 공격을 당해 일부 정보가 유출돼 금융위원회 등 금융당국에 신고 절차를 밟은 것으로 알려졌다. 금융보안원 정보보호 상시평가 사이트는 금융회사들의 보안상태 평가를 지원하는 기능이다. 이번 해킹 사…",
+  "title": "금융보안원, 해킹으로 정보 유출... 금융위 등 신고"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209442",
+  "published": "2026-11-10T12:45:28+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "조달청이 내부 인공지능(AI) 시스템을 개발하는 과정에서 온라인 평가위원 189명의 사진을 외부 생성형 AI 서비스에 업로드해 개인정보가 유출되는 사고가 발생했다. 조달청은 외부 해킹에 의한 사고는 아니며, 현재까지 사진 외 다른 개인정보 유출이나 2차 피해는 확인되지 않았다고 밝혔다.조달청(청장 백승보)은 11월 10일 보도참고자료를 통해 이번 사고의 경위와 피해 최소화 조치, 재발 방지…",
+  "title": "조달청, 생성형 AI에 평가위원 189명 사진 유출…직원이 개발·시험 과정서 외부 전송"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209438",
+  "published": "2026-11-10T10:48:53+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "금융보안원이 정보보호 사고 발생과 관련해 자료 유출이 확인된 기업에 개별 연락하고 있다는 금융권 제보가 접수됐다. 금융사 담당자들은 금융보안원으로부터 유출 관련 연락을 받거나, 상시평가 담당부서에 직접 문의해 사고 발생 사실을 확인했다고 밝혔다. 데일리시큐는 10일 오후 7시 40분 현재 연락을 취해봤지만 연락이 닫지 않았다. 11월 10일 데일리시큐에 전달된 제보에 따르면, 한 금융사 담…",
+  "title": "[단독] 금융보안원 상시평가시스템 해킹 정황...금융사 내부정보 유출 기업에 통보 중인 것으로 확인"
+ },
+ {
+  "category": "news_kr",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.dailysecu.com/news/articleView.html?idxno=209437",
+  "published": "2026-11-10T10:12:25+00:00",
+  "related": [],
+  "source": "데일리시큐",
+  "summary": "밤이 되면 대형 금융사 보안팀장 A씨는 남아서 일할 직원을 추린다. 자신은 남고, 당장 분석하거나 처리해야 할 문제에 관련된 팀원 몇 명만 남긴다. 모두를 계속 붙잡아둘 수는 없기 때문이다. 낮 동안 들어온 점검 요청과 보고 요구를 처리하고 나면, 밤에는 로그를 들여다보고 이상 징후를 확인해야 한다. 사고는 발생했지만 공격까지 끝난 것은 아니다. 추가 피해를 막아야 하고, 다른 시스템에도…",
+  "title": "[위태로운 금융보안팀] “팀원들은 떠날 곳을 찾고, 팀장은 밤을 새고”…금융 보안팀의 위태로운 하루하루"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+  "published": "2026-11-10T10:16:51+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone adde…",
+  "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+  "published": "2026-11-10T10:07:29+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with a…",
+  "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
+  "published": "2026-11-10T12:07:03+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "SAP patched 35 vulnerabilities in its November 2026 security updates, including four maximum-severity issues affecting its NetWeaver, Web Dispatcher, and Gateway software. [...]",
+  "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
+  "published": "2026-11-10T10:10:20+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Cybersecurity company Barracuda Networks warned that attackers have begun exploiting two recently patched Email Security Gateway (ESG) vulnerabilities that let them run commands with root privileges. [...]",
+  "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/anthropic-rolls-out-mythos-5-2-with-improved-bug-hunting-fewer-sandbox-escapes/",
+  "published": "2026-11-10T12:17:13+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes…",
+  "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes"
+ }
+]
