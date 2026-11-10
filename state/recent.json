@@ -1,21 +1,5 @@
 [
  {
-  "at": "2026-11-07T01:18:29.407004+00:00",
-  "cves": [],
-  "kind": "incident",
-  "titles": [
-   "미래에셋증권도 침해... 고객-임직원 3만9000명 정보 유출"
-  ]
- },
- {
-  "at": "2026-11-07T01:18:29.407004+00:00",
-  "cves": [],
-  "kind": "vuln",
-  "titles": [
-   "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks"
-  ]
- },
- {
   "at": "2026-11-07T04:05:07.205418+00:00",
   "cves": [],
   "kind": "vuln",
@@ -752,6 +736,24 @@
   "kind": "incident",
   "titles": [
    "Vanderbilt University hit in BYOD ransomware attack, data theft claimed"
+  ]
+ },
+ {
+  "at": "2026-11-10T01:21:28.446414+00:00",
+  "cves": [
+   "CVE-2026-58115"
+  ],
+  "kind": "vuln",
+  "titles": [
+   "공개 두 달여 만에 실제 공격... 지멘스 산업용 컴퓨터 속 ‘노드레드’ 결함에 봇·웹셸"
+  ]
+ },
+ {
+  "at": "2026-11-10T01:21:28.446414+00:00",
+  "cves": [],
+  "kind": "policy",
+  "titles": [
+   "AI 가상고객이 불완전판매 잡는다... 금융보안원, 혁신 AI 7선 발표"
   ]
  }
 ]
