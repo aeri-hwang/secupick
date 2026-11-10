@@ -141,5 +141,82 @@
   "source": "SecurityWeek",
   "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on Sec…",
   "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+  "published": "2026-11-10T16:00:55+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant. The activity, observed by Huntress in October 2026, involves th…",
+  "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+  "published": "2026-11-10T15:58:44+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that sh…",
+  "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+  "published": "2026-11-10T15:33:59+00:00",
+  "related": [],
+  "source": "The Hacker News",
+  "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datase…",
+  "title": "Fireworks AI Breach Widens to Expose Customer Billing Data and Incomplete Model Weights"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+  "published": "2026-11-10T19:07:36+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vulnerability. [...]",
+  "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+  "published": "2026-11-10T18:33:26+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Microsoft has released the Patch Tuesday Windows 11 and cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features. [...]",
+  "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+  "published": "2026-11-10T16:17:16+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts. [...]",
+  "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+  "published": "2026-11-10T18:11:54+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Adobe has fixed vulnerabilities in AEM, Premiere, Photoshop, After Effects, Connect, Audition, Dimension, Content Credentials SDK, and Media Encoder. The post Adobe Patches 110 Vulnerabilities Across 9 Products appeared…",
+  "title": "Adobe Patches 110 Vulnerabilities Across 9 Products"
  }
 ]
