@@ -97,5 +97,49 @@
   "source": "SecurityWeek",
   "summary": "Anthropic says Mythos 5.2 improves vulnerability discovery while showing a lower tendency to escape sandboxes in controlled tests. The post Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes…",
   "title": "Anthropic Rolls Out Mythos 5.2 With Improved Bug Hunting, Fewer Sandbox Escapes"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+  "published": "2026-11-10T15:59:19+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Binance is warning about a vulnerability in Apple's iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and logi…",
+  "title": "Binance warns of iOS flaw that could leak crypto wallet secrets"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
+  "published": "2026-11-10T15:01:11+00:00",
+  "related": [],
+  "source": "BleepingComputer",
+  "summary": "Recovering from ransomware doesn't guarantee an MSP will retain its clients, especially when delays, poor communication, and unexpected costs undermine trust. Kaseya examines how disconnected recovery tools create these…",
+  "title": "Ransomware recovery is now a client retention metric"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "vuln",
+  "link": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+  "published": "2026-11-10T14:46:28+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities. The post SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities appeared first on SecurityWeek .",
+  "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities"
+ },
+ {
+  "category": "news_global",
+  "default_kind": "",
+  "kind": "incident",
+  "link": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+  "published": "2026-11-10T13:27:44+00:00",
+  "related": [],
+  "source": "SecurityWeek",
+  "summary": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials. The post Over a Dozen Organizations Hit in Qubole Supply Chain Attack appeared first on Sec…",
+  "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack"
  }
 ]
