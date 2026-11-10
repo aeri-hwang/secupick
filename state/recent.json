@@ -756,5 +756,29 @@
   "titles": [
    "슈퍼컴퓨터 갖춘 대학만 골라... 미국 대학 해킹해 코인 채굴한 혐의로 캐나다인 2명 기소"
   ]
+ },
+ {
+  "at": "2026-11-10T10:09:14.836077+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "Turla hackers use new Cereal malware to spy on govt Exchange servers"
+  ]
+ },
+ {
+  "at": "2026-11-10T10:09:14.836077+00:00",
+  "cves": [],
+  "kind": "vuln",
+  "titles": [
+   "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution"
+  ]
+ },
+ {
+  "at": "2026-11-10T10:09:14.836077+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites"
+  ]
  }
 ]
