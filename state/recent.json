@@ -1019,5 +1019,13 @@
   "titles": [
    "Hackers now exploit critical Barracuda ESG flaws to gain root access"
   ]
+ },
+ {
+  "at": "2026-11-11T01:23:01.654402+00:00",
+  "cves": [],
+  "kind": "incident",
+  "titles": [
+   "KISA 대민 웹 서비스 7곳 ‘긴급 보안 점검’으로 접속 불가"
+  ]
  }
 ]
